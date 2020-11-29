@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://vg.vinals.local/es/actualitat/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/vinals/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/serveis/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/actualitat/post-2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/actualitat/post-1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-cream.1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-cream.2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-cream/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-facewash.1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-facewash.2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-facewash/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-shampoo.1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-shampoo.2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/productes/taba-shampoo/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/termes/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/tags/"
+                />
+  </url>
+  
+</urlset>

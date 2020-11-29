@@ -1,0 +1,247 @@
+######################## default configuration ####################
+baseURL = "http://vg.vinals.local"
+title = "Viñals Gourmet | Solucions gastronòmiques úniques"
+theme = "hargo"
+summaryLength = "20"
+paginate = 10
+disqusShortname = ""
+
+############################# Llenguatges ##############################
+defaultContentLanguage = "es"
+contentDir = "content/es"
+defaultContentLanguageInSubdir = true
+# Useful when translating.
+enableMissingTranslationPlaceholders = true
+[languages]
+  [languages.es]       
+    languageName = "Castellano"
+    LanguagePrefix = "es"
+    title = "Viñals Gourmet | Soluciones gastronómiques únicas"
+    weight = 1
+  [languages.cat]    
+    contentDir = "content/cat"
+    languageName = "Català"
+    LanguagePrefix = "cat"
+    title = "Viñals Gourmet | Solucions gastronòmiques úniques"
+    weight = 2
+  [languages.en]    
+    contentDir = "content/en"
+    languageName = "English"
+    LanguagePrefix = "en"
+    title = "Viñals Gourmet | unique gastronomic solutions"
+    weight = 3
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
+
+
+############################## navigation ###############################
+[menu]
+  ################### Castellano ###################
+  [[languages.es.menu.main]]
+  name = "Productos"
+  URL = "productes"
+  weight = 1
+
+  [[languages.es.menu.main]]
+  name = "Servicios"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.es.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.es.menu.main]]
+  name = "Actualidad"
+  URL = "actualitat"
+  weight = 4
+
+  ################### Català ###################
+  [[languages.cat.menu.main]]
+  name = "Productes"
+  URL = "productes"
+  weight = 1
+
+  [[languages.cat.menu.main]]
+  name = "Serveis"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.cat.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.cat.menu.main]]
+  name = "Actualitat"
+  URL = "actualitat"
+  weight = 4
+
+  ################### English ###################
+  [[languages.en.menu.main]]
+  name = "Products"
+  URL = "productes"
+  weight = 1
+
+  [[languages.en.menu.main]]
+  name = "Services"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.en.menu.main]]
+  name = "Blog"
+  URL = "actualitat"
+  weight = 4
+
+
+
+  ############# footer menu #############
+  ################### Castellano ###################
+  [[languages.es.menu.footer]]
+  name = "Productos"
+  URL = "productes"
+  weight = 1
+
+  [[languages.es.menu.footer]]
+  name = "Servicios"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.es.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.es.menu.footer]]
+  name = "Actualidad"
+  URL = "actualitat"
+  weight = 4
+
+  ################### Català ###################
+  [[languages.cat.menu.footer]]
+  name = "Productes"
+  URL = "productes"
+  weight = 1
+
+  [[languages.cat.menu.footer]]
+  name = "Serveis"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.cat.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.cat.menu.footer]]
+  name = "Actualitat"
+  URL = "actualitat"
+  weight = 4
+
+  ################### English ###################
+  [[languages.en.menu.footer]]
+  name = "Products"
+  URL = "productes"
+  weight = 1
+
+  [[languages.en.menu.footer]]
+  name = "Services"
+  URL = "serveis"
+  weight = 2
+
+  [[languages.en.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 3
+
+  [[languages.en.menu.footer]]
+  name = "Blog"
+  URL = "actualitat"
+  weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Inicio"
+# Meta data
+description = "This is meta description"
+author = "Viñals Gourmet"
+# google map
+#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+#mapLatitude = "51.5223477"
+#mapLongitude = "-0.1622023"
+#mapMarker = "images/marker.png"
+# Google Analitycs
+#googleAnalitycsID = "" # Your ID
+# Contact Information
+#mobile = "0124857985320"
+#email = "demo@email.com"
+#location = "Dhaka, Bangladedsh"
+# copyright
+copyright = "| Copyright &copy; 2020 Viñals Gourmet |"
+# Snipcart Credentials
+snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+currencySymbol = "$"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = false
+  websiteID = "444334"
+  publicKey = "811cf0927332bf51f2e12f84608594ac"
+
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-youtube"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-pinterest"
+  link = "#"
+
+  # Contact Form
+  [params.contact]
+  formAction = "#" # contact form works with formspree.io

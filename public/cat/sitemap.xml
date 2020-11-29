@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://vg.vinals.local/cat/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/cat/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://vg.vinals.local/cat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://vg.vinals.local/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://vg.vinals.local/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://vg.vinals.local/cat/"
+                />
+  </url>
+  
+</urlset>
