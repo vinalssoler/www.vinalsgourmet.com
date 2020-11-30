@@ -6,7 +6,7 @@ pipeline {
     stages {
 	stage ('build') {
 	    steps{
-		sh 'hugo -D -F -b "http://vg.vinals.local"'
+		sh "hugo -D -F -b http://vg.vinals.local"
 	    }
 	}
 	stage ('deploy') {
