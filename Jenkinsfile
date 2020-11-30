@@ -11,7 +11,7 @@ pipeline {
 	    steps{
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
 		gitlog()
-   		slackSend channel: 'codehip', color: '#1e602f', message: ":thumbsup_all: - Deployment to production: PROJECT - ${env.JOB_NAME} - Build Number - ${env.BUILD_NUMBER} - (${GIT_COMMIT})"
+   		slackSend color: '#1e602f', message: ":thumbsup_all: - Deployment to production: PROJECT - ${env.JOB_NAME} - Build Number - ${env.BUILD_NUMBER} - (${GIT_COMMIT})"
 	    }
 	}
 
