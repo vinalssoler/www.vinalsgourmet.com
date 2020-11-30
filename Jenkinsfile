@@ -10,11 +10,15 @@ pipeline {
 	stage ('deploy') {
 	    steps{
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
-		sh 'git log -1 --pretty=%B > commit-log.txt'
-   		GIT_COMMIT=readFile('commit-log.txt').trim()
+		gitlog()
    		slackSend channel: 'codehip', color: '#1e602f', message: ":thumbsup_all: - Deployment to production: PROJECT - ${env.JOB_NAME} - Build Number - ${env.BUILD_NUMBER} - (${GIT_COMMIT})"
 	    }
 	}
 
     }
+}
+
+def gitlog() {
+    sh('git log -1 --pretty=%B > commit-log.txt')
+    GIT_COMMIT=readFile('commit-log.txt')    
 }
