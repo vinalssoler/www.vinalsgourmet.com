@@ -1,8 +1,7 @@
 ```groovy
 pipeline {
-    agent {
-	label 'vg'
-    }
+    agent any
+    
     stages {
 	stage ('build') {
 	    steps{
