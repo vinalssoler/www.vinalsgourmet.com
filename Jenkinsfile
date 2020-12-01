@@ -4,7 +4,8 @@ pipeline {
     stages {
 	stage ('build') {
 	    steps{		
-		sh "hugo -D -F -b http://vg.vinals.local"
+		gitlog()
+		sh "hugo -D -F -b http://vg.vinals.local"		
 	    }
 		post {
 			success {
@@ -17,6 +18,7 @@ pipeline {
 	}
 	stage ('deploy') {
 	    steps{
+		gitlog()
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
 		post {
 			success {
