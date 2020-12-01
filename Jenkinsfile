@@ -9,10 +9,10 @@ pipeline {
 	    }
 		post {
 			success {
-				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":smile: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":smile: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
             }
 			failure {
-				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":frowning: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":frowning: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
             }
         }
 	}
@@ -23,10 +23,10 @@ pipeline {
 		}
 		post {
 			success {
-				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":thumbsup: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":thumbsup: Fase2: Deployment - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
             }
 			failure {
-				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":thumbsdown: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":thumbsdown: Fase2: Deployment - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
             }
         }   		   
 	}
