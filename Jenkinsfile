@@ -20,6 +20,7 @@ pipeline {
 	    steps{
 		gitlog()
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
+		}
 		post {
 			success {
 				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":thumbsup: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
@@ -27,9 +28,7 @@ pipeline {
 			failure {
 				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":thumbsdown: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
             }
-        }
-   		
-	    }
+        }   		   
 	}
 
     }
