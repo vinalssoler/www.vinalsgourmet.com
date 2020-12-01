@@ -6,12 +6,27 @@ pipeline {
 	    steps{		
 		sh "hugo -D -F -b http://vg.vinals.local"
 	    }
+		post {
+			success {
+				slackSend channel: '#vinalsgourmet-com' color: '#00FF00', message: ":thumbsup: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+            }
+			failure {
+				slackSend channel: '#vinalsgourmet-com' color: '#FF0000', message: ":thumbsdown: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+            }
+        }
 	}
 	stage ('deploy') {
 	    steps{
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
-		gitlog()
-   		slackSend color: '#1e602f', message: ":thumbsup_all: - Deployment to production: PROJECT - ${env.JOB_NAME} - Build Number - ${env.BUILD_NUMBER} - (${GIT_COMMIT})"
+		post {
+			success {
+				slackSend channel: '#vinalsgourmet-com' color: '#00FF00', message: ":thumbsup: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+            }
+			failure {
+				slackSend channel: '#vinalsgourmet-com' color: '#FF0000', message: ":thumbsdown: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+            }
+        }
+   		
 	    }
 	}
 
@@ -20,5 +35,7 @@ pipeline {
 
 def gitlog() {
     sh('git log -1 --pretty=%B > commit-log.txt')
-    GIT_COMMIT=readFile('commit-log.txt')    
+    GIT_COMMIT=readFile('commit-log.txt')
+	sh('git log --format="%ae" | head -1 > commit-author.txt')
+	GIT_USER=readFile('commit-author.txt').trim()    
 }
