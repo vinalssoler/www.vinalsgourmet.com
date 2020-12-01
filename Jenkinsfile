@@ -8,10 +8,10 @@ pipeline {
 	    }
 		post {
 			success {
-				slackSend channel: '#vinalsgourmet-com' color: '#00FF00', message: ":thumbsup: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":thumbsup: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
             }
 			failure {
-				slackSend channel: '#vinalsgourmet-com' color: '#FF0000', message: ":thumbsdown: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":thumbsdown: - Building website: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER}"
             }
         }
 	}
@@ -20,10 +20,10 @@ pipeline {
 		sh 'rsync -r "$WORKSPACE/public/" git@172.26.0.14:/opt/docker/hugo/vg/public/'
 		post {
 			success {
-				slackSend channel: '#vinalsgourmet-com' color: '#00FF00', message: ":thumbsup: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":thumbsup: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
             }
 			failure {
-				slackSend channel: '#vinalsgourmet-com' color: '#FF0000', message: ":thumbsdown: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
+				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":thumbsdown: - Deployment: PROJECT: ${env.JOB_NAME} - Usuari: ${GIT_USER} - Build Number: ${env.BUILD_NUMBER} - ${GIT_COMMIT}"
             }
         }
    		
