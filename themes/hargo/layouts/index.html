@@ -50,8 +50,7 @@
 {{ with .homepage.about }}
 <section class="section" style="background:transparent url('{{ .image | absURL }}') center left no-repeat">
   <div class="container">
-    <div class="row justify-content-around align-items-right">    
-      <div/><div/>
+    <div class="row justify-content-around align-items-right">          
       <div class="col-lg-5 col-md-6 bg-white">
         <h1>
           <a href="#" class="text-dark" >{{ .title | markdownify }}</a>
@@ -59,6 +58,7 @@
         </h1>
         <p>{{ .content | markdownify }}</p>
       </div>
+      <div/><div/>
     </div>
   </div>
 </section>
