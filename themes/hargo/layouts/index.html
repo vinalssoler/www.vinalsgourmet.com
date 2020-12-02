@@ -3,9 +3,8 @@
 <!-- banner -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.banner }}
-<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') top right no-repeat">
-  <div class="container">    
-      
+<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
+  <div class="container">          
       <div class="row">
       <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white">
         <h1>
@@ -49,17 +48,17 @@
 <!-- about -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.about }}
-<section class="section" style="background:transparent url('{{ .image | absURL }}') left no-repeat">
+<section class="section" style="background:transparent url('{{ .image | absURL }}') center left no-repeat">
   <div class="container">
-    <!--<div class="row justify-content-around align-items-center">      -->
-    <div class="row justify-content-around">
-      <div class="col-lg-6 col-md-5 bg-white">
+    <div class="row justify-content-around align-items-left">          
+      <div class="col-lg-5 col-md-6 bg-white">
         <h1>
           <a href="#" class="text-dark" >{{ .title | markdownify }}</a>
           <a href="#" class="text-success font-weight-bold">{{ .subtitle | markdownify }}</a>
         </h1>
         <p>{{ .content | markdownify }}</p>
       </div>
+      <div/><div/>
     </div>
   </div>
 </section>
@@ -73,8 +72,8 @@
 {{ end }}
 -->
 <!-- material -->
-{{ if site.Data.homepage.material.enable }}
-{{ with site.Data.homepage.material }}
+{{ with index .Site.Data.homepage .Site.Language.Lang }}
+{{ with .homepage.material }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
@@ -100,6 +99,7 @@
 </section>
 {{ end }}
 {{ end }}
+
 <!-- /material -->
 
 <!-- advantage -->
