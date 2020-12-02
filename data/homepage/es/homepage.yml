@@ -44,22 +44,22 @@ material:
   materialItem:
     # material item loop
     - title : "Vacuno"
-      image : "images/material/material-1.png"
+      image : "images/material/material-1.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Ovino"
-      image : "images/material/material-2.png"
+      image : "images/material/material-2.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Pollo"
-      image : "images/material/material-3.png"
+      image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Cerdo"
-      image : "images/material/material-4.png"
+      image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
 ########################### Advantage #########################
