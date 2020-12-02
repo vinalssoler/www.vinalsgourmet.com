@@ -71,7 +71,8 @@
 {{ end }}
 -->
 <!-- material -->
-{{ with site.Data.homepage.material }}
+{{ with index .Site.Data.homepage .Site.Language.Lang }}
+{{ with .homepage.material }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
@@ -95,6 +96,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 
 <!-- /material -->
