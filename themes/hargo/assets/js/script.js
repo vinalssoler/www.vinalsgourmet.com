@@ -6,6 +6,8 @@ $(window).on('load', function () {
 (function ($) {
   'use strict';
 
+  new WOW().init();
+  
   // navigation
   $(window).scroll(function () {
     if ($('.navigation').offset().top > 1) {
