@@ -65,9 +65,10 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  title : "Complementos"
+  subtitle: " 5ª Gama"
+  content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son la base de nuestra propuesta de valor"
+  image : "images/5gama.jpg"
   advantageList:
     # advantage list loop
     - listItem : "Extremely lightweight"

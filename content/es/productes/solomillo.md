@@ -1,20 +1,20 @@
 ---
-title: "Taba Shampoo"
+title: "SOLOMILLO DE TERNERA DE LA CERDANYA"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
 # meta description
-description : "For Silky Hair"
+description : "1 PIEZA 1KG"
 
 # product Price
-price: "30.00"
-priceBefore: ""
+price: "55.90"
+priceBefore: "58.00"
 
 # Product Short Description
 shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 #product ID
-productID: "7"
+productID: "4"
 
 # type must be "products"
 type: "products"
@@ -22,10 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-2.png"
-  - image: "images/products/product-5.png"
-  - image: "images/products/product-3.png"
-  - image: "images/products/product-4.png"
+  - image: "images/products/Solomillo1kg-600x600.jpg"  
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
