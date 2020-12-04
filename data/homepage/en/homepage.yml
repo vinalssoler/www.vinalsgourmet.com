@@ -1,8 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "ENENEN La revolución de la carne de la que todo el mundo habla"
-  content : "Todo lo que siempre has querido saber sobre la nueva generación de carnes"
+  title : "The meat revolution everyone's talking about"
+  content : "Everything you've always wanted to know about the new generation of meats"
   image : "images/banner.jpg"
   # button
   button:
