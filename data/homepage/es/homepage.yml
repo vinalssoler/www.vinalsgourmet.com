@@ -100,7 +100,7 @@ mailing:
   enable : true
   title : "Mailing"
   send: "ENVIAR"
-  content : "Suscríbetey entérate antes que nadie sobre la revolución del carne"
+  content : "Suscríbete y entérate antes que nadie sobre la revolución de la carne"
   image : "images/mailing.jpg"
 
 ########################## Testimonial ########################
