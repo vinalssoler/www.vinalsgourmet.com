@@ -1,9 +1,8 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="sticky-top navigation">
-  <div class="col-12" style="background-color: black;" id="info">
-    <a class="text-light">+34 934 180 433</a>
-    <a class="text-light">info@vinalsgourmet.com</a>
-    <a class="text-light">Dilluns - Dijous 9:00 - 17:00, Divendres 9:00 - 13:00</a>
+  <div class="col-12" style="background-color: black;" id="info">    
+    <a class="text-color" href="tel:{{ site.Params.mobile }}"><i class="ti-mobile text-color mr-2"></i>
+    <a class="text-color" href="mailto:{{ site.Params.email }}"><i class="ti-email text-color mr-2"></i> {{ site.Params.email }}</a>      
   </div>
   <div class="container">
     <div class="row">      
