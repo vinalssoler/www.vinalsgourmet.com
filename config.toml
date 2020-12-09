@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://vinalsgourmet.onrender.com"
+#baseURL = "https://vinalsgourmet.onrender.com"
+baseURL = "http://vg.vinals.local"
 title = "Viñals Gourmet | Solucions gastronòmiques úniques"
 theme = "hargo"
 summaryLength = "20"
@@ -193,6 +194,8 @@ enableMissingTranslationPlaceholders = true
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+lightlogo = "images/lightlogo.png"
+benestar_animal = "images/benestar-animal.png"
 home = "Inicio"
 # Meta data
 description = "This is meta description"
@@ -205,14 +208,16 @@ author = "Viñals Gourmet"
 # Google Analitycs
 #googleAnalitycsID = "" # Your ID
 # Contact Information
-#mobile = "0124857985320"
-#email = "demo@email.com"
-#location = "Dhaka, Bangladedsh"
+mobile = "937 571 033"
+email = "info@vinalsgourmet.com"
+horarioES = "Lunes - Jueves 9:00 - 17:00, Viernes 9:00 - 13:00"
+horarioCAT = "Dilluns - Dijous 9:00 - 17:00, Divendres 9:00 - 13:00"
+location = "HORTA, 6 08750, Molins de Rei (BARCELONA)"
 # copyright
-copyright = "| Copyright &copy; 2020 Viñals Gourmet |"
+copyright = "©2020 Viñals Gourmet. Todos los derechos reservados. Términos y condiciones de uso | Política de privacidad | Cookies | Contacto"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+currencySymbol = "€"
 
   # Preloader
   [params.preloader]

@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
+<img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">
 {{ if site.Data.contact.contact.enable }}
 <section class="section pt-0">
   <div class="container">

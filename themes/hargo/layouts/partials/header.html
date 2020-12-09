@@ -1,8 +1,19 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="sticky-top navigation">
-  <div class="col-12" style="background-color: black;" id="info">    
-    <a class="text-color" href="tel:{{ site.Params.mobile }}"><i class="ti-mobile text-color mr-2"></i>
-    <a class="text-color" href="mailto:{{ site.Params.email }}"><i class="ti-email text-color mr-2"></i> {{ site.Params.email }}</a>      
+  <div class="row p-8 align-items-center" style="display: flex; justify-content: flex-start; background:#171d23" id="info">
+    <div class="col-6">          
+      <a class="text-color font-size-small font-weight-normal" href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
+      <a class="text-color font-size-small font-weight-normal" href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
+      <a class="text-color font-size-small font-weight-normal" >&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>   
+    </div>    
+    <div class="col-6" style="display: flex; justify-content: flex-end">
+      <!-- Social Icons -->
+      <ul class="list-inline">
+        {{ range site.Params.social }}
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+        {{ end }}
+      </ul>
+    </div>
   </div>
   <div class="container">
     <div class="row">      

@@ -176,13 +176,12 @@
 <!-- mailing -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.mailing }}
-<section class="section pb-0">
-  <!--<div class="container">    -->
+<section class="section pb-0">  
     <div class="row align-items-center" style="background-color:#eaf4da">
       <div class="col-md-6">
         <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-      </div>        
-      <div class="col-lg-6 col-md-6">
+      </div> 
+      <div class="col-lg-2 col-md-2  justify-content-center">
         <h2 class="font-weight-bold mb-4">{{ .content | markdownify }}</h2>
         <form action="{{ site.Params.contact.formAction }}" method="POST">         
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">          
@@ -190,8 +189,7 @@
         </form>
         <br/><br/>
       </div>         
-    </div>
-  <!--</div>-->
+    </div>  
 </section>
 
 {{ end }}
