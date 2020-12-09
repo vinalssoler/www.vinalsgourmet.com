@@ -95,6 +95,13 @@ products:
   title : "Products List"
   # product item comes from "content/products"
 
+########################### Mailing #########################
+mailing:
+  enable : true
+  title : "Mailing"
+  send: "ENVIAR"
+  content : "Suscríbetey entérate antes que nadie sobre la revolución del carne"
+  image : "images/mailing.jpg"
 
 ########################## Testimonial ########################
 testimonial:
