@@ -181,15 +181,17 @@
     <div class="row align-items-center" style="background-color:#eaf4da">
       <div class="col-md-6">
         <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-      </div>      
-      <div class="col-lg-1 col-md-1">
+      </div> 
+      <div class="col-lg-3 col-md-3"></div>     
+      <div class="col-lg-3 col-md-3">
         <h1 class="font-weight-bold mb-4">{{ .content | markdownify }}</h1>
         <form action="{{ site.Params.contact.formAction }}" method="POST">         
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">          
           <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">{{ .send | markdownify }}</button>
         </form>
         <br/><br/>
-      </div>      
+      </div>
+      <div class="col-lg-3 col-md-3"></div>    
     </div>
   <!--</div>-->
 </section>
