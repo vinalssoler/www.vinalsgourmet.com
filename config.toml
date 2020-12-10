@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-#baseURL = "https://vinalsgourmet.onrender.com"
-baseURL = "http://vg.vinals.local"
+baseURL = "https://vinalsgourmet.onrender.com"
+#baseURL = "http://vg.vinals.local"
 title = "Viñals Gourmet | Solucions gastronòmiques úniques"
 theme = "hargo"
 summaryLength = "20"
