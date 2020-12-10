@@ -9,6 +9,7 @@
         {{ with index .Site.Data.contact .Site.Language.Lang }}
         {{ with .contact.history }}
         <p>{{ .content }}</p>
+        {{ end }}
       </div>
     </div>
     <div class="row">
