@@ -9,10 +9,10 @@ pipeline {
 	    }
 		post {
 			success {
-				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: ":smile: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#00FF00', message: "${new Date() :smile: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
             }
 			failure {
-				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: ":frowning: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
+				slackSend channel: '#vinalsgourmet-com', color: '#FF0000', message: "${new Date() :frowning: Fase1: Building website - Projecte: ${env.JOB_NAME} Usuari: ${GIT_USER} Build Number: ${env.BUILD_NUMBER}"
             }
         }
 	}
