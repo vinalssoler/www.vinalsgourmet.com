@@ -6,7 +6,9 @@
   <div class="container">
     <div class="col-12 mb-5">
       <div class="content">
-        {{.history}}
+        {{ with index .Site.Data.contact .Site.Language.Lang }}
+        {{ with .contact.history }}
+        <p>{{ .content }}</p>
       </div>
     </div>
     <div class="row">
