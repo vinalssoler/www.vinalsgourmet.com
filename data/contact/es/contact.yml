@@ -1,6 +1,11 @@
 ############################# contact info ################
 contact:
   enable : true
+  # history
+  history:
+    title : "Viñals Gourmet"
+    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+
   # office
   office:
     title : "Central Office"
