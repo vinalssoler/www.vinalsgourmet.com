@@ -2,21 +2,19 @@
 
 {{ partial "page-title.html" . }}
 
+{{ with index .Site.Data.contact .Site.Language.Lang }}
 <section class="section pt-0">
   <div class="container">
     <div class="col-12 mb-5">
       <div class="content">
-        {{ with index .Site.Data.contact .Site.Language.Lang }}
         {{ with .contact.history }}
         <p>{{ .content }}</p>
-        {{ end }}
-        {{ end }}
+        {{ end }}        
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 col-sm-6">
-        <a>contact</a>
-        {{ with index .Site.Data.contact .Site.Language.Lang }}
+        <a>contact</a>        
         {{ with .contact.office }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
         <p>{{ .content | markdownify }}</p>
@@ -33,7 +31,7 @@
         </ul>
       </div>
       <div class="col-lg-3 offset-lg-1 col-sm-6">
-        {{ with site.Data.contact.contact.opennigHour }}
+        {{ with .contact.opennigHour }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
         <ul class="list-unstyled">
           {{ range .dayTimeList }}
@@ -55,6 +53,7 @@
       data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}"></div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 
 {{ partial "cta.html" . }}
