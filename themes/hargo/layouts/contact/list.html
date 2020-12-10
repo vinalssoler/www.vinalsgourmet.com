@@ -2,7 +2,8 @@
 
 {{ partial "page-title.html" . }}
 
-{{ if index .Site.Data.contact.contact.enable }}
+{{ with index .Site.Data.contact .Site.Language.Lang }}
+{{ if .contact.enable }}
 <section class="section pt-0">
   <div class="container">
     <div class="row">
