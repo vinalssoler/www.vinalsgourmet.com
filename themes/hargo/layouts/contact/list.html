@@ -2,11 +2,11 @@
 
 {{ partial "page-title.html" . }}
 
-{{ with index .Site.Data.contact .Site.Language.Lang }}
 <section class="section pt-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-sm-6">
+        <a>contact</a>
         {{ with index .Site.Data.contact .Site.Language.Lang }}
         {{ with .contact.office }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
