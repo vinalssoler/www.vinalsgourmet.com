@@ -63,18 +63,18 @@ enableMissingTranslationPlaceholders = true
 [menu]
   ################### Castellano ###################
   [[languages.es.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.es.menu.main]]
   name = "Productos"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.es.menu.main]]
   name = "Servicios"
   URL = "serveis"
-  weight = 2
-
-  [[languages.es.menu.main]]
-  name = "Viñals"
-  URL = "vinals"
   weight = 3
 
   [[languages.es.menu.main]]
@@ -84,18 +84,18 @@ enableMissingTranslationPlaceholders = true
 
   ################### Català ###################
   [[languages.cat.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.cat.menu.main]]
   name = "Productes"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.cat.menu.main]]
   name = "Serveis"
   URL = "serveis"
-  weight = 2
-
-  [[languages.cat.menu.main]]
-  name = "Viñals"
-  URL = "vinals"
   weight = 3
 
   [[languages.cat.menu.main]]
@@ -105,18 +105,18 @@ enableMissingTranslationPlaceholders = true
 
   ################### English ###################
   [[languages.en.menu.main]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.en.menu.main]]
   name = "Products"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.en.menu.main]]
   name = "Services"
   URL = "serveis"
-  weight = 2
-
-  [[languages.en.menu.main]]
-  name = "Viñals"
-  URL = "vinals"
   weight = 3
 
   [[languages.en.menu.main]]
@@ -129,18 +129,18 @@ enableMissingTranslationPlaceholders = true
   ############# footer menu #############
   ################### Castellano ###################
   [[languages.es.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.es.menu.footer]]
   name = "Productos"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.es.menu.footer]]
   name = "Servicios"
   URL = "serveis"
-  weight = 2
-
-  [[languages.es.menu.footer]]
-  name = "Viñals"
-  URL = "vinals"
   weight = 3
 
   [[languages.es.menu.footer]]
@@ -150,18 +150,18 @@ enableMissingTranslationPlaceholders = true
 
   ################### Català ###################
   [[languages.cat.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.cat.menu.footer]]
   name = "Productes"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.cat.menu.footer]]
   name = "Serveis"
   URL = "serveis"
-  weight = 2
-
-  [[languages.cat.menu.footer]]
-  name = "Viñals"
-  URL = "vinals"
   weight = 3
 
   [[languages.cat.menu.footer]]
@@ -171,19 +171,19 @@ enableMissingTranslationPlaceholders = true
 
   ################### English ###################
   [[languages.en.menu.footer]]
+  name = "Viñals"
+  URL = "vinals"
+  weight = 1
+  
+  [[languages.en.menu.footer]]
   name = "Products"
   URL = "productes"
-  weight = 1
+  weight = 2
 
   [[languages.en.menu.footer]]
   name = "Services"
   URL = "serveis"
-  weight = 2
-
-  [[languages.en.menu.footer]]
-  name = "Viñals"
-  URL = "vinals"
-  weight = 3
+  weight = 3  
 
   [[languages.en.menu.footer]]
   name = "Blog"
