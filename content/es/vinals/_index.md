@@ -3,7 +3,7 @@ title: "Viñals Gourmet"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 description : "this is a meta description"
-image: "images/etica.png"
+image: ""
 ---
 
 #### En Viñals Gourmet, nos apasiona la gastronomía y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales.
