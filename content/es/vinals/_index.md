@@ -9,7 +9,11 @@ image: "images/vinals/VGourmet.jpg"
 
 #### V<sup>g</sup> tiene la fuerza y garantía de formar parte de grupo cárnico Viñals Soler, con más de 110 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución. Podemos garantizar tener la mejor carne nacional de ternera certificada y tenemos la certeza que nunca fallaremos.
 
+
+
 > V<sup>g</sup> tiene la fuerza y garantía de formar parte de grupo cárnico Viñals Soler, con más de 110 años de experiencia en el sector
+
+
 
 #### Fruto de esta experiencia nació V<sup>g</sup>, para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca, nuestro objetivo es ir más allá que servirte la mejor carne. 
 
