@@ -206,7 +206,7 @@ author = "Viñals Gourmet"
 #mapLongitude = "-0.1622023"
 #mapMarker = "images/marker.png"
 # Google Analitycs
-#googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "G-9S3TJL8BTT" # Your ID
 # Contact Information
 mobile = "937 571 033"
 email = "info@vinalsgourmet.com"
