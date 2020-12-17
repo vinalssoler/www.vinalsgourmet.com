@@ -136,12 +136,12 @@ enableMissingTranslationPlaceholders = true
   [[languages.es.menu.footer]]
   name = "Productos"
   URL = "productes"
-  weight = 2
+  weight = 3
 
   [[languages.es.menu.footer]]
-  name = "Servicios"
-  URL = "serveis"
-  weight = 3
+  name = "Misión"
+  URL = "mision"
+  weight = 2
 
   [[languages.es.menu.footer]]
   name = "Actualidad"
@@ -157,12 +157,12 @@ enableMissingTranslationPlaceholders = true
   [[languages.cat.menu.footer]]
   name = "Productes"
   URL = "productes"
-  weight = 2
+  weight = 3
 
   [[languages.cat.menu.footer]]
-  name = "Serveis"
-  URL = "serveis"
-  weight = 3
+  name = "Missió"
+  URL = "mision"
+  weight = 2
 
   [[languages.cat.menu.footer]]
   name = "Actualitat"
@@ -178,12 +178,12 @@ enableMissingTranslationPlaceholders = true
   [[languages.en.menu.footer]]
   name = "Products"
   URL = "productes"
-  weight = 2
+  weight = 3
 
   [[languages.en.menu.footer]]
-  name = "Services"
-  URL = "serveis"
-  weight = 3  
+  name = "Mision"
+  URL = "mision"
+  weight = 2  
 
   [[languages.en.menu.footer]]
   name = "Blog"

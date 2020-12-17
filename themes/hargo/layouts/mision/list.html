@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+<h1>LIST</h1>
+<!-- mision -->
+{{ with index .Site.Data.mision .Site.Language.Lang }}
+{{ with .mision.intro }}
+<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
+  <div class="container">          
+      <div class="row">
+      <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white  wow fadeInLeft">
+        <h1>
+          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
+          <a href="#" class="text-dark">{{ .subtitle | markdownify }}</a>
+        </h1>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a><br><br>
+        {{ end }}
+        {{ end }}
+
+        {{ if .video.enable }}
+        {{ with .video }}
+        <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal"
+          class="text-color video-modal"><i
+            class="ti-control-play bg-gradient hover-shadow btn-play mr-2"></i><span>Watch Video</span></a>
+        {{ end }}        
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border-0 rounded-0">
+              <iframe width="560" height="315" src="" id="video" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>        
+        {{ end }}
+      </div>            
+    </div>
+  </div>
+</section>
+{{ end }}
+<br><br>
+{{ end }}
+
+<!-- /banner -->
+
+{{ partial "cta.html" . }}
+
+{{ end }}
