@@ -6,18 +6,19 @@
 {{ with .mision.intro }}
 <section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center center no-repeat; background-size: cover;">  
   <div class="container" >    
-    <div class="row" style="height: 50%;"></div>      
+    <div class="row" style="height: 50%;"></div>
+      <div class="row">
         <div class="col-2 mb-3 bg-white justify-content-start align-items-start wow fadeIn">
           <h1>
             <a class="text-dark font-weight-bold" >{{ .title | markdownify }}</a>
             <a class="text-success font-weight-bold">{{ .subtitle | markdownify }}</a>
           </h1>
         </div>
-        <div class="col-6 mb-3 bg-white justify-content-end align-items-start wow fadeIn">
+        <div class="col-9 mb-3 bg-white justify-content-end wow fadeIn">
          <h4>{{ .content | markdownify }}</h4>
         </div>         
       </div>       
-    
+    </div>
     <br><br>
     <div class="row align-items-end justify-content-center">
       <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
