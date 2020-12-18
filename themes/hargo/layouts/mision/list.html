@@ -7,14 +7,14 @@
 <section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
   <div class="container">          
     <div class="row">
-      <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white  wow fadeIn">
+      <div class="col-lg-4 col-md-5 order-2 order-md-1 bg-white  wow fadeIn">
         <h1>
           <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
           <a href="#" class="text-dark">{{ .subtitle | markdownify }}</a>
         </h1>
         <h4>{{ .content | markdownify }}</h4>              
       </div> 
-      <div>
+      <div class="col-lg-4 col-md-5 order-2 order-md-1 bg-white  wow fadeIn"></div>>
         <h4>{{ .content2 | markdownify }}</h4>
         <h4>{{ .content2b | markdownify }}</h4>
       </div>
