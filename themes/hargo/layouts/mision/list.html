@@ -1,7 +1,7 @@
 {{ define "main" }}
-
-{{ partial "page-title.html" . }}
 <h1>LIST</h1>
+{{ partial "page-title.html" . }}
+
 <!-- mision -->
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.intro }}
