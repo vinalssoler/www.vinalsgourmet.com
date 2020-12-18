@@ -8,9 +8,9 @@
 <section class="section-sm" style="background:transparent url('{{ .image | absURL }}') cover">
   <div class="container">   
     <div class="row h-50">
-      <div class="bg-white wow fadeIn"></div>
+      <div class="bg-white wow fadeIn"><br><br></div>
     </div>
-    <div class="row h-25">
+    <div class="row align-items-end">
       <div class="col-lg-4 col-md-5 order-2 order-md-1 bg-white wow fadeIn">
         <h1>
           <a class="text-dark font-weight-bold" >{{ .title | markdownify }}</a>
@@ -19,9 +19,11 @@
         <h4>{{ .content | markdownify }}</h4>              
       </div>       
     </div>
-    <div class="col-lg-4 col-md-5 order-2 order-md-1 bg-white wow fadeIn"></div>>
-      <h4 class="text-dark font-weight-bold bg-white">{{ .content2 | markdownify }}</h4>
-      <h4 class="text-dark font-weight-bold bg-white">{{ .content2b | markdownify }}</h4>        
+    <div class="row align-items-end">
+      <div class="col-lg-4 col-md-5 order-2 order-md-1 bg-white wow fadeIn"</div>>
+        <h4 class="text-dark font-weight-bold bg-white">{{ .content2 | markdownify }}</h4>
+        <h4 class="text-dark font-weight-bold bg-white">{{ .content2b | markdownify }}</h4>        
+      </div>
     </div>
   </div>
 </section>
