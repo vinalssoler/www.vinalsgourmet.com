@@ -4,7 +4,8 @@
 <!-- mision -->
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.intro }}
-<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center center no-repeat">
+<!--<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center center no-repeat">-->
+<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') cover">
   <div class="container">   
     <div class="row h-50">
       <div class="bg-white wow fadeIn"></div>
