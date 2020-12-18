@@ -47,8 +47,8 @@
     </div>
   </div>
 </div>
-<div class="row" style="height: 400px;">   
-    <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top"> 
+<div class="row justify-content-center align-items-center" style="height: 540px;">   
+    <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="width:80%"> 
 </div>
 {{ end }}
 <br><br>
@@ -59,26 +59,25 @@
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.objectius }}
 <section class="section">
+  <div class="container">
   <div class="row">
-    <div class="col-4 bg-white wow fadeInTop">
-      <h1 class="bg-white">
-        <a class="text-dark font-weight-bold bg-white" >{{ .title | markdownify }}</a>
-        <a class="text-success font-weight-bold bg-white">{{ .subtitle | markdownify }}</a>
-      </h1>
-    </div>
-    <div class="col-4 bg-white wow fadeInTop">
-      <h1 class="bg-white">
-        <a class="text-dark font-weight-bold bg-white" >{{ .title | markdownify }}</a>
-        <a class="text-success font-weight-bold bg-white">{{ .subtitle | markdownify }}</a>
-      </h1>
-    </div>
-    <div class="col-4 bg-white wow fadeInTop">
-      <h1 class="bg-white">
-        <a class="text-dark font-weight-bold bg-white" >{{ .title | markdownify }}</a>
-        <a class="text-success font-weight-bold bg-white">{{ .subtitle | markdownify }}</a>
-      </h1>
-    </div>
+    {{ range .llista }}
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="card border-0 justify-content-center align-items-center">
+        <img src="{{ .image | absURL }}" class="card-img-top border-0" style="width:150px">
+        <div class="card-body">
+          <p class="text-dark font-weight-bold bg-white">{{ .title1 | markdownify }}</p>
+          <p class="text-dark">{{ .content1 | markdownify }}</p>
+          <p class="text-dark font-weight-bold bg-white">{{ .title2 | markdownify }}</p>
+          <p class="text-dark">{{ .content2 | markdownify }}</p>
+          <p class="text-dark font-weight-bold bg-white">{{ .title3 | markdownify }}</p>
+          <p class="text-dark">{{ .content3 | markdownify }}</p>
+        </div>
+      </div>
+    </div>    
+    {{ end }}
   </div>
+</div>
 </section>
 {{ end }}
 <br><br>
