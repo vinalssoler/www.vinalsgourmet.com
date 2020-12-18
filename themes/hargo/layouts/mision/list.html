@@ -4,14 +4,9 @@
 <!-- mision -->
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.intro }}
-<section class="section-sm" >
-  <div class="container" style="background:transparent url('{{ .image | absURL }}') center center no-repeat">
-    <div class="row height 50%">
-      <div class="height 50%"><br><br></div>
-    </div>
-    <div class="row">
-      <div class="bg-white wow fadeIn"><br><br></div>
-    </div>
+<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center center no-repeat; height: 1000px;">
+  <div class="container"></div>
+  <div class="container" >    
     <div class="row align-items-end">
       <div class="col-lg-6 col-md-5 bg-white wow fadeIn">
         <h1>
