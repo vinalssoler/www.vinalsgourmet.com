@@ -3,7 +3,7 @@ intro:
   enable : true
   title : "Misión"
   subtitle: "Viñals Gourmet"
-  content : "Nuestro propósito y razón de ser en Vg es ser el partner referente de nuestros clientes en soluciones gastronómicas únicas."
+  content : "Nuestro propósito y razón de ser en **Vg** es ser el partner referente de nuestros clientes en soluciones gastronómicas únicas."
   content2 : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son "
   content2b : "la base de nuestra propuesta de valor."
   image : "images/mision/mision1.png"
@@ -11,22 +11,39 @@ intro:
 
 ########################## etica ##############################
 etica:
-  enable : true
-  title : "De Origen"
-  subtitle: " ECO/BIO"
-  content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes
-   a través de soluciones gastronómicas únicas y diferenciales"
-  image : "images/about.jpg"
+  enable : true  
+  content : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar. Con la voluntad de ser"
+  image : "images/mision/etica.png"
 
 
 ###################### objectius ########################
 objectius:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
-  image : "images/cta.png"
-  overlayImage : "images/cta-overlay.png"
-  button:
-    label : "All Products"
-    link : "products"
+  llista:
+    - title : "Clientes"
+      image : "images/mision/clientes.png"
+      title1 : "#1.Servicio"
+      content1 : "365 Días a la atención y servicio a nuestros clientes."
+      title2 : "#2.Calidad"
+      content2 : "Servimos los mejores productos para elaborar platos excelentes."
+      title3 : "#3.Expertos"
+      content3 : "Somos artesanos para hacer tu pedido a medida."
+
+    - title : "Proveedores"
+      image : "images/mision/proveedores.png"
+      title1 : "#4.Respeto animal"
+      content1 : "Buscamos productos que respeten los 4 pilares del bienestar animal."
+      title2 : "#5.Trazabilidad"
+      content2 : "Control desde el origen en granja hasta la distribución."
+      title3 : "#6.Origen"
+      content3 : "Traemos las mejores carnes del mundo para satisfacer los paladares más exigentes."
+  
+    - title : "Sociedad"
+      image : "images/mision/sociedad.png"
+      title1 : "#7.Sostenibilidad"
+      content1 : "Trabajamos para generar el menor impacto de residuos i con materiales renovables."
+      title2 : "#8.Desperdicio alimentario"
+      content2 : "Nos preocupa la sociedad y luchamos para aprovechar todos los excedentes."
+      title3 : "#3.Futuro"
+      content3 : "Optimizamos nuestra logística para reducir la huella de carbono."
 
