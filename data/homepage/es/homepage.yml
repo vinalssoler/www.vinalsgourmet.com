@@ -71,12 +71,12 @@ advantage:
   image : "images/5gama.jpg"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
 
 
 ######################## Promo Video ##########################

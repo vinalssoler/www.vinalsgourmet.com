@@ -10,23 +10,5 @@
 	<atom:link href="http://vg.vinals.local/es/actualitat/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>http://vg.vinals.local/es/actualitat/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/es/actualitat/post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>http://vg.vinals.local/es/actualitat/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/es/actualitat/post-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
   </channel>
 </rss>

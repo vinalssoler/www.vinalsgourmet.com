@@ -18,66 +18,6 @@
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/es/productes/entrecot/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/entrecot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/entrecot/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/productes/fricando/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/fricando/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/fricando/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/actualitat/post-2/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/actualitat/post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/actualitat/post-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/actualitat/post-1/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/actualitat/post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/actualitat/post-1/"
-                />
-  </url>
-  
-  <url>
     <loc>http://vg.vinals.local/es/mision/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
@@ -93,36 +33,6 @@
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/es/productes/osobuco/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/osobuco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/osobuco/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/productes/paletilla_cordero/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/paletilla_cordero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/paletilla_cordero/"
-                />
-  </url>
-  
-  <url>
     <loc>http://vg.vinals.local/es/productes/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
@@ -134,36 +44,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://vg.vinals.local/es/productes/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/productes/solomillo/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/solomillo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/solomillo/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/es/productes/t-bone/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/t-bone/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://vg.vinals.local/es/productes/t-bone/"
                 />
   </url>
   
