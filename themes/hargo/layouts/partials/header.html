@@ -46,7 +46,9 @@
           {{ end }}
           {{ end }}
         </ul>      
+      </nav>
       <!--<button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>-->
+      <div class="row">
       <div class="col">
         <div class="float-right">
         {{ if .Site.IsMultiLingual }}
@@ -62,8 +64,8 @@
         </div>
         {{ end }}           
         </div>
-      </div>    
-    </nav>                  
+      </div>
+      </div>                        
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
