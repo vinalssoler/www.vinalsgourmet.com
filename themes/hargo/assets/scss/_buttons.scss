@@ -68,6 +68,17 @@
   }
 }
 
+.btn-icon{
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  line-height: 25px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  background: $white;
+}
+
 
 .btn-play{
   height: 50px;

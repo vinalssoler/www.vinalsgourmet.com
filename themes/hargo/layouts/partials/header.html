@@ -1,29 +1,27 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="sticky-top navigation">
-  <div class="row p-8 align-items-center" style="display: flex; justify-content: flex-start; background:#171d23" id="info">
+  <div class="row" style="display: flex; justify-content: flex-start; background:#171d23" id="info">
     <div class="col-6">          
-      <a class="text-color font-size-small font-weight-normal" href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
-      <a class="text-color font-size-small font-weight-normal" href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
-      <a class="text-color font-size-small font-weight-normal" >&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>   
+      <a class="text-white font-size-small font-weight-normal" href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
+      <a class="text-white font-size-small font-weight-normal" href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
+      <a class="text-white font-size-small font-weight-normal" >&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>   
     </div>    
-    <div class="col-6" style="display: flex; justify-content: flex-end">
+    <div class="col-6 mr-6" style="display: flex; justify-content: flex-end;">
       <!-- Social Icons -->
-      <ul class="list-inline">
+      <ul class="list-inline align-items-center">
         {{ range site.Params.social }}
-        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-dark"></i></a></li>
         {{ end }}
       </ul>
     </div>
   </div>
-  <div class="container">
-    <div class="row">      
+  <div class="container">    
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
-
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
@@ -47,24 +45,25 @@
           </li>
           {{ end }}
           {{ end }}
-        </ul>
-      </div>         
+        </ul>      
       <!--<button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>-->
-    </nav>   
-    <div class="col">
-      {{ if .Site.IsMultiLingual }}
-      {{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ $langPage.Language.LanguageName }}
-      </a>    
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        {{ range $langPage.Translations }}
-        <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-        {{ end }}
-      </div>
-      {{ end }}           
-      </div>
-    </div>             
+      <div class="col">
+        <div class="float-right">
+        {{ if .Site.IsMultiLingual }}
+        {{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ $langPage.Language.LanguageName }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          {{ range $langPage.Translations }}
+          <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        </div>
+        </div>
+        {{ end }}           
+        </div>
+      </div>    
+    </nav>                  
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}

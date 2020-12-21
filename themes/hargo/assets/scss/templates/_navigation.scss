@@ -66,7 +66,7 @@
     }
 
     &-item {
-      color: $text-color;
+      color: $black;
       transition: .2s ease;
       padding: 10px;
 
@@ -88,10 +88,10 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $text-color;
+  color: $black;
 
   &:hover {
-    color: $primary-color;
+    color: $primary-color;    
   }
 }
 

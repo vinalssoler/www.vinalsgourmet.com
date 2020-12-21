@@ -7,41 +7,57 @@ intro:
   image : "images/productes/intro.png"
   
 
-########################## etica ##############################
-etica:
-  enable : true  
-  content : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar. Con la voluntad de ser"
-  image : "images/mision/etica.png"
-
-
-###################### objectius ########################
-objectius:
+############################ Soluciones Genéricas ##########################
+generica:
   enable : true
-  llista:
-    - title : "Clientes"
-      image : "images/mision/clientes.png"
-      title1 : "#1.Servicio"
-      content1 : "365 Días a la atención y servicio a nuestros clientes."
-      title2 : "#2.Calidad"
-      content2 : "Servimos los mejores productos para elaborar platos excelentes."
-      title3 : "#3.Expertos"
-      content3 : "Somos artesanos para hacer tu pedido a medida."
+  title : "Solución"
+  subtitle: "Genéricas"
+  content : "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos. De la granja a la cadena de distribución ofrecemos las mejores soluciones con máxima calidad."  
+  image : "images/productes/genercia.png"
 
-    - title : "Proveedores"
-      image : "images/mision/proveedores.png"
-      title1 : "#4.Respeto animal"
-      content1 : "Buscamos productos que respeten los 4 pilares del bienestar animal."
-      title2 : "#5.Trazabilidad"
-      content2 : "Control desde el origen en granja hasta la distribución."
-      title3 : "#6.Origen"
-      content3 : "Traemos las mejores carnes del mundo para satisfacer los paladares más exigentes."
-  
-    - title : "Sociedad"
-      image : "images/mision/sociedad.png"
-      title1 : "#7.Sostenibilidad"
-      content1 : "Trabajamos para generar el menor impacto de residuos i con materiales renovables."
-      title2 : "#8.Desperdicio alimentario"
-      content2 : "Nos preocupa la sociedad y luchamos para aprovechar todos los excedentes."
-      title3 : "#3.Futuro"
-      content3 : "Optimizamos nuestra logística para reducir la huella de carbono."
+############################ Soluciones de Origen ##########################
+origen:
+  enable : true
+  title : "Solución"
+  subtitle: "Origen"
+  content : "En Vg traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
 
+Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
+  image : "images/productes/origen.png"
+
+############################ Soluciones Eco Bio ##########################
+eco:
+  enable : true
+  title : "Solución"
+  subtitle: "Eco & Bio"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
+
+Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas porqué se prohíbe el uso de productos químicos. "  
+  image : "images/productes/eco.png"
+
+############################ Soluciones Km0 ##########################
+km0:
+  enable : true
+  title : "Solución"
+  subtitle: "KM0"
+  content : "Para buscar la excelencia en el producto, creamos nuestra marca V1906 la Cerdanya. Podemos ofrecer ternera de proximidad y de gran calidad de nuestras granjas de la Cerdanya, con el compromiso y cuidado al animal, y respeto al medio ambiente. 
+
+Fruto de este trabajo, nuestro entrecot ganó en 2019 el premio del International Taste Institute al mejor gusto de Europa."  
+  image : "images/productes/km0.png"
+
+############################ Soluciones vegan ##########################
+vegan:
+  enable : true
+  title : "Solución"
+  subtitle: "Green Vegan"
+  content : "No toda la proteína tiene que ser de origen animal, y conociendo esta realidad también tenemos una solución vegana. El mismo sabor y textura, pero con un origen totalmente vegetariano. Sabemos que es un reto de futuro, pero queremos tu proveedor de confianza para este nuevo mundo que se nos abre, y quien mejor que nosotros te pueda asesorar de carne sin carne."  
+  image : "images/productes/vegan.png"
+  image2 : "images/productes/healthy.png"
+
+############################ Soluciones Restauración ##########################
+restauracion:
+  enable : true
+  title : "Solución"
+  subtitle: "Restauración"
+  content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto si no que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
+  image : "images/productes/5gama.png"
