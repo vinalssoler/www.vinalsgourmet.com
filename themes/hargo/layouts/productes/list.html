@@ -9,16 +9,16 @@
     <div class="card border-0 wow fadeIn">
       <img src="{{ .image | absURL }}" class="card-img-top border-0">
     </div>
-    <div class="col-5 justify-content-right">
+    <div class="col-4 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
     </div>
-    <div class="col-6 align-self-center">
+    <div class="col-4 align-self-center">
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
-          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+          <p class="text-dark font-weight-bold" style="font-size:2vmin;">{{ .content | markdownify }}</p>
         </div>
       </div>
     </div>
@@ -33,20 +33,22 @@
 {{ with .productes.generica }}
 <section class="section pb-0">
   <div class="row justify-content-center">
-    <div class="col-5 justify-content-right">
+    <div class="col-4 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
-    <div class="col-6 align-self-center">
+    <div class="col-4 align-self-center">
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
           <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="container">
+  <div class="row justify-content-center">
     {{ range .producteItem }}
     <div class="col-lg-3 col-md-4 col-sm-6">
       <div class="card border-0 text-center wow fadeIn"
@@ -58,6 +60,7 @@
     </div>
     {{ end }}
   </div>
+</div>
 </section>
 {{ end }}
 {{ end }}
@@ -74,8 +77,8 @@
     </div>
     <div class="col-5 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
     </div>
     <div class="col-6 align-self-center">
@@ -99,8 +102,8 @@
     <img src="{{ .image1 | absURL }}" class="card-img-top border-0 wow fadeIn">    
     <div class="col-6 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
@@ -130,8 +133,8 @@
     </div>
     <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
       <div class="card-body text-left">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
         <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
       </div>      
     </div>
@@ -148,8 +151,8 @@
   <div class="row justify-content-center">        
     <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
       <div class="card-body text-left"></div>     
-        <h1 class="text-white font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <h1 class="text-white font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
         <p class="text-white" style="font-size:2vmin;">{{ .content | markdownify }}</p>
       </div>      
     </div>
@@ -166,8 +169,8 @@
   <div class="row">
     <div class="col d-flex align-self-end justify-content-center wow fadeInLeft">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
     <div class="col d-flex align-self-center wow fadeInLeft">
