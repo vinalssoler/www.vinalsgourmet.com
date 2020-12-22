@@ -207,10 +207,10 @@ textarea.form-control {
     .nav-link {
       border: 0;
       padding: 10px 0;
-      color: $black;
+      color: $text-color-dark;
       font-weight: 500;
       &.active{
-        color: $primary-color;
+        color: $text-color-dark;
       }
     }
   }

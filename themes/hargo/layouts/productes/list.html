@@ -4,28 +4,26 @@
 <!-- intro -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.intro }}
-  <div class="row">
-  <div class="col">
-    <div class="card border-0 align-self-start text-right wow fadeInLeft">
-      <img src="{{ .image1 | absURL }}" class="card-img-top border-0">
-      <div class="card-body">
-        <h1>
-          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-dark font-weight-bold">{{ .subtitle | markdownify }}</a>
-        </h1>  
+<section>
+  <div class="row justify-content-center">
+    <div class="card border-0 wow fadeIn">
+      <img src="{{ .image | absURL }}" class="card-img-top border-0">
+    </div>
+    <div class="col-5 justify-content-right">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
-    </div>    
-  </div>
-  <div class="col">
-    <div class="card border-0 text-left wow fadeInRight">
-      <img src="{{ .image2 | absURL }}" class="card-img-top border-0">
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
+    </div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 text-left wow fadeInRight">
+        <div class="card-body">
+          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+        </div>
       </div>
-    </div>  
     </div>
   </div>
-
+</section>
 {{ end }}
 {{ end }}
 <!-- /intro -->
@@ -34,33 +32,31 @@
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.generica }}
 <section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col align-self-end pb-0 wow fadeInLeft">
-        <h1>
-          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-dark font-weight-bold">{{ .subtitle | markdownify }}</a>
-        </h1>  
-      </div>
-      <div class="col align-self-end wow fadeInRight">
-        <h5>{{ .content | markdownify }}</h5>
+  <div class="row justify-content-center">
+    <div class="col-5 justify-content-right">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
-    <div class="row"><br></div>
-    <div class="row">
-      {{ range .producteItem }}
-      <div class="col-lg-3 col-md-4 col-sm-6" >
-        <div class="card border-0 text-center wow fadeIn" style="height: 200px; background:transparent url('{{ .image | absURL }}') center center no-repeat; background-size: cover;">
-          <!--<img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">-->
-          <div class="card-body">
-            <h4 class="text-dark font-weight-bold bg-white">{{ .title | markdownify }}</h4>
-            <!--<p>{{ .content | markdownify }}</p>-->
-          </div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 text-left wow fadeInRight">
+        <div class="card-body">
+          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
         </div>
       </div>
-      {{ end }}
     </div>
-    <div class="row"><br></div>
+
+    {{ range .producteItem }}
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card border-0 text-center wow fadeIn"
+        style="height: 200px; background:transparent url('{{ .image | absURL }}') center center no-repeat; background-size: cover;">
+        <div class="card-body">
+          <h4 class="text-color-dark font-weight-bold bg-white">{{ .title | markdownify }}</h4>
+        </div>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -71,28 +67,26 @@
 <!-- origen -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.origen }}
-  <div class="row align-items-end ">
-  <div class="col">
-    <div class="card border-0 text-right wow fadeInLeft">      
-      <div class="card-body">
-        <h1>
-          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-dark font-weight-bold">{{ .subtitle | markdownify }}</a>
-        </h1>  
+<section class="section pb-0">
+  <div class="row justify-content-center">
+    <div class="card border-0 wow fadeIn">
+      <img src="{{ .image | absURL }}" class="card-img-top border-0">
+    </div>
+    <div class="col-5 justify-content-right">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
-      <img src="{{ .image1 | absURL }}" class="card-img-top border-0">
-    </div>    
-  </div>
-  <div class="col">
-    <div class="card border-0 text-left wow fadeInRight">      
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
+    </div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 text-left wow fadeInRight">
+        <div class="card-body">
+          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+        </div>
       </div>
-      <img src="{{ .image2 | absURL }}" class="card-img-top border-0">
-    </div>  
     </div>
   </div>
-  <div class="row"><br></div>
+</section>
 {{ end }}
 {{ end }}
 <!-- /origen -->
@@ -100,29 +94,26 @@
 <!-- eco -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.eco }}
-  <div class="row">
-  <div class="col">
-    <div class="card border-0 align-self-start text-right wow fadeInLeft">    
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
+<section class="section pb-0">
+  <div class="row justify-content-center">    
+    <img src="{{ .image1 | absURL }}" class="card-img-top border-0 wow fadeIn">    
+    <div class="col-6 justify-content-right">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
-      <img src="{{ .image1 | absURL }}" alt="material" class="card-img-top border-0">
-    </div>    
-  </div>
-  <div class="col">
-    <div class="card border-0 text-left wow fadeInRight">   
-      <div class="card-body">
-        <h1>
-          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-dark font-weight-bold">{{ .subtitle | markdownify }}</a>
-        </h1>  
-      </div>   
-      
-      <img src="{{ .image2 | absURL }}" alt="material" class="card-img-top border-0">
-    </div>  
+      <div class="card border-0 text-left wow fadeInRight">
+        <div class="card-body">
+          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row"><br></div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image2 | absURL }}" class="card-img-top border-0">
+      </div>
+    </div>
+</section>
 {{ end }}
 {{ end }}
 <!-- /eco -->
@@ -130,25 +121,24 @@
 <!-- km0 -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.km0 }}
-  <div class="row">
-  <div class="col">
-    <div class="card border-0 text-right wow fadeInLeft">          
-      <h1>
-        <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-        <a href="#" class="text-dark font-weight-bold">{{ .subtitle | markdownify }}</a>
-      </h1>      
-      <img src="{{ .image1 | absURL }}" alt="material" class="card-img-top border-0">
-    </div>    
-  </div>
-  <div class="col align-self-end wow fadeInRight">
-    <div class="card border-0 text-left ">      
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
-      </div>
-    </div>  
-    <img src="{{ .image2 | absURL }}" alt="material" class="card-img-top border-0">
+<section class="section pb-0">
+  <div class="row justify-content-center">    
+    <div class="col-6 justify-content-right">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
+      </div>      
     </div>
-  </div>
+    <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
+      <div class="card-body text-left">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+      </div>      
+    </div>
+  </div>  
+</section>
+<div><br><br></div>
+  
 {{ end }}
 {{ end }}
 <!-- /km0 -->
@@ -156,40 +146,14 @@
 <!-- vegan -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.vegan }}
-<div class="container">
-  <div class="row">
-  <div class="col">
-    <div class="card border-0 text-left wow fadeIn">      
-      <div class="card-body">
-        <h1 class="text-dark font-weight-bold bg-white">{{ .title | markdownify }}</h1>
-        <h1 class="text-success font-weight-bold bg-white">{{ .subtitle | markdownify }}</h1>
-      </div>
-    </div>    
-  </div>
-  </div>
-</div>
-  <div class="row wow fadeIn">
-    <img src="{{ .image | absURL }}" class="card-img-top border-0">
-  </div>
-<div class="container">
-  <div class="col">
-    <div class="card border-0 text-left wow fadeInRight">      
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
-      </div>
-    </div>  
-    </div>
-  </div>
-</div>
-<section class="section-sm" style="height: 500px;width: 80%;background:transparent url('{{ .image2 | absURL }}') center right no-repeat">
-  <div class="container">
-    <div class="col">
-      <div class="card border-0 text-left bg-transparent wow fadeInRight">      
-        <div class="card-body bg-transparent">
-          <h5 class="text-white font-weight-bold bg-transparent">{{ .content2 | markdownify }}</h5>        
-        </div>
-      </div>  
-      </div>
+<section class="section pb-0 overlay" style="background:transparent url('{{ .image | absURL }}') center left no-repeat">
+  <div class="row justify-content-center">        
+    <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
+      <div class="card-body text-left"></div>     
+        <h1 class="text-white font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <p class="text-white" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+      </div>      
     </div>
   </div>
 </section>
@@ -200,26 +164,22 @@
 <!-- restauración -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.restauracion }}
+<section class="section pb-0">
   <div class="row">
-  <div class="col">
-    <div class="card border-0 align-self-start text-right wow fadeInLeft">
-      <img src="{{ .image1 | absURL }}" alt="material" class="card-img-top border-0">
-      <div class="card-body">
-        <h1 class="text-dark font-weight-bold bg-white">{{ .title | markdownify }}</h1>
-        <h1 class="text-success font-weight-bold bg-white">{{ .subtitle | markdownify }}</h1>
+    <div class="col d-flex align-self-end justify-content-center wow fadeInLeft">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:5vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:5vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
-    </div>    
-  </div>
-  <div class="col">
-    <div class="card border-0 text-left wow fadeInRight">
-      <img src="{{ .image2 | absURL }}" alt="material" class="card-img-top border-0">
-      <div class="card-body">
-        <h5>{{ .content | markdownify }}</h5>        
-      </div>
-    </div>  
+    </div>
+    <div class="col d-flex align-self-center wow fadeInLeft">
+      <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
     </div>
   </div>
-
+  <div class="card border-0 wow fadeIn">
+    <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
+  </div>
+</section>
 {{ end }}
 {{ end }}
 <!-- /restauración -->
