@@ -1,15 +1,15 @@
-<section class="section-sm">
+<!--<section class="section">-->
   <div class="container">
     <div class="row">
       <div class="col-12">
         <!--<h2>{{ .Title }}</h2>-->
         <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-transparent p-0">
-            <li class="breadcrumb-item"><a class="text-dark" href="{{.Site.BaseURL | relLangURL }}">{{ site.Params.home }}</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+          <ol class="breadcrumb bg-transparent align-items-center p-10">
+            <a class="text-dark" style="font-size:2vmin;" href="{{.Site.BaseURL | relLangURL }}">{{ site.Params.home }} / </a>
+            <a style="font-size:2vmin;" aria-current="page">{{ .Title }}</a>
           </ol>
         </nav>
       </div>
     </div>
   </div>
-</section>
+<!--</section>-->
