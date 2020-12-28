@@ -8,8 +8,8 @@
       <div class="row">
       <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white  wow fadeInLeft">
         <h1>
-          <a href="#" class="text-success font-weight-bold" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-dark">{{ .subtitle | markdownify }}</a>
+          <a href="#" class="text-success font-weight-bold" style="font-size:3vw;">{{ .title | markdownify }}</a>
+          <a href="#" class="text-dark" style="font-size:3vw;">{{ .subtitle | markdownify }}</a>
         </h1>
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
