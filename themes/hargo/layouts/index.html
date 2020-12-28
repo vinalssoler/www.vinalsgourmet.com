@@ -32,11 +32,9 @@
     <div class="row">           
       <div class="col-lg-5 col-md-6"></div>     
       <div class="col-lg-5 col-md-6 bg-white wow fadeInRight">
-        <h1>
-          <a href="#" class="text-dark" >{{ .title | markdownify }}</a>
-          <a href="#" class="text-success font-weight-bold">{{ .subtitle | markdownify }}</a>
-        </h1>
-        <p>{{ .content | markdownify }}</p>
+        <h1 class="text-dark" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
+        <p style="font-size:2vmin;">{{ .content | markdownify }}</p>
       </div>      
     </div>
   </div>
@@ -53,28 +51,36 @@
 <!-- material -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.material }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mx-auto text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .subtitle | markdownify }}</p>
+<section>
+  <div class="row justify-content-center">
+    <div class="col-4 justify-content-right">
+      <div class="card-body text-right">
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
-    <div class="row">
-      {{ range .materialItem }}
-      <div class="col-lg-3 col-md-4 col-sm-6" >
-        <div class="card border-0 text-center wow fadeInUp">
-          <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
-          <div class="card-body">
-            <h4>{{ .title | markdownify }}</h4>
-            <p>{{ .content | markdownify }}</p>
-          </div>
+    <div class="col-7 align-self-center">
+      <div class="card border-0 text-left wow fadeInRight">
+        <div class="card-body">
+          <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
+  <div class="container">
+  <div class="row">
+    {{ range .producteItem }}
+    <div class="col-lg-3 col-md-4 col-sm-6 align-items-center">
+      <div class="card border-0 text-center wow fadeIn">
+        <div class="card-body align-items-center">
+          <img src="{{ .image | absURL }}" class="card-img-top border-0">
+          <h3 class="text-color font-weight-bold" style="font-size:2vw;">{{ .title | markdownify }}</h3>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
 </section>
 {{ end }}
 {{ end }}
