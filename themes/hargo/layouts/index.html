@@ -6,15 +6,15 @@
 <section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
   <div class="container">          
       <div class="row">
-      <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white  wow fadeInLeft">
+      <div class="col-lg-5 col-md-6 order-2 order-md-1 bg-white wow fadeInLeft">
         <h1>
-          <a href="#" class="text-success font-weight-bold" style="font-size:3vw;">{{ .title | markdownify }}</a>
+          <a href="#" class="text-color font-weight-bold" style="font-size:3vw;">{{ .title | markdownify }}</a>
           <a href="#" class="text-dark" style="font-size:3vw;">{{ .subtitle | markdownify }}</a>
         </h1>
         <p style="font-size:2vmin;">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a><br><br>
+        <a href="{{ .link }}" class="btn btn-primary mr-3" style="font-size:3vw;">{{ .label }}</a><br><br>
         {{ end }}
         {{ end }}
       </div>            
