@@ -1,16 +1,16 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="sticky-top navigation">
-  <div class="row" style="display: flex; justify-content: flex-start; background: #171D23" id="info">
-    <div class="col-7">          
+<header class="navigation">
+  <div class="row" style="background: #171D23" id="info">
+    <div class="col-8">          
       <a class="text-white font-size-small font-weight-normal" style="font-size:1vmin;" href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
       <a class="text-white font-size-small font-weight-normal" style="font-size:1vmin;" href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
       <a class="text-white font-size-small font-weight-normal" style="font-size:1vmin;">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>   
     </div>    
-    <div class="col align-items-center">
+    <div class="col-4 justify-content-right">
       <!-- Social Icons -->
-      <ul class="list-inline align-items-center">
+      <ul class="list-inline">
         {{ range site.Params.social }}
-        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-dark"></i></a></li>
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-white font-weight-bold" style="font-size:2vmin;"></i></a></li>
         {{ end }}
       </ul>
     </div>
