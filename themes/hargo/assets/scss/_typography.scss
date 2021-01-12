@@ -6,14 +6,14 @@ body {
   line-height: 1.4;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 2vw;
   color: $text-color;
 }
 
 p, .paragraph {
   font-weight: 400;
-  color: $text-color;
-  font-size: 15px;
+  color: $text-color;  
+  font-size: 2vw;
   line-height: 1.7;
   font-family: $secondary-font;
 }
@@ -39,6 +39,7 @@ h3, .h3{
 
 h4, .h4{
   font-size: 20px;
+  font-size: 2vw;
 }
 
 h5, .h5{
