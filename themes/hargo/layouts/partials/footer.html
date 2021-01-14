@@ -1,40 +1,41 @@
-<footer class="section" style="background:#171d23">
+<footer style="background:#171d23">
   <div class="container">
-    <div class="row pb-0 justify-content-between">
+    <div class="row justify-content-between">
+    <!--<div class="row pb-0 justify-content-between">-->
       <div class="col-12 text-center section-sm">
         <a href="{{.Site.BaseURL | relLangURL }}"><img src="{{ site.Params.lightlogo | absURL }}" class="img-fluid"
             alt="{{ site.Title }}"></a>
       </div>      
       <div class="col-md-4 col-sm-6">
-        <h5 class="white font-weight-medium mb-4" style="font-size:2vmin;">CONTACTO</h5>
+        <h5 class="text-primary font-weight-medium mb-4" style="font-size:1.5vh;">CONTACTO</h5>
         <ul class="list-unstyled mb-5">
-          <li class="mb-3"><a class="white" style="font-size:2vmin;" href="tel:{{ site.Params.mobile }}"><i
-                class="ti-mobile text-primary mr-2"></i>
+          <li class="mb-3" style="font-size:1.5vh;"><a href="tel:{{ site.Params.mobile }}"><i
+                class="ti-mobile"></i>
               {{ site.Params.mobile }}</a></li>
-          <li class="mb-3"><a class="white" style="font-size:2vmin;" href="mailto:{{ site.Params.email }}"><i
-                class="ti-email text-primary mr-2" ></i> {{ site.Params.email }}</a></li>          
+          <li class="mb-3" style="font-size:1.5vh;"><a  href="mailto:{{ site.Params.email }}"><i
+                class="ti-email" ></i> {{ site.Params.email }}</a></li>          
         </ul>        
       </div>
       <div class="col-md-2 col-sm-6">
-        <h5 class="white font-weight-medium mb-4 light" style="font-size:2vmin;">TIENDA</h5>
-        <a><i class="ti-location-pin text-primary mr-2" style="font-size:2vmin;"></i> {{ site.Params.location }} </a>
+        <h5 class="text-primary font-weight-medium mb-4 light" style="font-size:1.5vh;">TIENDA</h5>
+        <a style="font-size:1.5vh;"><i class="ti-location-pin text-primary mr-2" style="font-size:2vmin;"></i> {{ site.Params.location }} </a>
       </div>   
       <div class="col-md-2 col-sm-6">
-        <h5 class="white font-weight-medium mb-4 light" style="font-size:2vmin;">SÍGUENOS</h5>
+        <h5 class="text-primary font-weight-medium mb-4 light" style="font-size:1.5vh;">SÍGUENOS</h5>
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-dark"></i></a></li>
+          <li class="list-inline-item"><a style="font-size:1.5vh;" href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-primary"></i></a></li>
           {{ end }}
         </ul>
       </div>  
       <div class="col-md-2 col-sm-6">
-        <h5 class="white font-weight-medium mb-4 light" style="font-size:2vmin;">CALIDAD VIÑALS GOURMET</h5>
+        <h5 class="text-primary font-weight-medium mb-4 light" style="font-size:1.5vh;">CALIDAD VIÑALS GOURMET</h5>
         <img src="{{ site.Params.benestar_animal | absURL }}" class="img-fluid"> 
       </div>   
     </div>
     <div class="row">
-      <div class="col-12 text-center py-4" style="font-size:1vmin;">
+      <div class="col-12 text-center py-4" style="font-size:1.5vh;">
         {{ site.Params.copyright | markdownify  }}
       </div>
     </div>
