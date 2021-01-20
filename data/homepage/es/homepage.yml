@@ -6,6 +6,8 @@ banner:
   content : "Todo lo que siempre has querido saber sobre la nueva generación de carnes"
   image : "images/banner.jpg"
   image2 : "images/banner.jpg"
+  image3: "images/Slide 1.jpg"
+  image4: "images/Slide 2.jpg"
   # button
   #button:
     #enable : true
