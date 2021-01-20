@@ -1,9 +1,15 @@
 ---
-title: "Viñals Gourmet"
+title: "Viñals"
+subtitle: "Gourmet"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 description : "this is a meta description"
 image: "images/vinals/VGourmet.jpg"
+image2: "images/vinals/intro.jpg"
+image3: "images/vinals/favicon.png"
+image4: "images/vinals/origen.jpg"
+content2: "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales"
+content3: "VG tiene la fuerza y garantía de formar parte del grupo cárnico Viñals Soler, con más de 110 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución. Podemos garantizar tener la mejor carne nacional de ternera certificada y tenemos la certeza que nunca fallaremos."
 ---
 #### En Viñals Gourmet, nos apasiona la gastronomía y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales.
 

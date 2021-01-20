@@ -5,24 +5,44 @@ banner:
   subtitle: " de la que todo el mundo habla"
   content : "Todo lo que siempre has querido saber sobre la nueva generación de carnes"
   image : "images/banner.jpg"
+  image2 : "images/banner.jpg"
   # button
-  button:
-    enable : true
-    label : "Productos"
-    link : "productes"
+  #button:
+    #enable : true
+    #label : "Productos"
+    #link : "productes"
   # demo video
-  video:
-    enable : false
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+  #video:
+    #enable : false
+    #videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"#
+
+############################ Soluciones Genericas ##########################
+sg:
+  enable : true
+  title : "Soluciones"
+  subtitle: "genéricas"
+  content: "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos"
 
 ########################## About ##############################
 about:
   enable : true
   title : "De Origen"
-  subtitle: " ECO/BIO"
+  subtitle: "&"
+  subtitle2: "ECO/BIO"
   content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes
    a través de soluciones gastronómicas únicas y diferenciales"
-  image : "images/about.jpg"
+  image : "images/intro.jpg"
+
+
+############################ Soluciones vegan ##########################
+vegan:
+  enable : true
+  title : "Solución"
+  subtitle: "Green Vegan"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  content2 : "Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas por que se prohíbe el uso de productos químicos."     
+  image : "images/banner.jpg"
+  image2: "images/healthy.png"
 
 
 ###################### Call to action ########################
@@ -62,13 +82,13 @@ material:
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
-########################### Advantage #########################
-advantage:
+########################### 5 gama #########################
+gama:
   enable : true
   title : "Complementos"
   subtitle: " 5ª Gama"
   content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son la base de nuestra propuesta de valor"
-  image : "images/5gama.jpg"
+  image : "images/productes/5gama.jpg"
   advantageList:
     # advantage list loop
     - listItem : ""

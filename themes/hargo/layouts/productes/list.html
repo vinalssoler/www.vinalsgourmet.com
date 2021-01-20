@@ -11,8 +11,8 @@
   <div class="row justify-content-center">
     <div class="col-4 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
     
@@ -36,8 +36,8 @@
   <div class="row justify-content-center">
     <div class="col-4 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
     <div class="col-7 align-self-center">
@@ -78,8 +78,8 @@
     </div>
     <div class="col-4 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
     </div>
     <div class="col-7 align-self-center">
@@ -103,8 +103,8 @@
     <img src="{{ .image1 | absURL }}" class="card-img-top border-0 wow fadeIn">    
     <div class="col-6 justify-content-right">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
@@ -134,14 +134,14 @@
     </div>
     <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
       <div class="card-body text-left">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>                            
         <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
       </div>      
     </div>
   </div>  
 </section>
-<section class="section-sm"/>
+<section class="section-sm">
 {{ end }}
 {{ end }}
 <!-- /km0 -->
@@ -149,16 +149,20 @@
 <!-- vegan -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.vegan }}
-<section class="section pb-0 overlay" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
-  <div class="row justify-content-center">        
+<section class="section pb-0">
+  <div class="container overlay" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
+  <div class="row justify-content-center " >        
     <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
       <div class="card-body text-left"></div>     
-        <h1 class="text-white font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <h1 class="text-white font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>                            
         <p class="text-white" style="font-size:2vmin;">{{ .content | markdownify }}</p>
+        <BR>
+        <p class="text-white" style="font-size:2vmin;">{{ .content2 | markdownify }}</p>
       </div>      
     </div>
   </div>
+</div>
 </section>
 {{ end }}
 {{ end }}
@@ -171,8 +175,8 @@
   <div class="row">
     <div class="col d-flex align-self-end justify-content-center wow fadeInLeft">
       <div class="card-body text-right">
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <h1 class="text-primary font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
     </div>
     <div class="col d-flex align-self-center wow fadeInLeft">

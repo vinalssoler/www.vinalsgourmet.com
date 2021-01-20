@@ -2,7 +2,7 @@
 intro:
   enable : true
   title : "Productos"
-  subtitle: "Viñals Gourmet"
+  subtitle: "Soluciones"
   content : "En Viñals Gourmet, nos apasiona la gastronomía y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales."  
   image : "images/productes/intro.jpg"
   
@@ -37,8 +37,8 @@ generica:
 ############################ Soluciones de Origen ##########################
 origen:
   enable : true
-  title : "Solución"
-  subtitle: "Origen"
+  title : "Soluciones"
+  subtitle: " de Origen"
   content : "En Vg traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
 
 Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
@@ -47,7 +47,7 @@ Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o
 ############################ Soluciones Eco Bio ##########################
 eco:
   enable : true
-  title : "Solución"
+  title : "Soluciones"
   subtitle: "Eco & Bio"
   content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
 
@@ -59,7 +59,7 @@ Estos productos, también denominados biológicos o orgánicos, se elaboran a pa
 ############################ Soluciones Km0 ##########################
 km0:
   enable : true
-  title : "Solución"
+  title : "Soluciones"
   subtitle: "KM0"
   content : "Para buscar la excelencia en el producto, creamos nuestra marca V1906 la Cerdanya. Podemos ofrecer ternera de proximidad y de gran calidad de nuestras granjas de la Cerdanya, con el compromiso y cuidado al animal, y respeto al medio ambiente. 
 
