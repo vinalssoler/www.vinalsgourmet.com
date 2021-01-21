@@ -3,8 +3,8 @@
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.banner }}
 <section>
-<div class="carousel slide" data-ride="carousel" style="margin-bottom: 1vw;margin-top:-1vw;">
-        <div class="carousel-item active">
+<div class="carousel slide" data-ride="carousel">
+        <div class="carousel-item active"  data-interval="2700">
         <img src="{{ .image3 | absURL}}" class="d-block w-100" alt="First slider">
       </div>
       <div class="carousel-item">
