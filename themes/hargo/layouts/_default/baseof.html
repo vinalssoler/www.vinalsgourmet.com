@@ -2,9 +2,14 @@
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
   {{- partial "head.html" . -}}
   <body>
+   
     {{- partial "preloader.html" . -}}
     {{- partial "header.html" . -}}
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
+    {{ partial "cookie-notice.html" }}
+    
+  
   </body>
+  
 </html>
