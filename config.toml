@@ -214,10 +214,13 @@ horarioES = "Lunes - Jueves 9:00 - 17:00, Viernes 9:00 - 13:00"
 horarioCAT = "Dilluns - Dijous 9:00 - 17:00, Divendres 9:00 - 13:00"
 location = "HORTA, 6 08750, Molins de Rei (BARCELONA)"
 # copyright
-copyright = "©2020 Viñals Gourmet. Todos los derechos reservados. Términos y condiciones de uso | Política de privacidad | Cookies | Contacto"
-# Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "€"
+copyright = "©2021 Viñals Gourmet. Todos los derechos reservados."
+copyrightLink = "copyright"
+termsLink = "terms"
+policyLink = "policy"
+cookiesLink = "cookies"
+contactLink = "contact"
+
 
   # Preloader
   [params.preloader]
