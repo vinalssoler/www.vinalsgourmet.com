@@ -3,9 +3,14 @@
   {{- partial "head.html" . -}}
   {{- partial "cookie-consent.html" . -}}
   <body>
+   
     {{- partial "preloader.html" . -}}
     {{- partial "header.html" . -}}
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
+    {{ partial "cookie-notice.html" }}
+    
+  
   </body>
+  
 </html>

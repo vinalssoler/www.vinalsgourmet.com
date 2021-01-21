@@ -45,6 +45,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/slick/slick.css"
   [[params.plugins.css]]
   link = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  link = "plugins/my_js/cookie.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -57,6 +59,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/slick/slick.min.js"
   [[params.plugins.js]]
   link = "plugins/google-map/gmap.js"
+  [[params.plugins.js]]
+  link = "plugins/my_js/cookie.js"
 
 
 
