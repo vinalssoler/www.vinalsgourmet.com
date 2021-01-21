@@ -18,14 +18,14 @@
       </div>
       <div class="col-md-2 col-sm-6">
         <h5 class="text-color font-weight-medium mb-4 light" style="font-size:1.5vh;">TIENDA</h5>
-        <a style="font-size:1.5vh;"><i class="ti-location-pin text-primary mr-2" style="font-size:2vmin;"></i> {{ site.Params.location }} </a>
+        <a style="font-size:1.5vh;"><i class="ti-location-pin text-color mr-2" style="font-size:2vmin;"></i> {{ site.Params.location }} </a>
       </div>   
       <div class="col-md-2 col-sm-6">
         <h5 class="text-color font-weight-medium mb-4 light" style="font-size:1.5vh;">SÍGUENOS</h5>
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a style="font-size:1.5vh;" href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-primary"></i></a></li>
+          <li class="list-inline-item"><a style="font-size:1.5vh;" href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-color"></i></a></li>
           {{ end }}
         </ul>
       </div>  
