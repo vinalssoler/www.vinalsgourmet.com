@@ -35,8 +35,12 @@
       </div>   
     </div>
     <div class="row">
-      <div class="col-12 text-center py-4" style="font-size:1.5vh;">
-        {{ site.Params.copyright | markdownify  }}
+      <div class="col-12 text-center py-4">
+        <a style="font-size:1.2vh;" href="{{.Site.Params.copyrightLink | relLangURL }}">{{ site.Params.copyright | markdownify  }}</a>
+        <a style="font-size:1.2vh;" href="{{.Site.Params.termsLink | relLangURL }}">| Términos y condiciones de uso </a>
+        <a style="font-size:1.2vh;" href="{{.Site.Params.policyLink | relLangURL }}">| Política de privacidad </a>
+        <a style="font-size:1.2vh;" href="{{.Site.Params.cookiesLink | relLangURL }}">| Cookies </a>
+        <a style="font-size:1.2vh;" href="{{.Site.Params.contactLink | relLangURL }}">| Contacto</a>        
       </div>
     </div>
   </div>
