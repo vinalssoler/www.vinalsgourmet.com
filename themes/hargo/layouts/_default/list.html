@@ -8,7 +8,8 @@
           <h2>{{ .Title }}</h2>          
           <!--<img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">-->
           <div class="content">
-            <p class="text-color-dark font-weight-medium mb-4" style="font-size:2vh; ">{{.Content}}</p>
+            <p class="text-dark" style="font-size:2vmin;">{{ .Content | markdownify }}</p>
+            <p class="text-color-dark mb-4" style="font-size:2vh; ">{{.Content}}</p>
           </div>
         </article>
       </div>
