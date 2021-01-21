@@ -14,7 +14,7 @@ Es cualquier tipo de archivo o dispositivo que se descarga en el ordenador, tabl
 Para qué sirven las cookies?
 
 Las cookies nos ayudan a conocer las preferencias de nuestros usuarios y mejorar la calidad del servicio de nuestra página web.
-Nuestros sitios también pueden tener enlaces de redes sociales (como Facebook o Twitter), en caso de que visites estas páginas, te informamos que Bon Preu, SAU no controla las cookies utilizadas por estos webs externos. Para más información sobre las cookies de las redes sociales u otras webs ajenos, aconsejamos que revises sus propias políticas de cookies.
+Nuestros sitios también pueden tener enlaces de redes sociales (como Facebook o Twitter), en caso de que visites estas páginas, te informamos que Viñals Gourmet no controla las cookies utilizadas por estos webs externos. Para más información sobre las cookies de las redes sociales u otras webs ajenos, aconsejamos que revises sus propias políticas de cookies.
 
 Qué cookies utiliza nuestra página web y cuál es su finalidad?
 
