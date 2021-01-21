@@ -55,6 +55,6 @@ En relación a la gestión de los servicios, los datos de los Usuarios podrán s
 
 El Titular no cederá sus datos a terceras personas en ningún caso.
 
-**Confidencialidad
+**Confidencialidad**
 
 Además, también tendrá la condición de confidencial la información de cualquier tipo que las partes intercambien entre sí, aquella que éstas acuerden que tiene tal naturaleza, o la que simplemente verse sobre el contenido de dicha información. La visualización de datos a través de Internet, no supondrá el acceso directo a los mismos, salvo consentimiento expreso de su titular para cada ocasión.
