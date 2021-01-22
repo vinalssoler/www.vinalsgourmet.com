@@ -23,6 +23,15 @@
   padding: 10px 30px;
 }
 
+.toTop {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: hsla(5, 76%, 62%, .8)
+}
+
 .btn-primary {
   background: $primary-gradient;
   color: $white;

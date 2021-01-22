@@ -47,6 +47,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/themify-icons/themify-icons.css"
   [[params.plugins.css]]
   link = "plugins/my_js/cookie.css"
+  [[params.plugins.css]]
+  link = "plugins/Top/top.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -61,6 +63,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/google-map/gmap.js"
   [[params.plugins.js]]
   link = "plugins/my_js/cookie.js"
+  [[params.plugins.js]]
+  link = "plugins/Top/top.js"
 
 
 
