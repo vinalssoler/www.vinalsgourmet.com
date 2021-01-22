@@ -1,11 +1,22 @@
 body {
-	background-color: #3498db;
-	color: #ecf0f1;
+	background-color: #ec1e1e;
+    color: #0b037e;
+    
 }
 
 .back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-}
+   
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  
