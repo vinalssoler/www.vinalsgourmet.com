@@ -13,9 +13,9 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- Soluciones genericas -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.sg }}
+<!-- generica -->
+{{ with index .Site.Data.productes .Site.Language.Lang }}
+{{ with .productes.generica }}
 <section>
   <div class="row justify-content-center">
     <div class="col-4 justify-content-right">
@@ -32,32 +32,25 @@
       </div>
     </div>
   </div>
-</section>
-{{ end }}
-{{ end }}
-
-<!-- material -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.material }}
-<section>
   <div class="container">
   <div class="row">
-    {{ range .materialItem }}
-    <div class="col-lg-3 col-md-4 col-sm-6 align-items-center">
+    {{ range .producteItem }}
+    <div class="col-lg-3 col-md-5 col-sm-6 align-items-center">
       <div class="card border-0 text-center wow fadeIn">
-        <div class="card-body align-items-center">
-          <img src="{{ .image | absURL }}" class="card-img-top border-0">
-          <h3 class="text-color font-weight-bold" style="font-size:2vw;">{{ .title | markdownify }}</h3>
+        <div class="card-body align-items-center" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw;">
+          <!--<img src="{{ .image | absURL }}" class="img-fluid card-img-top border-0">-->
+          <h3 class="text-color font-weight-bold" style="font-size:2vw;margin-bottom: 5vw;margin-top: 5vw;">{{ .title | markdownify }}</h3>
         </div>
       </div>
     </div>
     {{ end }}
   </div>
-</div>
+  </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /material -->
+
+<!-- /generica -->
 
 
 <!-- De origen -->
