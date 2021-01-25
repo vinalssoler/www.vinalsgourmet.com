@@ -146,26 +146,22 @@
       </div>      
     </div>
   </div>  
+  <br><br>
+  <div class="container overlay " style="background:transparent url('{{ .image2 | absURL }}') center center no-repeat;background-size: cover">
+    <div class="row justify-content-center">        
+      <div class="col-6 align-self-start align-self-start wow fadeIn" style="margin-bottom: 5vw;margin-top: 5vw;"> 
+        <div class="card-body text-left"></div>  
+        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>     
+          <h1 class="text-white" style="font-size:2vmin;">{{ .content | markdownify }}</h1>
+        </div>      
+      </div>
+    </div>
 </section>
 <section class="section-sm">
 {{ end }}
 {{ end }}
 
-
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.co2 }}
-<div class="container overlay " style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
-  <div class="row justify-content-center">        
-    <div class="col-6 align-self-start align-self-start wow fadeIn" style="margin-bottom: 5vw;margin-top: 5vw;"> 
-      <div class="card-body text-left"></div>     
-      <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-      <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
-        <h4 class="text-white" style="font-size:2vmin;">{{ .content | markdownify }}</h4>
-      </div>      
-    </div>
-  </div>
-  {{ end }}
-  {{ end }}
 <!-- banner 
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.banner }}

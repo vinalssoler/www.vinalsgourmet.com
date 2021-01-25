@@ -91,6 +91,7 @@ gama:
   subtitle: " 5ª Gama"
   content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son la base de nuestra propuesta de valor"
   image : "images/productes/VG10.jpg"
+  image2: "images/productes/VG4.jpg"
   advantageList:
     # advantage list loop
     - listItem : ""
@@ -157,10 +158,12 @@ testimonial:
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
+
+
       ########################### CO2 #########################
-      co2:
-     enable : true
-    title : "Comprometidos"
-    subtitle: "en reducir el CO2"
-    content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
-      image: "images/VG4.jpg"
+  co2:
+  enable : true
+  title : "Comprometidos"
+  subtitle: "en reducir el CO2"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  image: "images/VG4.jpg"
