@@ -4,10 +4,10 @@
 {{ with .homepage.banner }}
 <section>
 <div class="carousel slide" data-ride="carousel" data-interval="6000">
-        <div class="carousel-item active" style="background:transparent url('{{ .image3 | absURL }}') center center no-repeat;background-size: cover">
+        <div class="carousel-item active" style="height: 50vh;background:transparent url('{{ .image3 | absURL }}') center center no-repeat;background-size: cover">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
       </div>
-      <div class="carousel-item" style="background:transparent url('{{ .image4 | absURL }}') center center no-repeat;background-size: cover">
+      <div class="carousel-item" style="height: 50vh;background:transparent url('{{ .image4 | absURL }}') center center no-repeat;background-size: cover">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>     
 </div>
 </div>
