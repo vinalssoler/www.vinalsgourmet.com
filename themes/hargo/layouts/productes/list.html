@@ -4,26 +4,24 @@
 <!-- intro -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.intro }}
-<section>
-  <div class="row justify-content-center">
-    <div class="col-md-10">
-      <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-    </div>
+<section class="section pb-0">
+  <div class="row justify-content-center">      
     <div class="col-4 justify-content-right">
-      <div class="card-body text-right">
+      <div class="card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
       </div>
-    </div>
-    <div class="col-7 align-self-center">
-      <div class="card border-0 text-left wow fadeInRight">
+      <div class="card border-0 text-left wow fadeIn">
         <div class="card-body">
           <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-        </div> 
+        </div>
       </div>
     </div>
-    
-  </div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image2| absURL }}" class="card-img-top border-0">
+      </div>
+    </div>
 </section>
 {{ end }}
 {{ end }}
@@ -73,9 +71,7 @@
 {{ with .productes.origen }}
 <section class="section pb-0">
   <div class="row justify-content-center">
-    <div class="card border-0 wow fadeIn">
-      <img src="{{ .image | absURL }}" class="card-img-top border-0">
-    </div>
+    
     <div class="col-4 justify-content-right">
       <div class="card-body text-right">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
@@ -88,6 +84,9 @@
           <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
         </div>
       </div>
+    </div>
+    <div class="card border-0 wow fadeIn">
+      <img src="{{ .image3 | absURL }}" class="card-img-top border-0">
     </div>
   </div>
 </section>

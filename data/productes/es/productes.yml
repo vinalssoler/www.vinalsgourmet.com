@@ -5,6 +5,8 @@ intro:
   subtitle: "Soluciones"
   content : "En Viñals Gourmet, nos apasiona la gastronomía y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales."  
   image : "images/productes/intro.jpg"
+  image2: "images/productes/VG9.jpg"
+  
   
 
 ############################ Soluciones Genéricas ##########################
@@ -43,6 +45,7 @@ origen:
 
 Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
   image : "images/productes/origen.jpg"  
+  image3: "images/productes/VG7.jpg"
 
 ############################ Soluciones Eco Bio ##########################
 eco:
