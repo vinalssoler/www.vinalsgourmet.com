@@ -90,7 +90,7 @@ gama:
   title : "Complementos"
   subtitle: " 5ª Gama"
   content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son la base de nuestra propuesta de valor"
-  image : "images/productes/5gama.jpg"
+  image : "images/productes/VG10.jpg"
   advantageList:
     # advantage list loop
     - listItem : ""
