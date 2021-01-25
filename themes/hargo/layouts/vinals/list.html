@@ -3,26 +3,24 @@
 {{ partial "page-title.html" . }}
 <!-- mision -->
 
-<section>
-  <div class="row justify-content-center">
-    <div class="col-md-10">
-      <img src="{{ .Params.image2 | absURL}}" class="img-fluid" alt="">
-    </div>
+<section class="section pb-0">
+  <div class="row justify-content-center">      
     <div class="col-4 justify-content-right">
-      <div class="card-body text-right">
+      <div class="card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.subtitle | markdownify }}</a></h1>
       </div>
-    </div>
-    <div class="col-7 align-self-center">
-      <div class="card border-0 text-left wow fadeInRight">
+      <div class="card border-0 text-left wow fadeIn">
         <div class="card-body">
           <p class="text-dark" style="font-size:2vmin;">{{ .Params.content2 | markdownify }}</p>
-        </div> 
+        </div>
       </div>
     </div>
-    
-  </div>
+    <div class="col-6 align-self-center">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .Params.image5| absURL }}" class="card-img-top border-0">
+      </div>
+    </div>
 </section>
 <!-- /mission -->
 
@@ -47,23 +45,59 @@
 
 
 <!-- mision -->
-<section>
+<section class="section pb-0">
+  <div class="container overlay " style="background:transparent url('{{ .Params.image6 | absURL }}') center center no-repeat;background-size: cover">
+  <div class="row justify-content-center">        
+    <div class="col-6 align-self-start align-self-start wow fadeIn" style="margin-bottom: 5vw;margin-top: 5vw;"> 
+      <div class="card-body text-left"></div>     
+        <h1 class="text-white" style="font-size:4vmin;">{{ .Params.content4 | markdownify }}</h1>
+      </div>      
+    </div>
+  </div>
   <div class="row justify-content-center">
-    <div class="col-md-10">
-      <img src="{{ .Params.image4 | absURL}}" class="img-fluid" alt="">
+    <div class="col-2 justify-content-center">
     </div>
-    <div class="col-4 justify-content-right">
+  <div class="col-5 align-self-center">
+    <div class="card border-0 text-left wow fadeInRight">
+      <div class="card-body">
+        <p class="text-dark" style="font-size:2vmin;">{{ .Params.content6 | markdownify }}</p>
+      </div> 
     </div>
-    <div class="col-7 align-self-center">
-      <div class="card border-0 text-left wow fadeInRight">
-        <div class="card-body">
-          <p class="text-dark" style="font-size:2vmin;">{{ .Params.content3 | markdownify }}</p>
-        </div> 
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
+        <h3 class="text-dark font-weight-bold bg-white" style="font-size:3vmin;line-height: 100%;">{{ .Params.content5 | markdownify }}</h3>
+        <h3 class="text-dark font-weight-bold" style="background-color:#faed38; font-size:3vmin;line-height: 100%;">{{ .Params.content5b | markdownify }}</h3>        
       </div>
     </div>
-    
   </div>
+  <div class="row justify-content-center">
+    <div class="col-2 justify-content-center">
+    </div>
+  <div class="col-5 align-self-center">
+    <div class="card border-0 text-left wow fadeInRight">
+      <div class="card-body">
+        <p class="text-dark" style="font-size:2vmin;">{{ .Params.content7 | markdownify }}</p>
+        
+        <p class="text-dark" style="font-size:2vmin;">{{ .Params.content8 | markdownify }}</p>
+      </div> 
+    </div>
+  </div>
+</div>
 </section>
+<!-- mision -->
+
+
+
+
+
+
+
+
+
+
+
 
 {{ partial "cta.html" . }}
 {{ end }}
