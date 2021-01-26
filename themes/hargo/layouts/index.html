@@ -93,15 +93,18 @@
       {{ range .producteItem }}
       <div class="col-lg-3 col-md-5 col-sm-6 align-items-center">
         <div class="card border-0 text-center wow fadeIn">
-          <div class="card-body align-items-center" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw;">
+          <div class="card-body align-items-center"
+            style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw;">
             <!--<img src="{{ .image | absURL }}" class="img-fluid card-img-top border-0">-->
-            <h3 class="text-color font-weight-bold btn" style="font-size:2vw;margin-bottom: 5vw;margin-top: 5vw; background: #94C83D; color: #171D23; opacity:0.8">{{ .title | markdownify }}</h3>
+            <h3 class="text-color font-weight-bold btn"
+              style="font-size:2vw;margin-bottom: 5vw;margin-top: 5vw; background: #94C83D; color: #171D23; opacity:0.8">
+              {{ .title | markdownify }}</h3>
           </div>
         </div>
       </div>
       {{ end }}
     </div>
-    </div>
+  </div>
 </section>
 {{ end }}
 {{ end }}
@@ -124,9 +127,9 @@
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
           <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-        </div> 
+        </div>
       </div>
-    
+
     </div>
     <div class="col-md-10">
       <img src="{{ .image | absURL}}" class="img-fluid" alt="">
@@ -152,9 +155,9 @@
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
           <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-        </div> 
+        </div>
       </div>
-    
+
     </div>
     <div class="col-md-10">
       <img src="{{ .image2 | absURL}}" class="img-fluid" alt="">
@@ -168,18 +171,18 @@
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.gama }}
 <section class="section pb-0">
-  <div class="row justify-content-center">    
+  <div class="row justify-content-center">
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
         <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
-      </div>      
+      </div>
     </div>
-    <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
+    <div class="col-6 align-self-start align-self-start wow fadeInRight">
       <div class="card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>                            
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
         <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-      </div>      
+      </div>
     </div>
   </div>  
   <br><br>
@@ -195,10 +198,10 @@
     </div>
 </section>
 <section class="section-sm">
-{{ end }}
-{{ end }}
+  {{ end }}
+  {{ end }}
 
-<!-- banner 
+  <!-- banner 
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.banner }}
 <section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
@@ -222,7 +225,7 @@
 {{ end }}
  /banner -->
 
-<!-- about
+  <!-- about
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.about }}
 <section class="section" style="background:transparent url('{{ .image | absURL }}') center left no-repeat">
@@ -241,14 +244,14 @@
 {{ end }}
 {{ end }}
  /about -->
-<!--
+  <!--
 {{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 -->
 
 
-<!-- productes 
+  <!-- productes 
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.products }}
 <section class="section pb-0">
@@ -294,31 +297,31 @@
 
 
 
-<!-- mailing -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.mailing }}
-<section class="section pb-0">  
+  <!-- mailing -->
+  {{ with index .Site.Data.homepage .Site.Language.Lang }}
+  {{ with .homepage.mailing }}
+  <section class="section pb-0">
     <div class="row align-items-center" style="background-color:#eaf4da">
       <div class="col-md-6">
         <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-      </div> 
+      </div>
       <div class="col-lg-4 col-md-2  justify-content-center">
         <h2 class="font-weight-bold mb-4">{{ .content | markdownify }}</h2>
-        <form action="{{ site.Params.contact.formAction }}" method="POST">         
-          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">          
+        <form action="{{ site.Params.contact.formAction }}" method="POST">
+          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">
           <button type="submit" value="send" class="btn btn-block btn-outline-text-color rounded">{{ .send | markdownify }}</button>
         </form>
-        <br/><br/>
-      </div>         
+        <br /><br />
+      </div>
     </div>
-</section>
+  </section>
 
-{{ end }}
-{{ end }}     
-<!-- /mailing -->
+  {{ end }}
+  {{ end }}
+  <!-- /mailing -->
 
-{{ if site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
+  {{ if site.Data.homepage.cta.enable }}
+  {{ partial "cta.html" . }}
+  {{ end }}
 
-{{ end }}
+  {{ end }}

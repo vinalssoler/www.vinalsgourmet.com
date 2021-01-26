@@ -1,0 +1,87 @@
+############################ intro ##########################
+intro:
+  enable : true
+  title : "Vacuno"
+  subtitle: "Soluciones"
+  content : "En Viñals Gourmet, nos apasiona la gastronomía y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales."  
+  image : "images/productes/intro.jpg"
+  image2: "images/productes/VG9.jpg"
+  
+  
+
+############################ Soluciones Genéricas ##########################
+generica:
+  enable : true
+  title : "Solución"
+  subtitle : " Genérica"
+  content: "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos. De la granja a la cadena de distribución ofrecemos las mejores soluciones con máxima calidad."
+  producteItem:
+    # Producte generic 1
+    - title : "Vacuno"
+      image : "images/material/material-1.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 2
+    - title : "Ovino"
+      image : "images/material/material-2.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 3
+    - title : "Pollo"
+      image : "images/material/material-3.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 4
+    - title : "Cerdo"
+      image : "images/material/material-4.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
+############################ Soluciones de Origen ##########################
+origen:
+  enable : true
+  title : "Soluciones"
+  subtitle: " de Origen"
+  content : "En Vg traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
+
+Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
+  image : "images/productes/origen.jpg"  
+  image3: "images/productes/VG7.jpg"
+
+############################ Soluciones Eco Bio ##########################
+eco:
+  enable : true
+  title : "Soluciones"
+  subtitle: "Eco & Bio"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
+
+Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas porqué se prohíbe el uso de productos químicos. "  
+  image1 : "images/productes/healthy.png"
+  image2 : "images/productes/eco.jpg"
+  
+
+############################ Soluciones Km0 ##########################
+km0:
+  enable : true
+  title : "Soluciones"
+  subtitle: "KM0"
+  content : "Para buscar la excelencia en el producto, creamos nuestra marca V1906 la Cerdanya. Podemos ofrecer ternera de proximidad y de gran calidad de nuestras granjas de la Cerdanya, con el compromiso y cuidado al animal, y respeto al medio ambiente. 
+
+Fruto de este trabajo, nuestro entrecot ganó en 2019 el premio del International Taste Institute al mejor gusto de Europa."  
+  image : "images/productes/km0.jpg"  
+
+############################ Soluciones vegan ##########################
+vegan:
+  enable : true
+  title : "Solución"
+  subtitle: "Green Vegan"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  content2 : "Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas por que se prohíbe el uso de productos químicos."     
+  image : "images/banner.jpg"
+
+############################ Soluciones Restauración ##########################
+restauracion:
+  enable : true
+  title : "Solución"
+  subtitle: "Restauración"
+  content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto si no que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
+  image : "images/productes/VG10.jpg"
