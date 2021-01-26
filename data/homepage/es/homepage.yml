@@ -2,12 +2,15 @@
 banner:
   enable : true
   title : "La revolución de la carne"
-  subtitle: " de la que todo el mundo habla"
-  content : "Todo lo que siempre has querido saber sobre la nueva generación de carnes"
+  subtitle: " de la que todo el mundo"
+  subtitle2: " habla"
+  content : "Todo lo que siempre has querido saber"
+  content2 : "sobre la nueva generación de carnes"
+  content3 : "SOLO EN VIÑALS GOURMET"
   image : "images/banner.jpg"
   image2 : "images/banner.jpg"
-  image3: "images/Slide 1.jpg"
-  image4: "images/Slide 2.jpg"
+  image3: "images/Slide 1b.jpg"
+  image4: "images/Slide 2b.jpg"
   image5: "images/VG1.jpg"
   image6: "images/VG2.jpg"
   # button
