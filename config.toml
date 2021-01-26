@@ -80,6 +80,12 @@ enableMissingTranslationPlaceholders = true
   name = "Productos"
   URL = "productes"
   weight = 3
+  HasChildren = true
+
+    [[Languages.es.menu.main]]
+    parent = "Productos"
+    name = "Vacuno"
+    URL = "productes/vacuno"
 
   [[languages.es.menu.main]]
   name = "Misión"
