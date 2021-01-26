@@ -23,15 +23,15 @@
         <i class="ti-menu"></i>
       </button>
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">          
-          <li class="nav-item">            
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
             <a class="nav-link" href="{{.Site.BaseURL | relLangURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
           </li>
           {{ range site.Menus.main }}
-          {{ if .HasChildren }}          
+          {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ .Name }} <span class="ion-ios-arrow-down"></span>
+              {{ .Name }}
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
@@ -39,9 +39,8 @@
               {{ end }}
             </div>
           </li>
-          {{ else }}          
+          {{ else }}
           <li class="nav-item">
-            <a>item</a>
             <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
