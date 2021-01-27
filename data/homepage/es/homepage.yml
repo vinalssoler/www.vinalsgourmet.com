@@ -53,8 +53,8 @@ about:
   title : "De Origen"
   subtitle: "&"
   subtitle2: "ECO/BIO"
-  content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes
-   a través de soluciones gastronómicas únicas y diferenciales"
+  content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado "
+  content2 : " un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales"
   image : "images/VGourmet.jpg"
 
 
@@ -112,7 +112,8 @@ gama:
   enable : true
   title : "Complementos"
   subtitle: " 5ª Gama"
-  content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son la base de nuestra propuesta de valor"
+  content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son"
+  content2 : "la base de nuestra propuesta de valor"
   image : "images/productes/VG10C.jpg"
   image2: "images/productes/VG4.jpg"
   advantageList:
