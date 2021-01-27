@@ -66,17 +66,17 @@
     {{ range .imatges }}
     <div class="col-lg-4 col-md-4 col-sm-6">
       <div class="card border-0 justify-content-center align-items-center">
-        <img src="{{ .image | absURL }}" class="card-img-top border-0" style="width:150px">        
+        <img src="{{ .image | absURL }}" class="card-img-top border-0" style="width:50%">        
       </div>
     </div>    
     {{ end }}
   </div>  
-  <div class="row section" >
+  <div class="row section-sm" >
     {{ range .textes }}
     <div class="col-lg-4 col-md-4 col-sm-6">
-      <div class="card border-1 justify-content-center align-items-top ">        
+      <div class="card border-0 justify-content-center align-items-top " style="height: 25vh;margin-top: 3vh;">        
         <div class="card-body shadow">
-          <p class="text-dark font-weight-bold bg-white">{{ .title | markdownify }}</p>
+          <p class="text-dark font-weight-bold text-center">{{ .title | markdownify }}</p>
           <p class="text-dark wow fadeInDown" style="font-size:0.8vw;">{{ .content | markdownify }}</p>                    
         </div>
       </div>
