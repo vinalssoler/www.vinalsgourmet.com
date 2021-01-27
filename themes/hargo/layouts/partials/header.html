@@ -1,20 +1,20 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation sticky-top">
-  <div class="row" style="background: #171D23; height: 3vh">
+  <div class="row align-text-top" style="background: #171D23; height: 20px">
     <div class="col">
-      <a class="text-white font-size-small font-weight-normal align-text-top" style="font-size:1.3vmin;"
+      <a class="text-white font-size-small align-text-top" style="font-size:1vh"
         href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
-      <a class="text-white font-size-small font-weight-normal align-text-top" style="font-size:1.3vmin;"
+      <a class="text-white font-size-small font-weight-normal align-text-top" style="font-size:1vh"
         href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
-      <a class="text-white font-size-small font-weight-normal align-text-top"
-        style="font-size:1.3vmin;">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
+      <a class="text-white font-size-small align-text-top"
+        style="font-size:1vh">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
     </div>
-    <div class="col-2 justify-content-right align-text-top">
+    <div class="col-2">
       <!-- Social Icons -->
       <ul class="list-inline">
         {{ range site.Params.social }}
         <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i
-              class="{{ .icon }} text-white font-weight-bold align-text-top" style="font-size:2vmin;"></i></a></li>
+              class="{{ .icon }} text-white font-weight-bold align-text-top" style="font-size:1vh"></i></a></li>
         {{ end }}
       </ul>
     </div>

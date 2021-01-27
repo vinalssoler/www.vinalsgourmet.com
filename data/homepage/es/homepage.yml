@@ -7,9 +7,10 @@ banner:
   content : "Todo lo que siempre has querido saber"
   content2 : "sobre la nueva generación de carnes"
   content3 : "SOLO EN VIÑALS GOURMET"
-  image1 : "images/slide1.jpg"
-  image2 : "images/slide2.jpg"
-  image3 : "images/slide3.jpg"  
+  slide1 : "images/slide1.jpg"
+  slide2 : "images/slide2.jpg"   
+  slide3 : "images/slide3.jpg"  
+
   # button
   #button:
     #enable : true
