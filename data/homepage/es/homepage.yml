@@ -38,18 +38,19 @@ about:
   subtitle2: "ECO/BIO"
   content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes
    a través de soluciones gastronómicas únicas y diferenciales"
-  image : "images/intro.jpg"
+  image : "images/VGourmet.jpg"
 
 
 ############################ Soluciones vegan ##########################
 vegan:
   enable : true
-  title : "Solución"
+  title : "Soluciones"
   subtitle: "Green Vegan"
   content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
   content2 : "Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas por que se prohíbe el uso de productos químicos."     
   image : "images/banner.jpg"
   image2: "images/healthy.png"
+  image2: "images/healthy2.png"
 
 
 ###################### Call to action ########################
