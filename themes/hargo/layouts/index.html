@@ -18,7 +18,7 @@
   <div class="carousel slide" data-ride="carousel" data-interval="6000">
     <div class="carousel-item active">
       <div class="row">        
-        <div class="col overlay" style="background:transparent url('{{ .image3 | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw"/>        
+        <div class="col overlay" style="background:transparent url('{{ .image3 | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw">        
         <div>
           <p class="text-white font-weight-bold wow fadeIn" style="font-size:3vmin;margin-left: 2vw;">{{ .content3 | markdownify }}</p>          
           <h1 class="text-color font-weight-bold wow fadeIn" style="font-size:3vw; line-height: 100%;margin-left: 2vw;"><a>{{ .title | markdownify}}</a></h1>
@@ -158,7 +158,7 @@
   <div class="row justify-content-center">    
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
-        <img src="{{ .image | absURL }}" class="col-12 card-img-bottom border-0">
+        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
     <div class="col-6 align-self-start align-self-start wow fadeInRight"> 
@@ -170,7 +170,7 @@
     </div>
   </div>  
   <br><br>
-  <div class="container overlay " style="background:transparent url('{{ .image2 | absURL }}') center center no-repeat;background-size: cover">
+  <div class="col overlay" style="background:transparent url('{{ .image2 | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw">        
     <div class="row justify-content-center">        
       <div class="col-6 align-self-start align-self-start wow fadeIn" style="margin-bottom: 5vw;margin-top: 5vw;"> 
         <div class="card-body text-left"></div>  
@@ -181,7 +181,7 @@
       </div>
     </div>
 </section>
-<section class="section pb-0">
+
 {{ end }}
 {{ end }}
 
