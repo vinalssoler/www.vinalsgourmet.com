@@ -1,45 +1,48 @@
 <footer style="background:#171d23">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between align-items-top">
     <!--<div class="row pb-0 justify-content-between">-->
-      <div class="col-12 text-center section-sm">
+      <div class="col-12 text-center" style="margin-top: 3vh; margin-bottom: 3vh">
         <a href="{{.Site.BaseURL | relLangURL }}"><img src="{{ site.Params.lightlogo | absURL }}" class="img-fluid"
             alt="{{ site.Title }}"></a>
       </div>      
-      <div class="col-md-4 col-sm-6">
-        <h5 class="text-color font-weight-medium mb-4" style="font-size:1.5vh; ">CONTACTO</h5>
+      <div class="col-md-3 col-sm-6">
+        <h5 class="text-color font-weight-medium mb-4" style="font-size:0.6vw; ">CONTACTO</h5>
         <ul class="list-unstyled mb-5">
-          <li class="mb-3" style="font-size:1.5vh;"><a href="tel:{{ site.Params.mobile }}"><i
+          <li class="mb-3" style="font-size:0.6vw;"><a href="tel:{{ site.Params.mobile }}"><i
                 class="ti-mobile"></i>
               {{ site.Params.mobile }}</a></li>
-          <li class="mb-3" style="font-size:1.5vh;"><a  href="mailto:{{ site.Params.email }}"><i
+          <li class="mb-3" style="font-size:0.6vw;"><a  href="mailto:{{ site.Params.email }}"><i
                 class="ti-email" ></i> {{ site.Params.email }}</a></li>          
         </ul>        
       </div>
       <div class="col-md-2 col-sm-6">
-        <h5 class="text-color font-weight-medium mb-4 light" style="font-size:1.5vh;">TIENDA</h5>
-        <a style="font-size:1.5vh;"><i class="ti-location-pin text-primary mr-2" style="font-size:2vmin;"></i> {{ site.Params.location }} </a>
+        <h5 class="text-color font-weight-medium mb-4" style="font-size:0.6vw;">TIENDA</h5>
+        <ul class="list-unstyled mb-5">
+          <li class="mb-3" style="font-size:0.6vw;"><a href="tel:{{ site.Params.mobile }}"><i
+                class="ti-location-pin"></i> {{ site.Params.location }}</a></li>                 
+        </ul>            
       </div>   
       <div class="col-md-2 col-sm-6">
-        <h5 class="text-color font-weight-medium mb-4 light" style="font-size:1.5vh;">SÍGUENOS</h5>
-        <!-- Social Icons -->
-        <ul class="list-inline">
+        <h5 class="text-color font-weight-medium" style="font-size:0.6vw;">SÍGUENOS</h5>
+        <!-- Social Icons HPC123456-->
+        <ul class="list-unstyled">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a style="font-size:1.5vh;" href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-primary"></i></a></li>
+          <li class="list-inline-item"><a class="align-items-top" style="font-size:0.6vw;" href="{{ .link | safeURL }}"><i class="{{ .icon }} btn-icon text-primary"></i></a></li>
           {{ end }}
         </ul>
       </div>  
-      <div class="col-md-2 col-sm-6">
-        <h5 class="text-color font-weight-medium mb-4 light" style="font-size:1.5vh;">CALIDAD VIÑALS GOURMET</h5>
+      <div class="col-md-2 col-sm-6 just-text-center">
+        <h5 class="text-color font-weight-medium mb-4 light" style="font-size:0.6vw;">CALIDAD VIÑALS SOLER</h5>
         <img src="{{ site.Params.benestar_animal | absURL }}" class="img-fluid"> 
       </div>   
     </div>
     <div class="row">
       <div class="col-12 text-center py-4">
-        <a style="font-size:1.2vh;" href="{{.Site.Params.copyrightLink | relLangURL }}">{{ site.Params.copyright | markdownify  }}</a>
-        <a style="font-size:1.2vh;" href="{{.Site.Params.termsLink | relLangURL }}">| Términos y condiciones de uso </a>
-        <a style="font-size:1.2vh;" href="{{.Site.Params.policyLink | relLangURL }}">| Política de privacidad </a>
-        <a style="font-size:1.2vh;" href="{{.Site.Params.cookiesLink | relLangURL }}">| Cookies </a>                
+        <a style="font-size:0.6vw;" href="{{.Site.Params.copyrightLink | relLangURL }}">{{ site.Params.copyright | markdownify  }}</a>
+        <a style="font-size:0.6vw;" href="{{.Site.Params.termsLink | relLangURL }}">| Términos y condiciones de uso </a>
+        <a style="font-size:0.6vw;" href="{{.Site.Params.policyLink | relLangURL }}">| Política de privacidad </a>
+        <a style="font-size:0.6vw;" href="{{.Site.Params.cookiesLink | relLangURL }}">| Cookies </a>                
       </div>
     </div>
   </div>
