@@ -6,17 +6,16 @@
   <div class="row">  
     <div class="col-1"></div>
     <div class="col-4 justify-content-right">
-      <div class="card-body text-left">
+      <div class="card-body justify-content-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.subtitle | markdownify }}</a></h1>
       </div>
       <div class="card border-0 text-left wow fadeIn">
-        <div class="card-body">
+        <div class="card-body justify-content-left">
           <p class="text-dark" style="font-size:1.5vw;">{{ .Params.content2 | markdownify }}</p>
         </div>
       </div>
     </div>
-    <div class="col-1"></div>
     <div class="col-6 justify-content-right">
 
       <div class="card border-0 wow fadeIn">
@@ -69,9 +68,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
-        <h3 class="text-dark font-weight-bold bg-white" style="font-size:3vmin;line-height: 100%;">{{ .Params.content5 | markdownify }}</h3>
-        <h3 class="text-dark font-weight-bold" style="background-color:#faed38; font-size:3vmin;line-height: 100%;">{{ .Params.content5b | markdownify }}</h3>        
-      </div>
+        <h3><a class="text-dark font-weight-bold bg-white" style="font-size:3vmin;line-height: 100%;">{{ .Params.content5 | markdownify }}</a><a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:3vmin;line-height: 100%;">{{ .Params.content5b | markdownify }}</a></h3>      </div>
     </div>
   </div>
   <div class="row justify-content-center">
