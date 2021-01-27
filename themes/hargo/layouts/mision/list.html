@@ -63,17 +63,21 @@
 <section class="section pb-0">
   <div class="container">
   <div class="row">
-    {{ range .llista }}
+    {{ range .imatges }}
     <div class="col-lg-4 col-md-4 col-sm-6">
       <div class="card border-0 justify-content-center align-items-center">
-        <img src="{{ .image | absURL }}" class="card-img-top border-0" style="width:150px">
-        <div class="card-body">
-          <p class="text-dark font-weight-bold bg-white ">{{ .title1 | markdownify }}</p>
-          <p class="text-dark wow fadeInDown" style="font-size:1.5vw;">{{ .content1 | markdownify }}</p>
-          <p class="text-dark font-weight-bold bg-white">{{ .title2 | markdownify }}</p>
-          <p class="text-dark wow fadeInDown" style="font-size:1.5vw;">{{ .content2 | markdownify }}</p>
-          <p class="text-dark font-weight-bold bg-white">{{ .title3 | markdownify }}</p>
-          <p class="text-dark wow fadeInDown" style="font-size:1.5vw;">{{ .content3 | markdownify }}</p>
+        <img src="{{ .image | absURL }}" class="card-img-top border-0" style="width:150px">        
+      </div>
+    </div>    
+    {{ end }}
+  </div>  
+  <div class="row section" >
+    {{ range .textes }}
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="card border-1 justify-content-center align-items-top ">        
+        <div class="card-body shadow">
+          <p class="text-dark font-weight-bold bg-white">{{ .title | markdownify }}</p>
+          <p class="text-dark wow fadeInDown" style="font-size:0.8vw;">{{ .content | markdownify }}</p>                    
         </div>
       </div>
     </div>    
