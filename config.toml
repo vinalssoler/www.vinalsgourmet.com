@@ -202,8 +202,8 @@ enableMissingTranslationPlaceholders = true
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-lightlogo = "images/lightlogo.png"
+logo = "images/logo_vg_dark.svg"
+lightlogo = "images/logo_vg_light.svg"
 benestar_animal = "images/benestar-animal.png"
 home = "Inicio"
 # Meta data
