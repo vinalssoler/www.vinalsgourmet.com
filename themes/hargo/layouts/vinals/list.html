@@ -27,13 +27,14 @@
 
 <!-- VG -->
 <section>
-  <div class="row justify-content-center">
-    <div class="col-2 justify-self-center">
-      <div class="section pb-0 card-body text-right">
+  <div class="row align-items-center">
+    <div class="col-3"></div>
+    <div class="col-2 align-items-center">
+      <div class="text-right">
           <img src="{{ .Params.image3 | absURL}}" class="img-fluid" alt="">
       </div>
     </div>
-    <div class="col-5 align-self-center">
+    <div class="col-5 align-items-center">
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">
           <p class="text-dark" style="font-size:1.5vw;">{{ .Params.content3 | markdownify }}</p>

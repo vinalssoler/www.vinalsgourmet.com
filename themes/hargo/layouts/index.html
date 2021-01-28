@@ -34,6 +34,34 @@
 {{ end }}
 {{ end }}
 {{ end }}
+
+<!-- cabecera -->
+{{ with index .Site.Data.homepage .Site.Language.Lang }}
+{{ with .homepage.cabecera }}
+{{ if .enable }}
+<section class="section-sm pb-0">
+  <div class="row align-items-center">    
+    <div class="col-6">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
+      </div>      
+    </div>
+    <div class="col-4 align-items-center"> 
+      <div class="card-body text-left">
+        <h3><a class="text-dark font-weight-bold" style="font-size:1.6vw; line-height: 100%;">{{ .content3 | markdownify }}</a></h3>
+        <h1>
+          <a class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .title | markdownify }}</a>
+          <a class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a>
+        </h1>                                              
+        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }} {{ .content2 | markdownify }}</a></p>        
+      </div>      
+    </div>
+  </div>  
+  <div class="col-2"></div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
 <!-- Soluciones genericas -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.sg }}

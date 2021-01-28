@@ -1,11 +1,11 @@
 ############################ banner ##########################
 banner:
-  enable : true
+  enable : false
   title : "La revolución de la carne"
   subtitle: " de la que todo el mundo"
   subtitle2: " habla"
   content : "Todo lo que siempre has querido saber"
-  content2 : "sobre la nueva generación de carnes"
+  content2 : " sobre la nueva generación de carnes"
   content3 : "SOLO EN VIÑALS GOURMET"
   slide1 : "images/slide1.jpg"
   slide2 : "images/slide2.jpg"   
@@ -20,6 +20,16 @@ banner:
   #video:
     #enable : false
     #videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"#
+
+############################ capçalera ##########################
+cabecera:
+  enable : true  
+  title : "La revolución de la carne"
+  subtitle: " de la que todo el mundo habla"  
+  content : "Todo lo que siempre has querido saber"
+  content2 : " sobre la nueva generación de carnes"
+  content3 : "SOLO EN VIÑALS GOURMET"
+  image : "images/cabecera.jpg"  
 
 ############################ Soluciones Genericas ##########################
 sg:
