@@ -139,14 +139,12 @@
         <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
-    <div class="col-4 align-items-center"> 
-      <div class="sector pb-0 card-body text-left">
+    <div class="col-6 align-items-center"> 
+      <div class="sector card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
-      </div>
-      <div class="card border-0 text-left wow fadeInRight">
-        <div class="card-body">                          
-        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
+        <p class="wow fadeInRight"><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
+ </div>                        
         </div>
       </div>      
     </div>
@@ -162,18 +160,14 @@
 {{ with .homepage.vegan }}
 {{ if .enable }}
 <section class="section pb-0">
-  <div class="row  align-items-center">    
-    <div class="col-2"></div>
-    <div class="col-4 align-items-center"> 
+  <div class="row align-items-center">    
+    
+    <div class="col-6 align-items-center"> 
       <div class="card-body text-right">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
-      </div>
-      <div class="card border-0 text-left wow fadeInLeft">
-        <div class="card-body text-right">                          
-        <p class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</p>
-        </div>
-      </div>      
+        <p class="text-dark wow fadeInLeft" style="font-size:1.5vw;">{{ .content | markdownify }}</p>
+      </div>    
     </div>
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
@@ -192,26 +186,24 @@
 {{ with .homepage.gama }}
 {{ if .enable }}
 <section class="section pb-0">
-  <div class="row justify-content-center">    
+  <div class="row align-items-center">    
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
         <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
-    <div class="col-4 align-self-start align-self-start"> 
-      <div class="section pb-0 card-body text-left">
+    <div class="col-6 align-items-center"> 
+      <div class="sector card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
-      </div>
-      <div class="card border-0 text-left wow fadeInRight">
-        <div class="card-body">                          
-        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
+        <p class="wow fadeInRight"><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
+ </div>                        
         </div>
       </div>      
     </div>
     <div class="col-2"></div>
   </div>  
-
+</section>
   <br><br>
   <div class="col overlay" style="background:transparent url('{{ .image2 | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw">        
     <div class="row justify-content-center">        

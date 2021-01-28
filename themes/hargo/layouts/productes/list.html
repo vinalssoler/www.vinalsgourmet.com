@@ -5,7 +5,7 @@
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.intro }}
 {{ if .enable }}
-<section class="section">
+<section class="section-sm pb-0">
   <div class="row align-items-center">  
     <div class="col-1"></div>
     <div class="col-4">
@@ -28,7 +28,7 @@
 <!-- generica -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.generica }}
-<section class="section pb-0">
+<section class="section-sm pb-0">
   <div class="row align-items-center">
     <div class="col-4 align-self-center">
       <div class="text-right">
@@ -73,14 +73,14 @@
 <section class="section pb-0">
   <div class="row justify-content-center">
     
-    <div class="col-3 justify-content-right">
-      <div class="card-body text-right">
+    <div class="col-3">
+      <div class="card-body text-center">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
     </div>
     
-    <div class="col-13 card border-0 align-self-center wow fadeIn">
+    <div class="col-12 card border-0 align-self-center wow fadeIn">
       <img src="{{ .image3 | absURL }}" class="card-img-top border-0">
     </div>
     <div class="col-7 align-self-center">
@@ -181,8 +181,8 @@
 {{ with .productes.restauracion }}
 <section class="section pb-0">
   <div class="row justify-content-center">
-    <div class="col-3 justify-content-right">
-      <div class="card-body text-right">
+    <div class="col-3 align-self-center">
+      <div class="card-body text-center">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>        
       </div>
