@@ -1,7 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation sticky-top">  
   <div style="background: #171D23; height: 26px">
-    <div class="container" style="background: #171D23; height: 26px">
+    <div class="container-md" style="margin-left:10vw;margin-right:10vw;background: #171D23; height: 26px">
       <div class="row">
         <div class="col">
           <a class="text-white font-size-small align-text-top" style="font-size:1vh"
@@ -11,7 +11,7 @@
           <a class="text-white font-size-small align-text-top"
             style="font-size:1vh">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
         </div>
-      <div class="col-2">
+      <div class="col text-right">
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
