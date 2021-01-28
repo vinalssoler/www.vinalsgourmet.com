@@ -5,34 +5,26 @@
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.intro }}
 {{ if .enable }}
-<section class="section pb-0">
-  <div class="row">  
+<section class="section">
+  <div class="row align-items-center">  
     <div class="col-1"></div>
-    <div class="col-4 justify-content-right">
-      <div class="card-body text-right">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
-      </div>
-      <div class="card border-0 text-right wow fadeIn">
-        <div class="card-body">
-          <p class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</p>
-        </div>
+    <div class="col-4">
+      <div class="text-left">
+        <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <p class="text-dark " style="font-size:1.5vw;">{{ .content | markdownify }}</p>
       </div>
     </div>
-   
-    <div class="col-6 justify-content-right">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image2| absURL }}" class="card-img-top border-0">
+   <div class=" col-7 card border-0 wow fadeIn">
+        <img src="{{ .image3| absURL }}" class="card-img-top border-0">
       </div>
     </div>
 </section>
 <!-- /mission -->
-<br><br>
-
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
-      <h3><a class="text-dark font-weight-bold bg-white" style="font-size:3vmin;">{{ .content2 | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:3vmin;">{{ .content2b | markdownify }}</a></h3>    </div>
+      <h3><a class="text-dark font-weight-bold bg-white" style="font-size:2vw;">{{ .content2 | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:2vw;">{{ .content2b | markdownify }}</a></h3>    </div>
   </div>
 </div>
 {{ end }}
