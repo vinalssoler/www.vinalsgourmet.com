@@ -109,12 +109,12 @@ material:
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Pollo"
+    - title : "Porcino"
       image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Cerdo"
+    - title : "Aviar"
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
@@ -200,5 +200,5 @@ co2:
   enable : true
   title : "Comprometidos"
   subtitle: "en reducir el CO2"
-  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  content : "Nos importa el medio ambiente, por este motivo VG tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
   image: "images/VG4.jpg"
