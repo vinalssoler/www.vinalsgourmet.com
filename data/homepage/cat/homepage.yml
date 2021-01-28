@@ -1,27 +1,74 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "La revolució de la carn"
-  subtitle: " de la que tothom parla"
-  content : "Tot el que sempre has volgut saber sobre la nova generació de carns"
-  image : "images/banner.jpg"
+  title : "La revolución de la carne"
+  subtitle: " de la que todo el mundo"
+  subtitle2: " habla"
+  content : "Todo lo que siempre has querido saber"
+  content2 : "sobre la nueva generación de carnes"
+  content3 : "SOLO EN VIÑALS GOURMET"
+  slide1 : "images/slide1.jpg"
+  slide2 : "images/slide2.jpg"   
+  slide3 : "images/slide3.jpg"  
+
   # button
-  button:
-    enable : true
-    label : "Productes"
-    link : "productes"
+  #button:
+    #enable : true
+    #label : "Productos"
+    #link : "productes"
   # demo video
-  video:
-    enable : false
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+  #video:
+    #enable : false
+    #videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"#
+
+############################ Soluciones Genericas ##########################
+sg:
+  enable : true
+  title : "Soluciones"
+  subtitle: "genéricas"
+  content: "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos"
+  producteItem:
+    # Producte generic 1
+    - title : "Vacuno"
+      image : "images/material/material-1.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 2
+    - title : "Ovino"
+      image : "images/material/material-2.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 3
+    - title : "Pollo"
+      image : "images/material/material-3.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # Producte generic 4
+    - title : "Cerdo"
+      image : "images/material/material-4.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "De Origen ECO/BIO"
-  content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes
-   a través de soluciones gastronómicas únicas y diferenciales"
-  image : "images/about.jpg"
+  title : "De Origen"
+  subtitle: "&"
+  subtitle2: "ECO/BIO"
+  content : "En Viñals Gourmet, nos apasiona la gastronomia y desde 2006 hemos desarrollado "
+  content2 : " un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales"
+  image : "images/VGourmet.jpg"
+
+
+############################ Soluciones vegan ##########################
+vegan:
+  enable : true
+  title : "Soluciones"
+  subtitle: "Green Vegan"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  content2 : "Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas por que se prohíbe el uso de productos químicos."     
+  image : "images/banner.jpg"
+  image2: "images/healthy.png"
+  image2: "images/healthy2.png"
 
 
 ###################### Call to action ########################
@@ -43,38 +90,41 @@ material:
   materialItem:
     # material item loop
     - title : "Vacuno"
-      image : "images/material/material-1.png"
+      image : "images/material/material-1.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Ovino"
-      image : "images/material/material-2.png"
+      image : "images/material/material-2.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Pollo"
-      image : "images/material/material-3.png"
+      image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
     - title : "Cerdo"
-      image : "images/material/material-4.png"
+      image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
-########################### Advantage #########################
-advantage:
+########################### 5 gama #########################
+gama:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  title : "Complementos"
+  subtitle: " 5ª Gama"
+  content : "La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son"
+  content2 : "la base de nuestra propuesta de valor"
+  image : "images/productes/VG10C.jpg"
+  image2: "images/productes/VG4.jpg"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
+    - listItem : ""
 
 
 ######################## Promo Video ##########################
@@ -93,6 +143,13 @@ products:
   title : "Products List"
   # product item comes from "content/products"
 
+########################### Mailing #########################
+mailing:
+  enable : true
+  title : "Mailing"
+  send: "ENVIAR"
+  content : "Suscríbete y entérate antes que nadie sobre la revolución de la carne"
+  image : "images/mailing.jpg"
 
 ########################## Testimonial ########################
 testimonial:
@@ -126,3 +183,12 @@ testimonial:
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
+
+
+      ########################### CO2 #########################
+  co2:
+  enable : true
+  title : "Comprometidos"
+  subtitle: "en reducir el CO2"
+  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
+  image: "images/VG4.jpg"

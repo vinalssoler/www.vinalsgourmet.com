@@ -44,6 +44,14 @@ a:hover {
   color: $primary-color;
 }
 
+a:link {
+  color: lightgrey;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
 .slick-slide {
   outline: 0;
 }
