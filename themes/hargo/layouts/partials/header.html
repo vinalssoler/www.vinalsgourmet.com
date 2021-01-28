@@ -64,13 +64,13 @@
         <div class="float-right">
           {{ if .Site.IsMultiLingual }}
           {{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
-          <a class="nav-link dropdown-toggle text-dark" style="font-size:0.8vw;" href="#" id="navbarDropdown" role="button"
+          <a class="nav-link dropdown-toggle text-dark" style="font-size:1vw;" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ $langPage.Language.LanguageName }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {{ range $langPage.Translations }}
-            <a class="dropdown-item text-dark" style="font-size:0.8vw;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            <a class="dropdown-item text-dark" style="font-size:1vw;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
             {{ end }}
           </div>
         </div>
