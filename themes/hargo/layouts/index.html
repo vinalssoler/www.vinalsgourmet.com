@@ -2,6 +2,7 @@
 <!-- banner ok -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.banner }}
+{{ if .enable }}
 <section>
   <div class="carousel slide" data-ride="carousel" data-interval="6000">
     <div class="carousel-item active">
@@ -33,12 +34,13 @@
     </div>
   </div>
 </section>
-
+{{ end }}
 {{ end }}
 {{ end }}
 <!-- Soluciones genericas -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.sg }}
+{{ if .enable }}
 <section class="section-sm pb-0">
   <div class="row align-items-center">
     <div class="col-4 align-self-center">
@@ -72,8 +74,8 @@
         {{ end }}
       </div>
     </div>
-
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
 
@@ -104,6 +106,7 @@
 <!-- De origen -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.about }}
+{{ if .enable }}
 <section class="section-sm pb-0">
   <div class="row justify-content-center">    
     <div class="col-6 justify-content-right">
@@ -118,7 +121,7 @@
       </div>
       <div class="card border-0 text-left wow fadeInRight">
         <div class="card-body">                          
-        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:3vmin;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
+        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
         </div>
       </div>      
     </div>
@@ -126,10 +129,12 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 
 <!-- Green Vegan -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.vegan }}
+{{ if .enable }}
 <section class="section-sm pb-0">
   <div class="row justify-content-center">    
     
@@ -154,10 +159,12 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 
 <!-- 5ª Gama -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.gama }}
+{{ if .enable }}
 <section class="section-sm pb-0">
   <div class="row justify-content-center">    
     <div class="col-6 justify-content-right">
@@ -190,109 +197,14 @@
       </div>
     </div>
 </section>
-
 {{ end }}
 {{ end }}
-
-<!-- banner 
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.banner }}
-<section class="section-sm" style="background:transparent url('{{ .image | absURL }}') center right no-repeat">
-  <div class="container">          
-      <div class="row">
-      <div class="col-lg-10 col-md-6 align-self-start bg-white wow fadeInLeft">
-        <h1 class="text-color font-weight-bold" style="font-size:2vw;">{{ .title | markdownify }}</h1>
-        <h1 class="text-dark" style="font-size:2vw;">{{ .subtitle | markdownify }}</h1>
-        <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link }}" class="btn btn-text-color mr-3" style="font-size:1vw;">{{ .label }}</a><br><br>
-        {{ end }}
-        {{ end }}
-      </div>            
-    </div>
-  </div>
-</section>
 {{ end }}
-<br><br>
-{{ end }}
- /banner -->
-
-<!-- about
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.about }}
-<section class="section" style="background:transparent url('{{ .image | absURL }}') center left no-repeat">
-  <div class="container">
-    <div class="row">           
-      <div class="col-lg-5 col-md-6"></div>     
-      <div class="col-lg-5 col-md-6 bg-white wow fadeInRight">
-        <h1 class="text-dark" style="font-size:3vw;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw;"><a>{{ .subtitle | markdownify }}</a></h1>        
-        <p class="text-dark" style="font-size:2vmin;">{{ .content | markdownify }}</p>
-      </div>      
-    </div>
-  </div>
-</section>
-<br><br>
-{{ end }}
-{{ end }}
- /about -->
-<!--
-{{ if site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
--->
-
-
-<!-- productes 
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.products }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row testimonial-slider">
-      <div class="col-12 text-center mb-4">
-        {{ with site.Data.homepage.products }}
-        <h2>{{ .title | markdownify }}</h2>
-        {{ end }}
-      </div>
-      {{ range first 6 (where site.RegularPages "Type" "products") }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card border-0 text-center">
-          <a href="{{ .Permalink }}">
-            {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
-            {{ end }}
-          </a>
-          <div class="card-body">
-            <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
-            <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
-              {{ if .Params.PriceBefore }}
-              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
-              {{ end }}
-              <span class="lead text-text-color">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
-            </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-text-color" data-item-id="{{ .Params.ProductID }}"
-              data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
-            </button>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
- /productes -->
-
-
 
 <!-- mailing -->
 {{ with index .Site.Data.homepage .Site.Language.Lang }}
 {{ with .homepage.mailing }}
+{{ if .enable }}
 <section class="section-sm pb-0">  
     <div class="row align-items-center" style="background-color:#eaf4da">
       <div class="col-md-6">
@@ -308,7 +220,7 @@
       </div>         
     </div>
 </section>
-
+{{ end }}
 {{ end }}
 {{ end }}     
 <!-- /mailing -->

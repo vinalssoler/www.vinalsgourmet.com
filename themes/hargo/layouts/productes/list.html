@@ -4,6 +4,7 @@
 <!-- intro -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.intro }}
+{{ if .enable }}
 <section class="section pb-0">
   <div class="row">  
     <div class="col-1"></div>
@@ -26,6 +27,7 @@
       </div>
     </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
 <!-- /intro -->
