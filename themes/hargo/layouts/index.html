@@ -161,8 +161,8 @@
 {{ if .enable }}
 <section class="section pb-0">
   <div class="row align-items-center">    
-    
-    <div class="col-6 align-items-center"> 
+    <div class="col-1"></div>  
+    <div class="col-5 align-items-center"> 
       <div class="card-body text-right">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
@@ -173,7 +173,7 @@
       <div class="card border-0 wow fadeIn">
         <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
       </div>  
-      <div class="col-1"></div>    
+       
     </div>
   </div>  
 </section>
@@ -192,7 +192,7 @@
         <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
-    <div class="col-6 align-items-center"> 
+    <div class="col-5 align-items-center"> 
       <div class="sector card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
@@ -201,7 +201,7 @@
         </div>
       </div>      
     </div>
-    <div class="col-2"></div>
+    <div class="col-1"></div>
   </div>  
 </section>
 {{ end }}
