@@ -91,6 +91,11 @@ enableMissingTranslationPlaceholders = true
   URL = "actualitat"
   weight = 4
 
+  [[languages.es.menu.main]]
+  name = "Contacto"
+  URL = "contacto"
+  weight = 5
+
   ################### Català ###################
   [[languages.cat.menu.main]]
   name = "Viñals"
