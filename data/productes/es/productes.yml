@@ -28,12 +28,12 @@ generica:
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 3
-    - title : "Pollo"
+    - title : "Porcino"
       image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 4
-    - title : "Cerdo"
+    - title : "Aviar"
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
