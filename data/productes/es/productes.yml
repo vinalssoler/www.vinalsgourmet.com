@@ -15,7 +15,7 @@ generica:
   enable : true
   title : "Solución"
   subtitle : " Genérica"
-  content: "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos. De la granja a la cadena de distribución ofrecemos las mejores soluciones con máxima calidad."
+  content: "Ganaderos y carniceros con 115 años de historia hablan por sí solos de nuestros excelentes productos. De la granja a la cadena de distribución ofrecemos las mejores soluciones con máxima calidad."
   producteItem:
     # Producte generic 1
     - title : "Vacuno"
@@ -28,12 +28,12 @@ generica:
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 3
-    - title : "Pollo"
+    - title : "Porcino"
       image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 4
-    - title : "Cerdo"
+    - title : "Aviar"
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
@@ -42,7 +42,7 @@ origen:
   enable : true
   title : "Soluciones"
   subtitle: " de Origen"
-  content : "En Vg traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
+  content : "En VG traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
 
 Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
   image : "images/productes/origen.jpg"  
@@ -53,10 +53,10 @@ eco:
   enable : true
   title : "Soluciones"
   subtitle: "Eco & Bio"
-  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
+  content : "Nos importa el medio ambiente, por este motivo VG tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
 
 Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas porqué se prohíbe el uso de productos químicos. "  
-  image1 : "images/productes/healthy.png"
+  image1 : "images/productes/healthy.jpg"
   image2 : "images/productes/eco.jpg"
   
 
@@ -75,8 +75,8 @@ vegan:
   enable : true
   title : "Solución"
   subtitle: "Green Vegan"
-  content : "Nos importa el medio ambiente, por este motivo Vg tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producción Agraria Ecológica."  
-  content2 : "Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas por que se prohíbe el uso de productos químicos."     
+  content : "No toda la proteína tiene que ser de origen animal, y conociendo esta realidad también tenemos una solución vegana. El mismo sabor y textura, pero con un origen totalmente vegetariano"
+  content2 : "Sabemos que es un reto de futuro, pero queremos tu proveedor de confianza para este nuevo mundo que se nos abre, y quien mejor que nosotros te pueda asesorar de carne sin carne"
   image : "images/banner.jpg"
 
 ############################ Soluciones Restauración ##########################

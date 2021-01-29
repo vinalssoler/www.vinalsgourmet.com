@@ -93,7 +93,7 @@ enableMissingTranslationPlaceholders = true
 
   [[languages.es.menu.main]]
   name = "Contacto"
-  URL = "contacto"
+  URL = "contacte"
   weight = 5
 
   ################### Català ###################
