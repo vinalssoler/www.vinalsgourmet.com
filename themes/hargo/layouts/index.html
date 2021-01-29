@@ -1,254 +1,89 @@
 {{ define "main" }}
-<!-- banner ok -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.banner }}
+<!--{{ partial "page-title.html" . }}-->
+
+<!-- mision -->
+{{ with index .Site.Data.mision .Site.Language.Lang }}
+{{ with .mision.intro }}
 {{ if .enable }}
 <section>
-  <div class="carousel slide" data-ride="carousel" data-interval="6000" style="height: 400px;">
-    <div class="carousel-item active" style="height: 400px;background:transparent url('{{ .slide1 | absURL }}') center center no-repeat;background-size: cover">
-      <div class="carousel-caption text-left">
-        <h1 class="text-color font-weight-bold wow fadeIn" style="font-size:3vw">{{ .title | markdownify }}</h1>
-        <h1 class="font-weight-bold wow fadeIn" style="font-size:3vw">{{ .subtitle | markdownify}} {{ .subtitle2 | markdownify}}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content | markdownify }}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content2 | markdownify }}</h1>
+  <div class="row align-items-center">  
+    <div class="col-1"></div>
+    <div class="col-4">
+      <div class="text-left">
+        <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <p class="text-dark " style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</p>
       </div>
     </div>
-    <div class="carousel-item" style="height: 400px;background:transparent url('{{ .slide2 | absURL }}') center center no-repeat;background-size: cover">      
-      <div class="carousel-caption text-right">
-        <h1 class="text-color font-weight-bold wow fadeIn" style="font-size:3vw">{{ .title | markdownify }}</h1>
-        <h1 class="font-weight-bold wow fadeIn" style="font-size:3vw">{{ .subtitle | markdownify}} {{ .subtitle2 | markdownify}}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content | markdownify }}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content2 | markdownify }}</h1>
+   <div class=" col-7 card border-0 wow fadeIn">
+        <img src="{{ .image3| absURL }}" class="card-img-top border-0">
       </div>
     </div>
-    <div class="carousel-item" style="height: 400px;background:transparent url('{{ .slide3 | absURL }}') center center no-repeat;background-size: cover">      
-      <div class="carousel-caption text-left">
-        <h1 class="text-color font-weight-bold wow fadeIn" style="font-size:3vw">{{ .title | markdownify }}</h1>
-        <h1 class="font-weight-bold wow fadeIn" style="font-size:3vw">{{ .subtitle | markdownify}} {{ .subtitle2 | markdownify}}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content | markdownify }}</h1>
-        <h1 class="font-weight-bold text-white wow fadeIn" style="font-size:1.8vw">{{ .content2 | markdownify }}</h1>
-      </div>
+</section>
+<!-- /mission -->
+<section class="section-sm">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
+      <h3><a class="text-dark font-weight-bold bg-white" style="font-size:2vw;line-height: 150%;">{{ .content2 | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:2vw;line-height: 150%;">{{ .content2b | markdownify }}</a></h3>    </div>
+  </div>
+</div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+<!-- /mission -->
+
+<!-- etica -->
+{{ with index .Site.Data.mision .Site.Language.Lang }}
+{{ with .mision.etica }}
+{{ if .enable }}
+<div class="container">
+  <div class="row">
+    <div class="col-5 mb-3 bg-white wow fadeIn"></div>
+    <div class="col bg-white align-self-start wow fadeInRight">
+      <h5 class="text-dark" style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</h5>      
     </div>
   </div>
-</section>
+</div>
 {{ end }}
 {{ end }}
 {{ end }}
+<!-- /etica -->
 
-<!-- cabecera -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.cabecera }}
+<!-- objectius -->
+{{ with index .Site.Data.mision .Site.Language.Lang }}
+{{ with .mision.objectius }}
 {{ if .enable }}
-<section class="section-sm pb-0">
-  <div class="row align-items-center">    
-    <div class="col-6">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
-      </div>      
-    </div>
-    <div class="col-4 align-items-center"> 
-      <div class="card-body text-left">
-        <h3><a class="text-dark font-weight-bold" style="font-size:1.6vw; line-height: 100%;">{{ .content3 | markdownify }}</a></h3>
-        <h1>
-          <a class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .title | markdownify }}</a>
-          <a class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a>
-        </h1>                                              
-        <p><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }} {{ .content2 | markdownify }}</a></p>        
-      </div>      
-    </div>
-  </div>  
-  <div class="col-2"></div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
-<!-- Soluciones genericas -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.sg }}
-{{ if .enable }}
-<section class="section-sm pb-0">
-  <div class="row align-items-center">
-    <div class="col-4 align-self-center">
-      <div class="text-right">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
-      </div>
-    </div>
-    <div class="col-6 align-self-center">
-      <div class="card border-0 text-left wow fadeInRight">
-        <div class="card-body">
-          <p class="text-dark" style="font-size:1.5vw; line-height: 150%;">{{ .content | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <div class="container">
-      <div class="row align-items-center">
-        {{ range .producteItem }}
-        <div class="col-lg-3 col-md-5 col-sm-6 align-self-center">
-          <div class="card shadow text-center wow fadeIn">
-            <div class="card-body align-items-center"
-              style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
-              <!--<img src="{{ .image | absURL }}" class="img-fluid card-img-top border-0">-->
-              <h3 class="text-white font-weight-bold"
-                style="font-size:2vw;margin-bottom: 5vw;margin-top: 5vw; color: #171D23">{{ .title | markdownify }}</h3>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
-
-<!-- material 
-{{ with index .Site.Data.productes .Site.Language.Lang }}
-{{ with .productes.generica }}
 <section class="section pb-0">
   <div class="container">
-    <div class="row align-items-center">
-      {{ range .producteItem }}
-      <div class="col-lg-3 col-md-5 col-sm-6 align-self-center">
-        <div class="card border-0 text-center wow fadeIn">
-          <div class="card-body align-items-center" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw;">
-            <img src="{{ .image | absURL }}" class="img-fluid card-img-top border-0">
-            <h3 class="text-white font-weight-bold" style="font-size:2vw;margin-bottom: 5vw;margin-top: 5vw; color: #171D23">{{ .title | markdownify }}</h3>
-          </div>
+  <div class="row">
+    {{ range .imatges }}
+    <div class="col-lg-4 col-md-4 col-sm-6">
+      <div class="card border-0 justify-content-center align-items-center">
+        <img src="{{ .image | absURL }}" class="card-img-top border-0 img-thumbnail" style="width:10vh"> 
+        <p class="text-color font-weight-bold text-center" style="font-size: 2vw;">{{ .title | markdownify }}</p>       
+      </div>
+    </div>    
+    {{ end }}
+  </div>  
+  <div class="row section-sm" >
+    {{ range .textes }}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card border-0 justify-content-center align-items-top mh-10" style="height: 15vw;margin-top: 2vh;">        
+        <div class="card-body shadow">
+          <p class="text-center text-dark font-weight-bold">{{ .title | markdownify }}</p>
+          <p class="text-center text-dark wow fadeInDown" style="font-size:1vw;line-height: 150%;">{{ .content | markdownify }}</p>                    
         </div>
       </div>
-      {{ end }}
-    </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
- /material -->
-
-
-<!-- De origen -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.about }}
-{{ if .enable }}
-<section class="section pb-0">
-  <div class="row align-items-center">    
-    <div class="col-6 justify-content-right">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
-      </div>      
-    </div>
-    <div class="col-4 align-items-center"> 
-      <div class="sector card-body text-left">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
-        <p class="wow fadeInRight"><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
-      </div>                        
-    </div>      
-    <div class="col-2"></div>
-  </div>  
+    </div>    
+    {{ end }}
+  </div>
+</div>
 </section>
 {{ end }}
 {{ end }}
 {{ end }}
 
-<!-- Green Vegan -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.vegan }}
-{{ if .enable }}
-<section class="section pb-0">
-  <div class="row align-items-center">    
-    <div class="col-1"></div>  
-    <div class="col-5 align-items-center"> 
-      <div class="card-body text-right">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
-        <p class="text-dark wow fadeInLeft" style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</p>
-      </div>    
-    </div>
-    <div class="col-6 justify-content-right">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
-      </div>  
-       
-    </div>
-  </div>  
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
-
-<!-- 5ª Gama -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.gama }}
-{{ if .enable }}
-<section class="section pb-0">
-  <div class="row align-items-center">    
-    <div class="col-6 justify-content-right">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
-      </div>      
-    </div>
-    <div class="col-5 align-items-center"> 
-      <div class="sector card-body text-left">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
-        <p class="wow fadeInRight"><a class="text-dark" style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 150%;">{{ .content2 | markdownify }}</a></p>
- </div>                        
-        </div>
-      </div>      
-    </div>
-    <div class="col-1"></div>
-  </div>  
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
-  
-  {{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.co2 }}
-{{ if .enable }}
-  <section class="section-sm">
-  <div class="col overlay" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover;margin-bottom: 1vw;margin-top: 1vw">        
-    <div class="row">
-      <div class="col-2"></div>        
-      <div class="col-5 align-self-start align-self-start wow fadeIn" style="margin-bottom: 5vw;margin-top: 5vw;"> 
-        <div class="card-body text-left"></div>  
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-white font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>     
-          <h1 class="text-white" style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</h1>
-        </div>      
-      </div>
-      <div class="col-5"></div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
-
-<!-- mailing -->
-{{ with index .Site.Data.homepage .Site.Language.Lang }}
-{{ with .homepage.mailing }}
-{{ if .enable }}
-<section class="section-sm pb-0">  
-    <div class="row align-items-center" style="background-color:#eaf4da">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-      </div> 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <h2 class="font-weight-bold text-center" style="margin-left: 4vw;margin-top: 4vw;font-size: 2vh;">{{ .content | markdownify }}</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxTLxDgoTQriSU5P6Dd56qvbtCsxA11Mr1_TxMThkVnV0Nvg/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0" align="left" >Loading…</iframe>
-      </div>
-      <div class="col-lg-2"></div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}     
-<!-- /mailing -->
-
-{{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
-{{ end }}
 {{ end }}

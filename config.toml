@@ -72,7 +72,7 @@ enableMissingTranslationPlaceholders = true
 [menu]
   ################### Castellano ###################
   [[languages.es.menu.main]]
-  name = "Viñals"
+  name = "Grupo Viñals"
   URL = "vinals"
   weight = 1
   
@@ -81,10 +81,10 @@ enableMissingTranslationPlaceholders = true
   URL = "productes"
   weight = 3
 
-  [[languages.es.menu.main]]
-  name = "Misión"
-  URL = "mision"
-  weight = 2
+  #[[languages.es.menu.main]]
+  #name = "Misión"
+  #URL = "mision"
+  #weight = 2
 
   [[languages.es.menu.main]]
   name = "Actualidad"
@@ -95,6 +95,11 @@ enableMissingTranslationPlaceholders = true
   name = "Contacto"
   URL = "contacte"
   weight = 5
+
+  [[languages.es.menu.main]]
+  name = "Equipo"
+  URL = "actualitat"
+  weight = 6
 
   ################### Català ###################
   [[languages.cat.menu.main]]
@@ -210,7 +215,7 @@ enableMissingTranslationPlaceholders = true
 logo = "images/logo_vg_dark.svg"
 lightlogo = "images/logo_vg_light.svg"
 benestar_animal = "images/benestar-animal.png"
-home = "Inicio"
+home = "Mision"
 # Meta data
 description = "This is meta description"
 author = "Viñals Gourmet"

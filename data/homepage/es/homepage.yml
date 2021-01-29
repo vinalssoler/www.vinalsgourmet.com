@@ -36,7 +36,7 @@ sg:
   enable : true
   title : "Soluciones"
   subtitle: "genéricas"
-  content: "Ganaderos y carniceros con 114 años de historia hablan por sí solos de nuestros excelentes productos"
+  content: "Ganaderos y carniceros con 115 años de historia hablan por sí solos de nuestros excelentes productos"
   producteItem:
     # Producte generic 1
     - title : "Vacuno"
