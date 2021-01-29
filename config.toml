@@ -74,7 +74,7 @@ enableMissingTranslationPlaceholders = true
 [menu]
   ################### Castellano ###################
   [[languages.es.menu.main]]
-  name = "Grupo Viñals"
+  name = "Viñals"
   URL = "vinals"
   weight = 1
   
