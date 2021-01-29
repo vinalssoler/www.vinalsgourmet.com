@@ -98,10 +98,6 @@ enableMissingTranslationPlaceholders = true
   URL = "contacte"
   weight = 5
 
-  [[languages.es.menu.main]]
-  name = "Equipo"
-  URL = "actualitat"
-  weight = 3
 
   ################### Català ###################
   [[languages.cat.menu.main]]
