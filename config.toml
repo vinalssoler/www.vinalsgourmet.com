@@ -110,19 +110,24 @@ enableMissingTranslationPlaceholders = true
   weight = 1
   
   [[languages.cat.menu.main]]
-  name = "Productes"
+  name = "Solucions"
   URL = "productes"
-  weight = 3
-
-  [[languages.cat.menu.main]]
-  name = "Missió"
-  URL = "mision"
   weight = 3
 
   [[languages.cat.menu.main]]
   name = "Actualitat"
   URL = "actualitat"
   weight = 4
+
+  [[languages.cat.menu.main]]
+  name = "Contacte"
+  URL = "contacte"
+  weight = 5
+
+  [[languages.cat.menu.main]]
+  name = "Equipo"
+  URL = "actualitat"
+  weight = 3
 
   ################### English ###################
   [[languages.en.menu.main]]
