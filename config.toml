@@ -72,34 +72,34 @@ enableMissingTranslationPlaceholders = true
 [menu]
   ################### Castellano ###################
   [[languages.es.menu.main]]
-  name = "Grupo Viñals"
+  name = "Viñals"
   URL = "vinals"
   weight = 1
   
   [[languages.es.menu.main]]
   name = "Productos"
   URL = "productes"
-  weight = 3
+  weight = 4
 
   #[[languages.es.menu.main]]
   #name = "Misión"
   #URL = "mision"
-  #weight = 2
+  #weight = 3
 
   [[languages.es.menu.main]]
   name = "Actualidad"
   URL = "actualitat"
-  weight = 4
+  weight = 5
 
   [[languages.es.menu.main]]
   name = "Contacto"
   URL = "contacte"
-  weight = 5
+  weight = 6
 
   [[languages.es.menu.main]]
   name = "Equipo"
   URL = "actualitat"
-  weight = 6
+  weight = 2
 
   ################### Català ###################
   [[languages.cat.menu.main]]
