@@ -139,15 +139,13 @@
         <img src="{{ .image | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
-    <div class="col-6 align-items-center"> 
+    <div class="col-4 align-items-center"> 
       <div class="sector card-body text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }} {{ .subtitle2 | markdownify }}</a></h1>  
         <p class="wow fadeInRight"><a class="text-dark" style="font-size:1.5vw;">{{ .content | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.5vw;line-height: 100%;">{{ .content2 | markdownify }}</a></p>
- </div>                        
-        </div>
-      </div>      
-    </div>
+      </div>                        
+    </div>      
     <div class="col-2"></div>
   </div>  
 </section>
