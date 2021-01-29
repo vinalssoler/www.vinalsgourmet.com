@@ -49,6 +49,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/my_js/cookie.css"
   [[params.plugins.css]]
   link = "plugins/Top/top.css"
+  [[params.plugins.css]]
+  link = "plugins/Team/team.css"
 
   # JS Plugins
   [[params.plugins.js]]
