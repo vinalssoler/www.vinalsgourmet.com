@@ -1,7 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation sticky-top">  
   <div style="background: #171D23; height: 26px">
-    <div class="container" style="background: #171D23; height: 26px">
+    <div class="container-md" style="margin-left:10vw;margin-right:10vw;background: #171D23; height: 26px">
       <div class="row">
         <div class="col">
           <a class="text-white font-size-small align-text-top" style="font-size:1vh"
@@ -11,7 +11,7 @@
           <a class="text-white font-size-small align-text-top"
             style="font-size:1vh">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
         </div>
-      <div class="col-2">
+      <div class="col text-right">
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
@@ -23,7 +23,7 @@
     </div>
   </div>
 </div>
-  <div class="container">
+  <div class="container-md" style="margin-left:10vw;margin-right:10vw">
     <!-- navbar -->
     <div class="row align-items-center" style="height: 140px;">
       <div class="col" style="height: 100px;">
@@ -67,13 +67,13 @@
         <div class="float-right">
           {{ if .Site.IsMultiLingual }}
           {{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
-          <a class="nav-link dropdown-toggle text-dark" style="font-size:1vw;" href="#" id="navbarDropdown" role="button"
+          <a class="nav-link dropdown-toggle text-color" style="color: #94C83D;font-size:1vw;" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ $langPage.Language.LanguageName }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {{ range $langPage.Translations }}
-            <a class="dropdown-item text-dark" style="font-size:1vw;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            <a class="dropdown-item text-dark" style="color: #94C83D; font-size:1vw;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
             {{ end }}
           </div>
         </div>

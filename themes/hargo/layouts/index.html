@@ -235,17 +235,14 @@
 {{ if .enable }}
 <section class="section-sm pb-0">  
     <div class="row align-items-center" style="background-color:#eaf4da">
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-6 col-sm-12">
         <img src="{{ .image | absURL}}" class="img-fluid" alt="">
       </div> 
-      <div class="col-lg-4 col-md-2  justify-content-center">
-        <h2 class="font-weight-bold mb-4">{{ .content | markdownify }}</h2>
-        <form action="{{ site.Params.contact.formAction }}" method="POST">         
-          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">          
-          <button type="submit" value="send" class="btn btn-block btn-outline-text-color rounded">{{ .send | markdownify }}</button>
-        </form>
-        <br/><br/>
-      </div>         
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <h2 class="font-weight-bold text-center" style="margin-left: 4vw;margin-top: 4vw;font-size: 2vh;">{{ .content | markdownify }}</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxTLxDgoTQriSU5P6Dd56qvbtCsxA11Mr1_TxMThkVnV0Nvg/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0" align="left" >Loading…</iframe>
+      </div>
+      <div class="col-lg-2"></div>
     </div>
 </section>
 {{ end }}
@@ -256,5 +253,4 @@
 {{ if site.Data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
-
 {{ end }}
