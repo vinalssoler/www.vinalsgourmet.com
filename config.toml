@@ -215,7 +215,7 @@ enableMissingTranslationPlaceholders = true
 logo = "images/logo_vg_dark.svg"
 lightlogo = "images/logo_vg_light.svg"
 benestar_animal = "images/benestar-animal.png"
-home = "Mision"
+home = "Misión"
 # Meta data
 description = "This is meta description"
 author = "Viñals Gourmet"
