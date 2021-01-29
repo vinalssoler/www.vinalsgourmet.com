@@ -28,6 +28,7 @@
 <!-- generica -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.generica }}
+{{ if .enable }}
 <section class="section-sm pb-0">
   <div class="row align-items-center">
     <div class="col-4 align-self-center">
@@ -64,12 +65,14 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 
 <!-- /generica -->
 
 <!-- origen -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.origen }}
+{{ if .enable }}
 <section class="section pb-0">
   <div class="row justify-content-center">
     
@@ -93,6 +96,7 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 <!-- /origen -->
 
 
@@ -100,6 +104,7 @@
 <!-- eco -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.eco }}
+{{ if .enable }}
 <section>
   <div class="row justify-content-center">    
     <div class="col-10 card border-0 align-self-center wow fadeIn">
@@ -125,11 +130,13 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 <!-- /eco -->
 
 <!-- km0 -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.km0 }}
+{{ if .enable }}
 <section class="section pb-0">
   <div class="row justify-content-center">    
     <div class="col-6 justify-content-right">
@@ -151,11 +158,13 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 <!-- /km0 -->
 
 <!-- vegan -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.vegan }}
+{{ if .enable }}
 <section class="section pb-0">
   <div class="col overlay " style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
   <div class="row ">
@@ -173,11 +182,13 @@
 </section>
 {{ end }}
 {{ end }}
+{{ end }}
 <!-- /vegan -->
 
 <!-- restauración -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.restauracion }}
+{{ if .enable }}
 <section class="section pb-0">
   <div class="row justify-content-center">
     <div class="col-5">
@@ -201,7 +212,7 @@
     </div>
   </div>
 </section>
-
+{{ end }}
 {{ end }}
 {{ end }}
 {{ partial "cta.html" . }}
