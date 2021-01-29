@@ -4,6 +4,7 @@ intro:
   title : "Misión"
   subtitle: "Viñals Gourmet"
   content : "Nuestro propósito y razón de ser en VG es ser el partner referente de nuestros clientes en soluciones gastronómicas únicas."
+  content1 : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar. Con la voluntad de ser honestos, trabajadores y eficientes con nuestros clientes y la sociedad."
   content2 : '"La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son '
   content2b : 'la base de nuestra propuesta de valor."'
   image : "images/mision/intro.jpg"
@@ -13,7 +14,7 @@ intro:
 
 ########################## etica ##############################
 etica:
-  enable : true  
+  enable : false  
   content : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar. Con la voluntad de ser honestos, trabajadores y eficientes con nuestros clientes y la sociedad."
   image : "images/mision/etica.png"
 
