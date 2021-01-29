@@ -28,12 +28,12 @@ generica:
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 3
-    - title : "Porcino"
+    - title : "Aviar"
       image : "images/material/material-3.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # Producte generic 4
-    - title : "Aviar"
+    - title : "Porcino"
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
@@ -45,6 +45,7 @@ origen:
   content : "En VG traemos la mejor carne del mundo. Ganaderos y Carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio o hogar.  
 
 Podemos ofrecer carne de nuestras granjas o de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
+  content2 : "En VG traemos la mejor carne del mundo." 
   image : "images/productes/origen.jpg"  
   image3: "images/productes/VG7.jpg"
 
