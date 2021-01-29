@@ -12,7 +12,8 @@
       <div class="text-left">
         <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
-        <p class="text-dark " style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</p>
+        <p class="text-dark " style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</p>
+        <p class="text-dark " style="font-size:1.2vw;line-height: 150%;">{{ .content1 | markdownify }}</p>
       </div>
     </div>
    <div class=" col-7 card border-0 wow fadeIn">
@@ -24,8 +25,8 @@
 <section class="section-sm">
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-9 mb-3 bg-white align-items-start wow fadeIn">
-      <h3><a class="text-dark font-weight-bold bg-white" style="font-size:2vw;line-height: 150%;">{{ .content2 | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:2vw;line-height: 150%;">{{ .content2b | markdownify }}</a></h3>    </div>
+    <div class="col-11 mb-3 bg-white align-items-start wow fadeIn">
+      <h3><a class="text-dark font-weight-bold bg-white" style="font-size:1.8vw;line-height: 150%;">{{ .content2 | markdownify }}</a> <a class="text-dark font-weight-bold" style="background-color:#faed38; font-size:1.8vw;line-height: 150%;">{{ .content2b | markdownify }}</a></h3>    </div>
   </div>
 </div>
 </section>
@@ -61,7 +62,7 @@
     {{ range .imatges }}
     <div class="col-lg-4 col-md-4 col-sm-6">
       <div class="card border-0 justify-content-center align-items-center">
-        <img src="{{ .image | absURL }}" class="card-img-top border-0 img-thumbnail" style="width:10vh"> 
+        <img src="{{ .image | absURL }}" class="card-img-top border-0 img-thumbnail" style="width:18vh"> 
         <p class="text-color font-weight-bold text-center" style="font-size: 2vw;">{{ .title | markdownify }}</p>       
       </div>
     </div>    
@@ -70,8 +71,9 @@
   <div class="row section-sm" >
     {{ range .textes }}
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="card border-0 justify-content-center align-items-top mh-10" style="height: 15vw;margin-top: 2vh;">        
-        <div class="card-body shadow">
+      <div class="card border-0 justify-content-center align-items-top" style="height: 18vw;margin-top: 2vh;">        
+        <div class="card-body shadow align-items-center">
+          <div style="height: 10vh;background:transparent url('{{ .icon | absURL }}') center center no-repeat;"></div>
           <p class="text-center text-dark font-weight-bold">{{ .title | markdownify }}</p>
           <p class="text-center text-dark wow fadeInDown" style="font-size:1vw;line-height: 150%;">{{ .content | markdownify }}</p>                    
         </div>
