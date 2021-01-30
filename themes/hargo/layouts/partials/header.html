@@ -33,7 +33,9 @@
       <div class="col align-text-top">        
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
           <!--<div class="h-100" href="{{ site.BaseURL }}" alt="{{ site.Title }}" style="background:transparent url('{{ site.Params.logo | absURL }}') center center no-repeat;background-size: cover"></div>-->
-          <a class="navbar-brand" href="{{ site.BaseURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+          <a class="navbar-brand" href="{{ site.BaseURL }}">
+            <img class="d-block float-md-center img-fluid h-100" style="margin:0 auto;" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+          </a>
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
             <i class="ti-menu"></i>
           </button>
@@ -69,13 +71,13 @@
         <div class="float-right">
           {{ if .Site.IsMultiLingual }}
           {{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
-          <a class="nav-link dropdown-toggle text-color" style="color: #94C83D;font-size:1vw;" href="#" id="navbarDropdown" role="button"
+          <a class="nav-link dropdown-toggle text-color" style="color: #94C83D;font-size:1.5vh;" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ $langPage.Language.LanguageName }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {{ range $langPage.Translations }}
-            <a class="dropdown-item text-dark" style="color: #94C83D; font-size:1vw;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+            <a class="dropdown-item text-dark" style="color: #94C83D; font-size:1.5vh;" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
             {{ end }}
           </div>
         </div>
