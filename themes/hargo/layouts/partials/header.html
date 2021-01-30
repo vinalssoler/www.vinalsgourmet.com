@@ -3,20 +3,20 @@
   <div style="background: #171D23; height: 26px">
     <div class="container-md" style="margin-left:10vw;margin-right:10vw;background: #171D23; height: 26px">
       <div class="row">
-        <div class="col">
-          <a class="text-white font-size-small align-text-top" style="font-size:1vh"
+        <div class="col" style="margin-top: 5px;">
+          <a class="text-white font-size-small align-text-top" style="font-size:10px"
             href="tel:{{ site.Params.mobile }}">&nbsp;&nbsp;<i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}</a>
-          <a class="text-white font-size-small font-weight-normal align-text-top" style="font-size:1vh"
+          <a class="text-white font-size-small font-weight-normal align-text-top" style="font-size:10px"
             href="mailto:{{ site.Params.email }}">&nbsp;&nbsp;<i class="ti-email mr-2"></i>{{ site.Params.email }}</a>
           <a class="text-white font-size-small align-text-top"
-            style="font-size:1vh">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
+            style="font-size:10px">&nbsp;&nbsp;<i class="ti-time mr-2"></i>{{ site.Params.horarioES }}</a>
         </div>
       <div class="col text-right">
         <!-- Social Icons -->
-        <ul class="list-inline">
+        <ul class="list-inline" style="margin-top: 5px;">
           {{ range site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i
-                class="{{ .icon }} text-white font-weight-bold align-text-top" style="font-size:1vh"></i></a></li>
+                class="{{ .icon }} text-white font-weight-bold align-text-top" style="font-size:14px;"></i></a></li>
           {{ end }}
         </ul>
       </div>
