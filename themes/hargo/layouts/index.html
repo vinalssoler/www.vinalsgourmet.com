@@ -58,15 +58,11 @@
 {{ if .enable }}
 <section class="our-webcoderskull padding-lg">
   <div class="container">
-  <ul class="row">
-    {{ range .imatges }}
-    <li class="col-12 col-md-6 col-lg-4" style="margin-bottom: 5vh;">
-      <div class="card border-0 " style="height: 150px;background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain">
-        <!--<figure><img class="img-responsive" src="{{ .image | absURL }}">-->              
-      </div>
-      <div>
-        <p class="text-color font-weight-bold text-center" style="font-size: 18px;">{{ .title | markdownify }}</p> 
-      </div>
+  <ul class="row align-items-center">
+    {{ range .imatges }}    
+    <li class="col-4 col-md-4 col-lg-4">      
+      <img class="d-block float-md-center img-fluid w-50" style="margin:0 auto;max-width: 150px" src="{{ .image | absURL }}">
+      <p class="text-color font-weight-bold text-center" style="font-size: 2.5vw;">{{ .title | markdownify }}</p>      
     </li>    
     {{ end }}
   </ul>  
