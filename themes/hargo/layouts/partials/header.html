@@ -26,12 +26,14 @@
   <div class="container-md" style="margin-left:10vw;margin-right:10vw">
     <!-- navbar -->
     <div class="row align-items-center" style="height: 140px">
-      <div class="col" style="height:100px">
+      <!--<div class="col" style="height:100px">
         <a class="align-items-center" style="background-color: white;" href="{{.Site.BaseURL | relLangURL }}"><img class="h-100"
           src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
-      </div>
+      </div>-->
       <div class="col align-text-top">        
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">          
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+          <!--<div class="h-100" href="{{ site.BaseURL }}" alt="{{ site.Title }}" style="background:transparent url('{{ site.Params.logo | absURL }}') center center no-repeat;background-size: cover"></div>-->
+          <a class="navbar-brand" href="{{ site.BaseURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
             <i class="ti-menu"></i>
           </button>

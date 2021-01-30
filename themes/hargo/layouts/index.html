@@ -56,31 +56,33 @@
 {{ with index .Site.Data.mision .Site.Language.Lang }}
 {{ with .mision.objectius }}
 {{ if .enable }}
-<section class="section pb-0">
+<section class="our-webcoderskull padding-lg">
   <div class="container">
-  <div class="row">
+  <ul class="row">
     {{ range .imatges }}
-    <div class="col-lg-4 col-md-4 col-sm-6">
-      <div class="card border-0 justify-content-center align-items-center">
-        <img src="{{ .image | absURL }}" class="card-img-top border-0 img-thumbnail" style="width:18vh"> 
-        <p class="text-color font-weight-bold text-center" style="font-size: 2vw;">{{ .title | markdownify }}</p>       
+    <li class="col-12 col-md-6 col-lg-4" style="margin-bottom: 5vh;">
+      <div class="card border-0 " style="height: 150px;background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain">
+        <!--<figure><img class="img-responsive" src="{{ .image | absURL }}">-->              
       </div>
-    </div>    
+      <div>
+        <p class="text-color font-weight-bold text-center" style="font-size: 18px;">{{ .title | markdownify }}</p> 
+      </div>
+    </li>    
     {{ end }}
-  </div>  
-  <div class="row section-sm" >
+  </ul>  
+  <ul class="row" >
     {{ range .textes }}
-    <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="card border-0 justify-content-center align-items-top" style="height: 18vw;margin-top: 2vh;">        
+    <li class="col-12 col-md-6 col-lg-4">
+      <div class="card border-0" style="margin-bottom: 3vh;">        
         <div class="card-body shadow align-items-center">
           <div style="height: 10vh;background:transparent url('{{ .icon | absURL }}') center center no-repeat;"></div>
-          <p class="text-center text-dark font-weight-bold">{{ .title | markdownify }}</p>
-          <p class="text-center text-dark wow fadeInDown" style="font-size:1vw;line-height: 150%;">{{ .content | markdownify }}</p>                    
+          <p class="text-center text-dark font-weight-bold" style="font-size: 18px">{{ .title | markdownify }}</p>
+          <p class="text-center text-dark wow fadeInDown" style="font-size:16px;line-height: 150%;">{{ .content | markdownify }}</p>                    
         </div>
       </div>
-    </div>    
+    </li>    
     {{ end }}
-  </div>
+  </ul>
 </div>
 </section>
 {{ end }}
