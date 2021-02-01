@@ -1,27 +1,106 @@
 {{ define "main" }}
 <!--{{ partial "page-title.html" . }}-->
 
-<section class="section pt-0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section class="our-webcoderskull padding-lg">
   <div class="container">
-    <div class="row">      
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-4 wow fadeIn">
-        <article class="card rounded-0 border-1 shadow">
-          <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="card-img-top rounded-top-0">
-          <div class="card-body px-0" style="margin-left:10px;margin-right:10px"> 
-            <a href="{{ .Permalink }}" class="h4 d-block" style="font-size: 2vh;">{{ .Title | markdownify }}</a>
-            <ul class="list-inline">              
-              <li class="list-inline-item"><i class="ti-calendar text-color mr-2" style="font-size: 1.5vh;"></i><a style="font-size: 1.5vh;">{{ .PublishDate.Format "02 Jan, 2006" }}</a></li>
-            </ul>
-            <p style="font-size: 1vh;">{{ .Summary }}</p>
-            <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary" style="font-size: 1vh;">{{ .Params.Readmore }}</a>
-          </div>
-        </article>
-      </div>
-      {{ end }}
+    <div class="text-center">
+      <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.title | markdownify }}</a></h1>
+      <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .Params.subtitle | markdownify }}</a></h1>  
     </div>
-    {{ template "_internal/pagination.html" . }}
+    <br>
+    <div class="heading heading-icon">
+        <h2 class="heading heading-icon font-weight-bold text-center" style="font-size:3vw; line-height: 100%;" >Equipo Dirección</h2>
+    </div>
+    <ul class="row">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://media-exp1.licdn.com/dms/image/C4E03AQGJ7FBgzAeHtw/profile-displayphoto-shrink_200_200/0/1517666933130?e=1617235200&v=beta&t=vMH4Y85iVWUmsMAQb1oH8Im3K93o0fcpJ7v4NI-bSW8" class="img-responsive" alt=""></figure>
+            <h3><a>Joaquim Arasanz</a></h3>
+            <p>CEO & Partner</p>
+            <ul class="follow-us clearfix">
+              <li><a href="https://www.linkedin.com/in/joaquimarasanz/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style="height: 349px;">
+              <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+              <h3><a>Ramón Viñals</a></h3>
+              <p>CEO & Partner</p>
+              <ul class="follow-us clearfix">
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+        </li>
+        <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+            <h3><a>Jose Palacio</a></h3>
+            <p>CEO & Partner</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+        <div class="cnt-block equal-hight" style="height: 349px;">
+          <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+          <h3><a>Jorge Oses</a></h3>
+          <p>CEO & Partner</p>
+          <ul class="follow-us clearfix">
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+    </li>
+  </div>
+  <br>
+  <div class="container">
+    <div class="heading heading-icon">
+      <h2 class="heading heading-icon font-weight-bold text-center" style="font-size:3vw; line-height: 100%;" >Equipo Board</h2>
+  </div>
+    <ul class="row">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFFPoNvmVd9Pw/profile-displayphoto-shrink_200_200/0/1517884784838?e=1617235200&v=beta&t=n-H8xn27jEStcXekJbAp3Urz7jM_z63ZVL97fn46q1M" class="img-responsive" alt=""></figure>
+            <h3><a>Josep Ferran Marqués</a></h3>
+            <p>Director General</p>
+            <ul class="follow-us clearfix">
+              <li><a href="https://www.linkedin.com/in/josep-ferran-marqués-13a820148/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style="height: 349px;">
+              <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+              <h3><a>Ramón Llangostera </a></h3>
+              <p>Investor</p>
+              <ul class="follow-us clearfix">
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+        </li>
+        <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="https://media-exp1.licdn.com/dms/image/C4E03AQH8G1Kj6a0hrg/profile-displayphoto-shrink_400_400/0/1603792286917?e=1617235200&v=beta&t=O_MzR0_GX_jPBXnd3nitUtDz5B1Gjl-_1aQmTjr86fQ" class="img-responsive" alt=""></figure>
+            <h3><a href="#">Toni Viñals</a></h3>
+            <p>CEO & Founder</p>
+            <ul class="follow-us clearfix">
+              <li><a href="https://www.linkedin.com/in/tonivinals/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+        <div class="cnt-block equal-hight" style="height: 349px;">
+          <figure><img src="https://media-exp1.licdn.com/dms/image/C4E03AQHtL1HS-0WjkA/profile-displayphoto-shrink_400_400/0/1597676745167?e=1617235200&v=beta&t=9TjbukrQqpsbjOD22AymaU1vF0YqLac2feCIh0XhWGw" class="img-responsive" alt=""></figure>
+          <h3><a href="#">Pol Viñals</a></h3>
+          <p>Director Operaciones Viñals Soler</p>
+          <ul class="follow-us clearfix">
+            <li><a href="https://www.linkedin.com/in/pol-viñals-6137a52/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+    </li>
   </div>
 </section>
 
