@@ -75,14 +75,15 @@
 {{ with .productes.origen }}
 {{ if .enable }}
 <section class="section pb-0">
-  <div class="row justify-content-center">    
-    <div class="col-6 align-self-start align-self-start"> 
-      <div class="text-right">
+  <div class="row justify-content-center">  
+    <div class="col-1"></div>  
+    <div class="col-5 align-self-start align-self-start"> 
+      <div class="text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
       </div>
       <div class="card border-0 text-left wow fadeInLeft">
-        <div class=" text-right">                          
+        <div class=" text-left">                          
         <p class="text-dark" style="font-size:1.5vw;line-height: 150%;"><a>{{ .content | markdownify }}</a></p>
         </div>
       </div>      
