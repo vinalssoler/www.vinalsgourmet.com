@@ -32,7 +32,7 @@ servicio:
 fusion:
   enable: true
   image: "images/vinals/favicon.png"
-  content: "VG nace para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca. Nuestro objetivo es ir más allá que servirte los mejores productos cárnicos para su negocio. Queremos dar un paso más convirtiéndonos en tu socio gastronómico, a través de estos 5 puntos:"
+  content: "Para acelerar nuestra propuesta de valor, VG se ha fusionado con Speed Carns, empresa pionera en soluciones gastronómicas para el sector Horeca en Barcelona, con gran experiencia en el sector, para **crear juntos una propuesta de valor diferencial.**"
 
 ############################ Carrouselle ##########################
 industrial:
