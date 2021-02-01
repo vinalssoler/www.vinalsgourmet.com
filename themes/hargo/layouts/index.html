@@ -69,11 +69,11 @@
   <ul class="row" >
     {{ range .textes }}
     <li class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0" style="margin-bottom: 3vh;">        
+      <div class="card border-0" style="margin-bottom: 3vh;height: 350px">        
         <div class="card-body shadow align-items-center">
           <div style="height: 10vh;background:transparent url('{{ .icon | absURL }}') center center no-repeat;"></div>
           <p class="text-center text-dark font-weight-bold" style="font-size: 18px">{{ .title | markdownify }}</p>
-          <p class="text-center text-dark wow fadeInDown" style="font-size:16px;line-height: 150%;">{{ .content | markdownify }}</p>                    
+          <p class="text-center text-dark wow fadeInDown" style="font-size:16px">{{ .content | markdownify }}</p>                    
         </div>
       </div>
     </li>    
