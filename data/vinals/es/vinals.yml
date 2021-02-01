@@ -1,0 +1,62 @@
+############################ Grupo Viñals ##########################
+grupo:
+  enable: true
+  title: "Grupo"
+  title2: "Viñals"
+  image: "images/vinals/Prueba.jpg"
+  content: "En Viñals Gourmet, **nos apasiona la gastronomía** y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a través de soluciones gastronómicas únicas y diferenciales." 
+  content2: "VG tiene la fuerza y garantía de formar parte de grupo cárnico Viñals Soler, con más de 110 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución."
+
+############################ Viñals Gourmet ##########################
+vg:
+  enable: true
+  image: "images/vinals/favicon.png"
+  content: "VG nace para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca. Nuestro objetivo es ir más allá que servirte los mejores productos cárnicos para su negocio. Queremos dar un paso más convirtiéndonos en tu socio gastronómico, a través de estos 5 puntos:"
+
+############################ Nuestro Servicio ##########################
+servicio:
+  enable: true  
+  items:
+    - num: "1"    
+      content: "**Garantizamos siempre la máxima calidad** de nuestros productos y seguridad alimentaria."      
+    - num: "2"      
+      content: "**Te asesoramos a través de un equipo profesional** experto para ayudarte a encontrar la mejor solución para tu plato."
+    - num: "3"    
+      content: "**Servicio personalizado** donde fomentamos un trato directo y servicio los 365 días del año."
+    - num: "4"      
+      content: "**Incorporamos nuevos productos** basados en una escucha activa del consumidor y de la sociedad, con el objectivo de que puedas estar siempre al día."
+    - num: "5"      
+      content: "**Tu pedido a medida:** cada cliente es único, por este motivo nuestro lema es: **Soluciones Gastronómicas Únicas**"
+
+############################ Fusión ##########################
+fusion:
+  enable: true
+  image: "images/vinals/favicon.png"
+  content: "VG nace para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca. Nuestro objetivo es ir más allá que servirte los mejores productos cárnicos para su negocio. Queremos dar un paso más convirtiéndonos en tu socio gastronómico, a través de estos 5 puntos:"
+
+############################ Carrouselle ##########################
+industrial:
+  enable: true
+  items:
+    - image: "images/vinals/1.jpg"
+    - image: "images/vinals/2.jpg"
+    - image: "images/vinals/3.jpg"
+    - image: "images/vinals/4.jpg"
+    - image: "images/vinals/5.jpg"
+    - image: "images/vinals/6.jpg"
+
+image: "images/vinals/VGourmet.jpg"
+image2: "images/vinals/intro.jpg"
+image3: "images/vinals/favicon.png"
+image4: "images/vinals/origen.jpg"
+image5: "images/vinals/VG9.jpg"
+image6: "images/vinals/VG7.jpg"
+image7: "images/vinals/Prueba.jpg"
+content2: "En Viñals Gourmet, **nos apasiona la gastronomia** y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a nuestros clientes a través de soluciones gastronómicas únicas y diferenciales"
+content3: "VG tiene la fuerza y garantía de formar parte del **grupo cárnico Viñals Soler**, con más de 115 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución."
+content4: '"Viñals Soler, con más de 115 años de experiencia en el sector"'
+content5: "Garantizar siempre la máxima calidad de nuestros productos y seguridad alimentaria,"
+content5b: "con trato directo y personalizado los 365 días del año,"
+content6: "Fruto de esta experiencia nació VG, para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca, nuestro objetivo es ir más allá que servirte la mejor carne."
+content7: "la posibilidad de hacer tu pedido a la medida de tus necesidades, y por supuesto, ofrecerte la máxima seguridad alimentaria."
+content8: "Para acelerar nuestra propuesta de valor, VG se ha fusionado con Speed Carns, empresa pionera en soluciones gastronómicas para el sector Horeca en Barcelona con gran experiencia en el sector, para crear juntos una propuesta de valor diferencial."
