@@ -5,7 +5,7 @@ grupo:
   title2: "Viñals"
   image: "images/vinals/Prueba.jpg"
   content: "En Viñals Gourmet, **nos apasiona la gastronomía** y desde 2006 hemos desarrollado un equipo profesional experto en aportar valor a través de soluciones gastronómicas únicas y diferenciales." 
-  content2: "VG tiene la fuerza y garantía de formar parte de grupo cárnico Viñals Soler, con más de 110 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución."
+  content2: "VG tiene la fuerza y garantía de formar parte de grupo cárnico Viñals Soler, con más de 115 años de experiencia en el sector, donde controlamos toda la cadena de suministro desde la granja hasta la distribución."
 
 ############################ Viñals Gourmet ##########################
 vg:
@@ -17,21 +17,21 @@ vg:
 servicio:
   enable: true  
   items:
-    - num: "1"    
+    - image: "images/vinals/1.svg"    
       content: "**Garantizamos siempre la máxima calidad** de nuestros productos y seguridad alimentaria."      
-    - num: "2"      
+    - image: "images/vinals/2.svg"      
       content: "**Te asesoramos a través de un equipo profesional** experto para ayudarte a encontrar la mejor solución para tu plato."
-    - num: "3"    
+    - image: "images/vinals/3.svg"    
       content: "**Servicio personalizado** donde fomentamos un trato directo y servicio los 365 días del año."
-    - num: "4"      
+    - image: "images/vinals/4.svg"      
       content: "**Incorporamos nuevos productos** basados en una escucha activa del consumidor y de la sociedad, con el objectivo de que puedas estar siempre al día."
-    - num: "5"      
+    - image: "images/vinals/5.svg"      
       content: "**Tu pedido a medida:** cada cliente es único, por este motivo nuestro lema es: **Soluciones Gastronómicas Únicas**"
 
 ############################ Fusión ##########################
 fusion:
   enable: true
-  image: "images/vinals/favicon.png"
+  image: "images/vinals/fusion.png"
   content: "Para acelerar nuestra propuesta de valor, VG se ha fusionado con Speed Carns, empresa pionera en soluciones gastronómicas para el sector Horeca en Barcelona, con gran experiencia en el sector, para **crear juntos una propuesta de valor diferencial.**"
 
 ############################ Carrouselle ##########################
