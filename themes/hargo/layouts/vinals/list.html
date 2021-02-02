@@ -56,12 +56,12 @@
 {{ with index .Site.Data.vinals .Site.Language.Lang }}
 {{ with .vinals.servicio }}
 {{ if .enable }}
-<section class="section pb-0 align-items-center" >
-<div class="container-md" style="margin-left:15vw;margin-right:10vw">
-  <ul class="row">
+<section class="section pb-0" >
+<div class="container-md " style="margin:0% auto">
+  <ul class="row align-items-center" style="margin-left: 5vw;margin-right: 5vw;">
     {{ range .items }}
-    <li class="col-12 col-md-6 col-lg-2">
-      <div class="card border-0 align-items-center" style="margin-bottom: 3vh;height: 340px">        
+    <li class="col-12 col-md-6 col-lg align-items-center" style="margin:0% auto">
+      <div class="card border-0 align-items-center" style="margin-bottom: 3vh;height:12em;min-width: 150px;max-height: 300px;">        
         <div class="card-body shadow align-items-center">
           <div style="height: 10vh;background:transparent url('{{ .image | absURL }}') center center no-repeat;"></div>          
           <p class="text-center text-dark wow fadeInDown" style="font-size:1.3vh">{{ .content | markdownify }}</p>                    
