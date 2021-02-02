@@ -58,6 +58,7 @@ sg:
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
+
 ########################## About ##############################
 about:
   enable : true

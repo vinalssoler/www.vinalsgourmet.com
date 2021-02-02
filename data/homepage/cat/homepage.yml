@@ -108,6 +108,16 @@ material:
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
+    # material item loop
+    - title : "Elaborado"
+      image : "images/material/material-5.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
+     # material item loop
+    - title : "Charcuteria"
+      image : "images/material/material-6.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
 ########################### 5 gama #########################
 gama:
   enable : true
