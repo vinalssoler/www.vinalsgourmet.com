@@ -58,6 +58,16 @@ sg:
       image : "images/material/material-4.jpg"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
+    # Producte generic 5
+    - title : "Elaborado"
+      image : "images/material/material-5.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
+    # Producte generic 5
+    - title : "Charcuteria"
+      image : "images/material/material-6.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
 
 ########################## About ##############################
 about:
