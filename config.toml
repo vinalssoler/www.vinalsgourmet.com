@@ -269,7 +269,7 @@ contactLink = "contact"
 
   [[params.social]]
   icon = "ti-linkedin"
-  link = "#"
+  link = "https://www.linkedin.com/in/vinalsgourmet/"
 
   # Contact Form
   [params.contact]
