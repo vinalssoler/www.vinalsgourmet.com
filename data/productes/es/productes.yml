@@ -65,7 +65,7 @@ vegan:
   enable : true
   title : "Solución"
   subtitle: "Plant Based"
-  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del sXXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorpporado a nuestros productos, "
+  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorporado a nuestros productos, "
   content2 : "The Vegetarian Butcher"
   image : "images/banner.jpg"
 
@@ -74,5 +74,5 @@ restauracion:
   enable : true
   title : "Solución"
   subtitle: "Restauración"
-  content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto si no que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
+  content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto sino que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
   image : "images/productes/VG10.jpg"
