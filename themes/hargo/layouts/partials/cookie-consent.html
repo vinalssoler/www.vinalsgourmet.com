@@ -17,7 +17,7 @@ window.cookieconsent.initialise({
     "message": "Éste sitio web usa cookies, si permanece aquí acepta su uso.\nPuede leer más sobre el uso de cookies en nuestra política de privacidad.",
     "dismiss": "Ok",
     "link": "Sobre las cookies",
-    "href": "/cookies"
+    "href": "{{.Site.Params.cookiesLink | relLangURL }}"
   }
 })});
 </script>
