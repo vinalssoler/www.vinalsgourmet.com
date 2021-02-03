@@ -19,15 +19,15 @@ vg:
 servicio:
   enable: true  
   items:
-    - image: "images/vinals/1.svg"    
+    - image: "images/vinals/1.png"    
       content: "**Garantizamos siempre la máxima calidad** de nuestros productos y seguridad alimentaria."      
-    - image: "images/vinals/2.svg"      
+    - image: "images/vinals/2.png"      
       content: "**Te asesoramos a través de un equipo profesional** experto para ayudarte a encontrar la mejor solución para tu plato."
-    - image: "images/vinals/3.svg"    
+    - image: "images/vinals/3.png"    
       content: "**Servicio personalizado** donde fomentamos un trato directo y servicio los 365 días del año."
-    - image: "images/vinals/4.svg"      
+    - image: "images/vinals/4.png"      
       content: "**Incorporamos nuevos productos** basados en una escucha activa del consumidor y de la sociedad, con el objectivo de que puedas estar siempre al día."
-    - image: "images/vinals/5.svg"      
+    - image: "images/vinals/5.png"      
       content: "**Tu pedido a medida:** cada cliente es único, por este motivo nuestro lema es: **Soluciones Gastronómicas Únicas**"
 
 ############################ Fusión ##########################
