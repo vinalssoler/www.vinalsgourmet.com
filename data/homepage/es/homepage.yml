@@ -1,6 +1,6 @@
 ############################ banner ##########################
 banner:
-  enable : false
+  enable : true
   title : "La revolución de la carne"
   subtitle: " de la que todo el mundo"
   subtitle2: " habla"
@@ -10,6 +10,8 @@ banner:
   slide1 : "images/slide1.jpg"
   slide2 : "images/slide2.jpg"   
   slide3 : "images/slide3.jpg"  
+  slide4 : "images/banner.jpg"
+  slide5 : "images/Prueba.jpg"  
 
   # button
   #button:

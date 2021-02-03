@@ -51,6 +51,8 @@ enableMissingTranslationPlaceholders = true
   link = "plugins/Top/top.css"
   [[params.plugins.css]]
   link = "plugins/Team/team.css"
+  [[params.plugins.css]]
+  link = "plugins/Slide/slide.css"
 
   # JS Plugins
   [[params.plugins.js]]
