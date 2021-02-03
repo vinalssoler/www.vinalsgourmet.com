@@ -74,8 +74,10 @@
     {{ range .items }}
     <li class="col-12 col-md-6 col-lg" style="margin:0% auto">
       <div class="card border-0 " >        
-        <div class="card-body shadow align-items-center" style="margin-bottom: 3vh;min-width: 150px;height: 350px;">
-          <div style="height: 8vh;background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain"></div>          
+        <div class="card-body shadow align-items-center" style="margin-bottom: 3vh;min-width: 150px;height: 550px;">
+          <div class="w-100">
+            <img src="{{ .image | absURL}}" class="img-fluid" style="height: 75;" alt="">
+          </div>          
           <p class="text-center text-dark wow fadeInDown" style="font-size:17px">{{ .content | markdownify }}</p>                    
         </div>
       </div>
