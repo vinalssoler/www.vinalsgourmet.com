@@ -61,10 +61,10 @@
   <ul class="row align-items-center" style="margin-left: 5vw;margin-right: 5vw;">
     {{ range .items }}
     <li class="col-12 col-md-6 col-lg" style="margin:0% auto">
-      <div class="card border-0 " style="margin-bottom: 3vh;min-width: 150px;height: 300px;">        
-        <div class="card-body shadow align-items-center">
-          <div style="height: 10vh;background:transparent url('{{ .image | absURL }}') center center no-repeat;"></div>          
-          <p class="text-center text-dark wow fadeInDown" style="font-size:1.8vh">{{ .content | markdownify }}</p>                    
+      <div class="card border-0 " >        
+        <div class="card-body shadow align-items-center" style="margin-bottom: 3vh;min-width: 150px;height: 350px;">
+          <div style="height: 8vh;background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain"></div>          
+          <p class="text-center text-dark wow fadeInDown" style="font-size:2vh">{{ .content | markdownify }}</p>                    
         </div>
       </div>
     </li>  
