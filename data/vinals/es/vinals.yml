@@ -13,7 +13,7 @@ grupo:
 vg:
   enable: true
   image: "images/vinals/favicon.png"
-  content: "VG nace para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca. Nuestro objetivo es ir más allá que servirte los mejores productos cárnicos para tu negocio. Queremos dar un paso más convirtiéndonos en tu socio gastronómico, a través de estos 5 puntos:"
+  content: "VG nace para llevar a tu negocio soluciones completas y a medida, sea cual sea tu ámbito del canal Horeca. Nuestro obje tivo es ir más allá que servirte los mejores productos cárnicos para tu negocio. Queremos dar un paso más convirtiéndonos en tu socio gastronómico, a través de estos 5 puntos:"
 
 ############################ Nuestro Servicio ##########################
 servicio:
