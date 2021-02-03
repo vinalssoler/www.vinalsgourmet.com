@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 #baseURL = "https://vinalsgourmet.onrender.com"
-baseURL = "http://vg.vinals.local"
+#baseURL = "http://vg.vinals.local"
+baseURL = "http://www.vinalsgourmet.com"
 
 title = "Viñals Gourmet | Solucions gastronòmiques úniques"
 theme = "hargo"
@@ -265,13 +266,13 @@ contactLink = "contact"
 
   # Social Site  
 
-  [[params.social]]
-  icon = "ti-instagram"
-  link = "#"
+  #[[params.social]]
+  #icon = "ti-instagram"
+  #link = "#"
 
   [[params.social]]
   icon = "ti-linkedin"
-  link = "https://www.linkedin.com/in/vinalsgourmet/"
+  link = "https://www.linkedin.com/company/vinalsgourmet/"
 
   # Contact Form
   [params.contact]

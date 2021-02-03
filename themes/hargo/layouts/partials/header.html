@@ -15,7 +15,7 @@
         <!-- Social Icons -->
         <ul class="list-inline" style="margin-top: 5px;">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i
+          <li class="list-inline-item"><a target="_blank" href="{{ .link | safeURL }}"><i
                 class="{{ .icon }} text-white font-weight-bold align-text-top" style="font-size:14px;"></i></a></li>
           {{ end }}
         </ul>

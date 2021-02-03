@@ -2,12 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Viñals Gourmet | unique gastronomic solutions</title>
-    <link>http://vg.vinals.local/en/</link>
+    <link>http://www.vinalsgourmet.com/en/</link>
     <description>Recent content on Viñals Gourmet | unique gastronomic solutions</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="http://vg.vinals.local/en/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.vinalsgourmet.com/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

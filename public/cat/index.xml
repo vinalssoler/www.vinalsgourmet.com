@@ -2,85 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Viñals Gourmet | Solucions gastronòmiques úniques</title>
-    <link>http://vg.vinals.local/cat/</link>
+    <link>http://www.vinalsgourmet.com/cat/</link>
     <description>Recent content on Viñals Gourmet | Solucions gastronòmiques úniques</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
-    
-	<atom:link href="http://vg.vinals.local/cat/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>ENTRECOT DE TERNERA DE LA CERDANYA MADURACIÓN 30 DÍAS</title>
-      <link>http://vg.vinals.local/cat/productes/entrecot/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/entrecot/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>FRICANDÓ DE TERNERA DE LA CERDANYA</title>
-      <link>http://vg.vinals.local/cat/productes/fricando/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/fricando/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>http://vg.vinals.local/cat/actualitat/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/actualitat/post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>http://vg.vinals.local/cat/actualitat/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/actualitat/post-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>OSOBUCO DE TERNERA DE LA CERDANYA</title>
-      <link>http://vg.vinals.local/cat/productes/osobuco/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/osobuco/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>PALETILLA DE CORDERO</title>
-      <link>http://vg.vinals.local/cat/productes/paletilla_cordero/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/paletilla_cordero/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>SOLOMILLO DE TERNERA DE LA CERDANYA</title>
-      <link>http://vg.vinals.local/cat/productes/solomillo/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/solomillo/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>T-BONE</title>
-      <link>http://vg.vinals.local/cat/productes/t-bone/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>http://vg.vinals.local/cat/productes/t-bone/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.vinalsgourmet.com/cat/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
