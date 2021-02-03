@@ -2,9 +2,15 @@
 intro:
   enable : true
   title : "Misión"
+<<<<<<< HEAD
+  subtitle: "Viñals Gourmet"
+  content : "Nuestro propósito y razón de ser en VG es ser el partner referente de nuestros clientes en soluciones gastronómicas únicas. "
+  content1 : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar, con la voluntad de ser honestos, trabajadores y eficientes con nuestros clientes y la sociedad."
+=======
   subtitle : "Viñals Gourmet"
   content : "Nuestro propósito y razón de ser en VG es ser el partner referente de nuestros clientes en soluciones gastronómicas únicas."
   content1 : "Sabemos que siempre se puede mejorar y por eso nunca pararemos de hacer todo lo posible para evolucionar. Con la voluntad de ser honestos, trabajadores y eficientes con nuestros clientes y la sociedad."
+>>>>>>> 740d2c9fe6d4b3d0aa5ae8c27f458443f92b73fe
   content2 : '"La transparencia, la honestidad, la calidad, sostenibilidad, el respeto social y animal son '
   content2b : 'la base de nuestra propuesta de valor."'
   image : "images/mision/intro.jpg"
@@ -59,6 +65,10 @@ objectius:
       content : "Traemos las mejores carnes del mundo para satisfacer los paladares más exigentes"
       icon : "images/mision/origen.svg"
     - title : "Futuro"
+<<<<<<< HEAD
+      content : "Nos importa el futuro, por eso estamos comprometidos con los nuevos consumos de carne del SXXI, queriendo ser pioneros en la **introducción de carne Plant Based**"
+=======
       content : "Comprometidos con los nuevos consumos de carne del S.XXI, pioneros en la **introducción de carne Plant Based**"
       icon : "images/mision/planta.svg"
+>>>>>>> 740d2c9fe6d4b3d0aa5ae8c27f458443f92b73fe
 

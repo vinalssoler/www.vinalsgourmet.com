@@ -30,7 +30,7 @@ origen:
   enable : true
   title : "Soluciones"
   subtitle: " de Origen"
-  content : "En VG gestionamos la mejor carne del mundo. Ganaderos y carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio.  
+  content : "En VG gestionamos la mejor carne del mundo. Ganaderos y carniceros de tradición, conocedores del sector productivo, hemos desarrollado con proveedores para traer la carne más gustosa del mundo directamente a tu negocio.  
 
 Podemos ofrecer carne de nuestras granjas, de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
   content2 : "En VG traemos la mejor carne del mundo." 
@@ -48,7 +48,7 @@ eco:
   subtitle: "Eco & Bio"
   content : "Nos importa el medio ambiente, por este motivo VG tiene toda una gama de productos ecológicos certificados y garantizados por el Consejo de la Producció Agraria Ecológica.  
 
-Estos productos, también denominados biológicos o orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas porqué se prohíbe el uso de productos químicos. "  
+Estos productos, también denominados biológicos u orgánicos, se elaboran a partir de técnicas de producción respetuosas con el medio ambiente y las personas porqué se prohíbe el uso de productos químicos. "  
   image1 : "images/productes/healthy.jpg"
   image2 : "images/productes/eco.jpg"
   
@@ -68,7 +68,7 @@ vegan:
   enable : true
   title : "Solución"
   subtitle: "Plant Based"
-  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorporado a nuestros productos, "
+  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI, ofreciendo soluciones sin proteina animal. Para ello, hemos incorporado a nuestros productos, "
   content2 : "The Vegetarian Butcher"
   image : "images/banner.jpg"
   image2 : "images/productes/eco.jpg"
