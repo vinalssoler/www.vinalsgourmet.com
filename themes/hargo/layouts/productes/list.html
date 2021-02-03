@@ -194,19 +194,23 @@
 {{ with .productes.vegan }}
 {{ if .enable }}
 <section class="section pb-0">
-  <div class="col overlay " style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: cover">
-  <div class="row ">
-  <div class="col-1"></div>          
-    <div class="col-5 align-self-start align-self-start wow fadeInRight" style="margin-bottom: 5vw;margin-top: 5vw;"> 
-      <div class="card-body text-left"></div>     
-        <h1 class="text-white font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>                            
-        <p><a class="text-white" style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</a> <a href="https://www.thevegetarianbutcher.es/" target="_blank" class="text-white" style="font-size:1.5vw;line-height: 15 0%;"><u>{{ .content2 | markdownify }}</u></a></h3>      </div>
-
+  <div class="row justify-content-center">    
+    <div class="col-6 justify-content-right">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
-  </div>
-</div>
+    <div class="col-4 align-self-start align-self-start"> 
+      <div class="text-left">
+        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
+          
+      </div>
+      <div class="card border-0 text-left wow fadeInRight">                         
+        <p><a class="text-dark" style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</a> <a href="https://www.thevegetarianbutcher.es/" target="_blank" class="text-dark" style="font-size:1.5vw;line-height: 15 0%;"><u>{{ .content2 | markdownify }}</u></a></h3>      </div>
+      </div>      
+    </div>  
+  <div class="col-2"></div>
 </section>
 {{ end }}
 {{ end }}
@@ -218,28 +222,27 @@
 {{ with .productes.restauracion }}
 {{ if .enable }}
 <section class="section pb-0">
-  <div class="row justify-content-center">
-    <div class="col-5">
-      <div class="card-body text-center">
-        <h1><a class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .title | markdownify }}</a> <a class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;">{{ .subtitle | markdownify }}</a></h1>
+  <div class="col-2"></div>
+  <div class="row justify-content-center">    
+    <div class="col-4 align-self-start align-self-start"> 
+      <div class="text-right">
+        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
       </div>
-    </div>
-    <div class="col-md-10">
-      <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-    </div>
-    <div class="card border-0 wow fadeIn">
-    
-    </div>
-   
-    <div class="col-7 align-self-center">
-      <div class="card border-0 text-left wow fadeInRight">
-        <div class="card-body">
-          <p class="text-dark" style="font-size:1.2vw;">{{ .content | markdownify }}</p>
+      <div class="card border-0 text-left wow fadeInLeft">
+        <div class=" text-right">                          
+        <p class="text-dark" style="font-size:1.2vw;line-height: 150%;"><a>{{ .content | markdownify }}</a></p>
         </div>
-      </div>
+      </div>      
     </div>
-  </div>
+    <div class="col-6 justify-content-right">
+      <div class="card border-0 wow fadeIn">
+        <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
+      </div>      
+    </div>
+  </div>  
 </section>
+<br>
 {{ end }}
 {{ end }}
 {{ end }}

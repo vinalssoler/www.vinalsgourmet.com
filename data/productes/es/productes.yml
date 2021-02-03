@@ -58,7 +58,7 @@ km0:
   content : "Para buscar la excelencia en el producto, creamos nuestra marca V1906 la Cerdanya. Podemos ofrecer ternera de proximidad y de gran calidad de nuestras granjas de la Cerdanya, con el compromiso y cuidado al animal, y respeto al medio ambiente. 
 
 Fruto de este trabajo, nuestro entrecot ganó en 2019 el premio del International Taste Institute al mejor gusto de Europa."  
-  image : "images/productes/km0.jpg"  
+  image : "images/productes/km0.jpg" 
 
 ############################ Soluciones vegan ##########################
 vegan:
@@ -68,6 +68,7 @@ vegan:
   content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorporado a nuestros productos, "
   content2 : "The Vegetarian Butcher"
   image : "images/banner.jpg"
+  image2 : "images/productes/eco.jpg" 
 
 ############################ Soluciones Restauración ##########################
 restauracion:
@@ -76,3 +77,4 @@ restauracion:
   subtitle: "Restauración"
   content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto sino que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
   image : "images/productes/VG10.jpg"
+  image2 : "images/productes/eco.jpg"
