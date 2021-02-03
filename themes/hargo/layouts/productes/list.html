@@ -74,26 +74,36 @@
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.origen }}
 {{ if .enable }}
-<section class="section pb-0">
-  <div class="row justify-content-center">  
-    <div class="col-1"></div>  
-    <div class="col-5 align-self-start align-self-start"> 
+<section class="section-sm pb-0">
+  <div class="row align-items-center">  
+    <div class="col-1"></div>
+    <div class="col-4">
       <div class="text-left">
-        <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>  
+        <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
+        <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
+        <p class="text-dark " style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</p>
+        <p class="text-dark " style="font-size:1.2vw;line-height: 150%;">{{ .content1 | markdownify }}</p>
       </div>
-      <div class="card border-0 text-left wow fadeInLeft">
-        <div class=" text-left">                          
-        <p class="text-dark" style="font-size:1.2vw;line-height: 150%;"><a>{{ .content | markdownify }}</a></p>
+    </div>
+   <div class=" col-7">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="{{ .image4 | absURL }}" alt="">
         </div>
-      </div>      
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ .image5 | absURL }}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ .image6 | absURL }}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{ .image7 | absURL }}" alt="">
+        </div>
+      </div>
     </div>
-    <div class="col-6 justify-content-right">
-      <div class="card border-0 wow fadeIn">
-        <img src="{{ .image4 | absURL }}" class="card-img-bottom border-0">
-      </div>      
+      </div>
     </div>
-  </div>  
 </section>
 {{ end }}
 {{ end }}
@@ -197,7 +207,7 @@
   <div class="row justify-content-center">    
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
-        <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
+        <img src="{{ .image3 | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
     <div class="col-4 align-self-start align-self-start"> 
@@ -207,8 +217,15 @@
           
       </div>
       <div class="card border-0 text-left wow fadeInRight">                         
-        <p><a class="text-dark" style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</a> <a href="https://www.thevegetarianbutcher.es/" target="_blank" class="text-dark" style="font-size:1.5vw;line-height: 15 0%;"><u>{{ .content2 | markdownify }}</u></a></h3>      </div>
-      </div>      
+        <p><a class="text-dark" style="font-size:1.2vw;line-height: 150%;">{{ .content | markdownify }}</a> <a href="https://www.thevegetarianbutcher.es/" target="_blank" class="text-dark" style="font-size:1.5vw;line-height: 15 0%;"><u>{{ .content2 | markdownify }}</u></a>
+          <div class="card border-0 wow fadeIn">
+            <img src="{{ .image4 | absURL }}" class="card-img-bottom border-0">
+          </div> 
+        
+        </div>
+       
+        </div>
+         
     </div>  
   <div class="col-2"></div>
 </section>
@@ -237,7 +254,7 @@
     </div>
     <div class="col-6 justify-content-right">
       <div class="card border-0 wow fadeIn">
-        <img src="{{ .image2 | absURL }}" class="card-img-bottom border-0">
+        <img src="{{ .image3 | absURL }}" class="card-img-bottom border-0">
       </div>      
     </div>
   </div>  

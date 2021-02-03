@@ -37,6 +37,9 @@ Podemos ofrecer carne de nuestras granjas, de nuestra marca V1906 La Cerdanya o 
   image : "images/productes/origen.jpg"  
   image3: "images/productes/VG7.jpg"
   image4: "images/productes/Solucionorigen.jpg"
+  image5: "images/productes/Solucionorigen2.jpg"
+  image6: "images/productes/Solucionorigen3.jpg"
+  image7: "images/productes/Solucionorigen4.jpg"
 
 ############################ Soluciones Eco Bio ##########################
 eco:
@@ -68,7 +71,9 @@ vegan:
   content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorporado a nuestros productos, "
   content2 : "The Vegetarian Butcher"
   image : "images/banner.jpg"
-  image2 : "images/productes/eco.jpg" 
+  image2 : "images/productes/eco.jpg"
+  image3 : "images/productes/Solucionvegan.jpg"
+  image4 : "images/productes/butcher.jpg"  
 
 ############################ Soluciones Restauración ##########################
 restauracion:
@@ -78,3 +83,4 @@ restauracion:
   content : "Con el fin de ser tu proveedor gastronómico de confianza, no nos limitamos al producto sino que podemos llegar a servir platos terminados, acompañamiento o salsas, todo tipo de soluciones de 5ª gama para que tu negocio sea más eficiente sin perder nada de calidad y sabor."  
   image : "images/productes/VG10.jpg"
   image2 : "images/productes/eco.jpg"
+  image3 : "images/productes/Solucionrestauracion.jpg"
