@@ -17,7 +17,7 @@
         </div>
       </div>
      <div class=" col-7">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="{{ .image | absURL }}" alt="">
@@ -73,9 +73,9 @@
   <ul class="row align-items-center" style="margin-left: 5vw;margin-right: 5vw;">
     {{ range .items }}
     <li class="col-12 col-md-6 col-lg" style="margin:0% auto">
-      <div class="card border-0 " >        
-        <div class="card-body shadow align-items-center" style="margin-bottom: 3vh;min-width: 150px;height: 350px;">
-          <div style="height: 8vh;background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain"></div>          
+      <div class="card border-0" >        
+        <div class="card-body shadow align-items-top" style="margin-bottom: 3vh;min-width: 150px;height: 250px;">
+          <div class="align-items-top h-100" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain"></div>          
           <p class="text-center text-dark wow fadeInDown" style="font-size:17px">{{ .content | markdownify }}</p>                    
         </div>
       </div>
