@@ -16,6 +16,7 @@ ul{
 .heading.heading-icon {
     display: block;
     color:#171D23;
+    font-size: 28px;
     font-family: 'Poppins', sans-serif;
 }
 .padding-lg {
