@@ -15,7 +15,7 @@ VIÑALS GOURMET S.L.
 
 NIF: B63319552
 
-Domicilio: Carrer Horta, P.I. Sant Miquel del Cros, 08310. Argentona. Barcelona
+Domicilio:  Carrer de l'Horta, 6, Poligon Industrial EL PLA, 08750 Molins de Rei, Barcelona
 
 Teléfono:937 571 033
 

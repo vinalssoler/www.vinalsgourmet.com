@@ -3,160 +3,195 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://vg.vinals.local/cat/actualitat/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>http://www.vinalsgourmet.com/cat/policy/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/actualitat/"
+                href="http://www.vinalsgourmet.com/es/policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/actualitat/"
+                href="http://www.vinalsgourmet.com/cat/policy/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/productes/entrecot/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/productes/fricando/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/actualitat/post-2/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/actualitat/post-1/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/mision/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>http://www.vinalsgourmet.com/cat/copyright/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/mision/"
+                href="http://www.vinalsgourmet.com/es/copyright/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/mision/"
+                href="http://www.vinalsgourmet.com/cat/copyright/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/productes/osobuco/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/productes/paletilla_cordero/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/productes/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>http://www.vinalsgourmet.com/cat/cookies/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/productes/"
+                href="http://www.vinalsgourmet.com/es/cookies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/productes/"
+                href="http://www.vinalsgourmet.com/cat/cookies/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/productes/solomillo/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/productes/t-bone/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://vg.vinals.local/cat/vinals/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>http://www.vinalsgourmet.com/cat/terms/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/vinals/"
+                href="http://www.vinalsgourmet.com/es/terms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/vinals/"
+                href="http://www.vinalsgourmet.com/cat/terms/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <loc>http://www.vinalsgourmet.com/cat/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/"
+                href="http://www.vinalsgourmet.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://vg.vinals.local/en/"
+                href="http://www.vinalsgourmet.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/"
+                href="http://www.vinalsgourmet.com/cat/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/categories/</loc>
+    <loc>http://www.vinalsgourmet.com/cat/actualitat/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://vg.vinals.local/en/categories/"
+                href="http://www.vinalsgourmet.com/es/actualitat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/categories/"
+                href="http://www.vinalsgourmet.com/cat/actualitat/"
                 />
   </url>
   
   <url>
-    <loc>http://vg.vinals.local/cat/tags/</loc>
+    <loc>http://www.vinalsgourmet.com/cat/contacte/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://vg.vinals.local/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://vg.vinals.local/en/tags/"
+                href="http://www.vinalsgourmet.com/es/contacte/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cat"
-                href="http://vg.vinals.local/cat/tags/"
+                href="http://www.vinalsgourmet.com/cat/contacte/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.vinalsgourmet.com/cat/mision/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.vinalsgourmet.com/es/mision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://www.vinalsgourmet.com/cat/mision/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.vinalsgourmet.com/cat/productes/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.vinalsgourmet.com/es/productes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://www.vinalsgourmet.com/cat/productes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.vinalsgourmet.com/cat/vinals/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.vinalsgourmet.com/es/vinals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://www.vinalsgourmet.com/cat/vinals/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.vinalsgourmet.com/cat/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.vinalsgourmet.com/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.vinalsgourmet.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://www.vinalsgourmet.com/cat/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.vinalsgourmet.com/cat/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.vinalsgourmet.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.vinalsgourmet.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cat"
+                href="http://www.vinalsgourmet.com/cat/tags/"
                 />
   </url>
   

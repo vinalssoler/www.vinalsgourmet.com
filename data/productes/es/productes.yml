@@ -30,7 +30,7 @@ origen:
   enable : true
   title : "Soluciones"
   subtitle: " de Origen"
-  content : "En VG gestionamos la mejor carne del mundo. Ganaderos y carniceros de tradición, conocedores del sector productivo, contamos con las mejores alianzas y proveedores para traer la carne más gustosa del mundo directamente a tu negocio.  
+  content : "En VG gestionamos la mejor carne del mundo. Ganaderos y carniceros de tradición, conocedores del sector productivo, hemos seleccionado proveedores para traer la carne más gustosa del mundo directamente a tu negocio.  
 
 Podemos ofrecer carne de nuestras granjas, de nuestra marca V1906 La Cerdanya o de cualquier origen como la Rubia Gallega, Black Angus, Wagyu, entre otras."  
   content2 : "En VG traemos la mejor carne del mundo." 
@@ -68,7 +68,7 @@ vegan:
   enable : true
   title : "Solución"
   subtitle: "Plant Based"
-  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI. ofreciendo soluciones  Plant Based. Para ello, hemos incorporado a nuestros productos, "
+  content : "La nueva sociedad demanda nuevos productos. Viñals Gourmet quiere ser un abanderado de la carne del S.XXI, ofreciendo soluciones sin proteina animal. Para ello, hemos incorporado a nuestros productos, "
   content2 : "The Vegetarian Butcher"
   image : "images/banner.jpg"
   image2 : "images/productes/eco.jpg"

@@ -16,7 +16,7 @@
         </ul>        
       </div>
       <div class="col-3" style="margin-top: 3vh;">
-        <h5 class="text-color font-weight-medium" style="font-size:0.6vw;">TIENDA</h5>
+        <h5 class="text-color font-weight-medium" style="font-size:0.6vw;">OFICINAS</h5>
         <ul class="list-unstyled">
           <li style="font-size:0.6vw;"><a href="tel:{{ site.Params.mobile }}"><i class="ti-location-pin"></i> {{ site.Params.location }}</a></li>                 
         </ul>            
@@ -26,7 +26,7 @@
           <h5 class="text-color font-weight-medium" style="font-size:0.6vw;">SÍGUENOS</h5>
           <!-- Social Icons -->        
           {{ range site.Params.social }}
-          <a style="font-size:0.7vw;" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+          <a style="font-size:0.7vw;" target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
           {{ end }}
         </ul>
       </div>  
