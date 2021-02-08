@@ -1,31 +1,6 @@
 {{ define "main" }}
 <!--{{ partial "page-title.html" . }}-->
 
-<!-- intro
-{{ with index .Site.Data.productes .Site.Language.Lang }}
-{{ with .productes.intro }}
-{{ if .enable }}
-<section>
-  <div class="row align-items-center">  
-    <div class="col-1"></div>
-    <div class="col-4">
-      <div class="text-left">
-        <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
-        <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
-        <p class="text-dark " style="font-size:1.5vw;line-height: 150%;">{{ .content | markdownify }}</p>
-      </div>
-    </div>
-   <div class=" col-7 card border-0 wow fadeIn">
-        <img src="{{ .image3| absURL }}" class="card-img-top border-0">
-      </div>
-    </div>
-</section>
-
-{{ end }}
-{{ end }}
-{{ end }}
-/intro -->
-
 <!-- generica -->
 {{ with index .Site.Data.productes .Site.Language.Lang }}
 {{ with .productes.generica }}
@@ -75,9 +50,8 @@
 {{ with .productes.origen }}
 {{ if .enable }}
 <section class="section-sm pb-0">
-  <div class="row align-items-center">
-    <div class="col"></div>
-    <div class="col-4">
+  <div class="row align-items-center">    
+    <div class="col-4 col-md-4 col-lg-4" style="margin-left: 2vw;">
       <div class="text-left">
         <h1 class="text-color font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
         <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
@@ -86,19 +60,19 @@
       </div>
     </div>
     <div class=" col-7">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="min-width: auto;">
+      <div id="carouselExampleIndicators" class="carousel-fade slide" data-ride="carousel" style="min-width: auto;">
         <div class="carousel-inner align-items-center">
           <div class="carousel-item active" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image4 | absURL }}" alt="{{ site.Title }}">            
+            <img class="img-fluid w-100" src="{{ .image4 | absURL }}" alt="{{ site.Title }}">            
           </div>
           <div class="carousel-item" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image5 | absURL }}" alt="{{ site.Title }}">            
+            <img class="img-fluid w-100" src="{{ .image5 | absURL }}" alt="{{ site.Title }}">            
           </div>
           <div class="carousel-item" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image6 | absURL }}" alt="{{ site.Title }}">            
+            <img class="img-fluid w-100" src="{{ .image6 | absURL }}" alt="{{ site.Title }}">            
           </div>
           <div class="carousel-item" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image4 | absURL }}" alt="{{ site.Title }}">            
+            <img class="img-fluid w-100" src="{{ .image4 | absURL }}" alt="{{ site.Title }}">            
           </div>
         </div>
       </div>

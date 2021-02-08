@@ -6,9 +6,8 @@
 {{ with .vinals.grupo }}
 {{ if .enable }}
   <section class="section-sm pb-0">
-    <div class="row align-items-center">  
-      <div class="col-1"></div>
-      <div class="col-4">
+    <div class="row align-items-center">        
+      <div class="col-4 col-md-4 col-lg-4" style="margin-left: 2vw;">
         <div class="text-left">
           <h1 class="text-color  font-weight-bold" style="font-size:3vw; line-height: 100%;"><a>{{ .title | markdownify }}</a></h1>
           <h1 class="text-dark font-weight-bold " style="font-size:3vw; line-height: 100%;"><a>{{ .subtitle | markdownify }}</a></h1>
@@ -17,16 +16,16 @@
         </div>
       </div>
      <div class=" col-7">
-      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image | absURL }}" alt="">
+            <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="">
           </div>
           <div class="carousel-item" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image2 | absURL }}" alt="">
+            <img class="img-fluid w-100" src="{{ .image2 | absURL }}" alt="">
           </div>
           <div class="carousel-item" style="max-height: 50vw;">
-            <img class="img-fluid h-100" src="{{ .image3 | absURL }}" alt="">
+            <img class="img-fluid w-100" src="{{ .image3 | absURL }}" alt="">
           </div>
         </div>
       </div>
@@ -74,9 +73,11 @@
     {{ range .items }}
     <li class="col-12 col-md-6 col-lg" style="margin:0% auto">
       <div class="card border-0" >        
-        <div class="card-body shadow align-items-top" style="margin-bottom: 3vh;min-width: 150px;height: 250px;">
-          <div class="align-items-top h-100" style="background:transparent url('{{ .image | absURL }}') center center no-repeat;background-size: contain"></div>          
-          <p class="text-center text-dark wow fadeInDown" style="font-size:17px">{{ .content | markdownify }}</p>                    
+        <div class="card-body shadow align-items-center" style="margin:0;padding:0;min-width: 150px;height: 540px;">
+          <div class="w-100">
+            <img src="{{ .image | absURL}}" class="img-fluid" style="height: 75;" alt="">
+          </div>           
+          <p class="text-center text-dark wow fadeInDown" style="margin-left:5px;margin-right:5px;font-size:17px">{{ .content | markdownify }}</p>                    
         </div>
       </div>
     </li>  
